@@ -1,0 +1,66 @@
+<!-- Header -->
+<?php include "../../header.php"?>
+<div class="container">
+<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Assignees</h1>
+
+    <a href="assignees.php" class='btn btn-outline-dark mb-2'></i>Return to Assignees</a>
+    <form name="export" action="../../export.php" method="POST">
+        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Assigned To</th>
+                <th scope="col">Section</th>
+                <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <?php
+                    $query_assignees = "SELECT * FROM assignees";
+                    $view_assignees_data = mysqli_query($conn, $query_assignees);
+
+                    while($row = mysqli_fetch_assoc($view_assignees_data)){
+                        $aID = $row['aID'];
+
+                        $name = $row['name'];
+                        $section = $row['section'];
+
+                        $data_arr[] = array($name,$section);
+
+                        echo "<tr >";
+                        echo " <td scope='row' >{$aID}</td>";
+                        echo " <td >{$name}</td>";
+                        echo " <td >{$section}</td>";
+
+                        echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+
+                        echo " <td class='text-center' > <a href='update-assignee.php?edit&aID={$aID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+
+                        echo " <td  class='text-center'>  <a href='delete-assignee.php?aID={$aID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+
+                        echo " </tr> ";
+                    }
+                    ?>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Serialize data_arr. Must be below table. -->
+        <?php
+            $serialized_data = base64_encode(serialize($data_arr));
+        ?>
+
+        <input type="hidden" name="export_data" value=<?php echo $serialized_data ?> />
+    </form>
+
+    </div>
+<!-- BACK button to go to the index page -->
+<div class="container text-center mt-5">
+    <a href="../../index.php" class="btn btn-warning mt-5"> Back </a>
+<div>
+
+<!-- Footer -->
+<?php include "../../footer.php" ?>

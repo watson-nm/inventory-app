@@ -1,0 +1,150 @@
+<!-- Header -->
+<?php  include "../../header.php" ?>
+
+<!-- The php code that adds items to tables -->
+<?php
+    if(isset($_POST['create'])) {
+        $name = $_POST['name'];
+        $section = $_POST['section'];
+        $asset_num = $_POST['asset_num'];
+        $serial_num = $_POST['serial_num'];
+        $dev_type = $_POST['dev_type'];
+        $make = $_POST['make'];
+        $model = $_POST['model'];
+        $assign_date = $_POST['assign_date'];
+        $update_date = $_POST['update_date'];
+
+        # This portion should:
+        # - look for any assignees that match the user input
+        # - if a match is found then the aID for that assignee will be used
+        $search_aID = "SELECT aID FROM assignees WHERE name = '$name' AND section = '$section'";
+        $search_res = mysqli_query($conn, $search_aID);
+        if (mysqli_num_rows($search_res) > 0) {
+            $row = mysqli_fetch_assoc($search_res);
+            $assignee = $row['aID'];
+
+            if (!$assignee) {
+                echo "something went wrong fetching assignee". mysqli_error($conn);
+            }
+        } else {
+            # the assignee must be specified by name and section
+            # Jane Doe in MIS is different from Jane Doe in Admin
+            echo "<script type='text/javascript'>alert('Assignee does not exist. Please add assignee first.')</script>";
+        }
+
+        # This portion should: # - insert a new device using the previously obtained assignee value and user input values
+        $intoD = "INSERT INTO devices(assignee, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('{$assignee}', '{$asset_num}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$assign_date}', '{$update_date}')";
+        $add_entry = mysqli_query($conn, $intoD);
+
+        # displaying proper message for the user to see whether the query executed perfectly or not
+        if (!$add_entry) {
+            echo "something went wrong adding device entry". mysqli_error($conn);
+        } else {
+            echo "<script type='text/javascript'>alert('Device added successfully!')</script>";
+        }
+    }
+?>
+
+<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
+<div class="container">
+  <form action="" method="post">
+    <div class="form-group">
+    <label for="name" class="form-label">Assigned To: Name</label>
+    <input type="text" name="name" id="name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="section" class="form-label">Assigned To: Section</label>
+      <input type="text" name="section" id="section" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="asset_num" class="form-label">Asset #</label>
+      <input type="text" name="asset_num" id="asset_num" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="serial_num" class="form-label">Serial #</label>
+      <input type="text" name="serial_num" id="serial_num" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="dev_type" class="form-label">Device Type</label>
+      <input type="text" name="dev_type" id="dev_type" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="make" class="form-label">Make</label>
+      <input type="text" name="make" id="make" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="model" class="form-label">Model</label>
+      <input type="text" name="model" id="model" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="assign_date" class="form-label">Assign Date</label>
+      <input type="text" name="assign_date" id="assign_date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="update_date" class="form-label">Update Date</label>
+      <input type="text" name="update_date" id="update_date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <input type="submit" name="create" class="btn btn-primary mt-2" value="submit" />
+    </div>
+  </form>
+</div>
+
+<!-- The code that autosuggests for input -->
+<script type="text/javascript">
+  $(function() {
+     $( "#name" ).autocomplete({
+       source: '../search-suggestions/name-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#section" ).autocomplete({
+       source: '../search-suggestions/section-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#dev_type" ).autocomplete({
+       source: '../search-suggestions/dev_type-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#make" ).autocomplete({
+       source: '../search-suggestions/make-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#model" ).autocomplete({
+       source: '../search-suggestions/model-search.php',
+     });
+  });
+</script>
+
+<!-- a BACK button to go to the home page -->
+<div class="container text-center mt-5">
+  <a href="home.php" class="btn btn-warning mt-5"> Back </a>
+  <div>
+    <!-- Footer -->
+    <?php include "../../footer.php" ?>
+  </div>
+</div>
