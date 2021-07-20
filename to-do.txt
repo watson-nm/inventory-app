@@ -1,0 +1,2 @@
+- add help page; note, make sure footer path to help page works
+- add documentation
