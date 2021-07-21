@@ -51,11 +51,39 @@
             </div>
             <div id="collapse_N" class="collapse" aria-labelledby="heading_N" data-parent="#help_accordion">
                 <div class="card-body">
-                    explain website map
+                    <ul>
+                        <li>The <b>Start</b> page leads to the <b>Devices</b> page.</li>
+                        <li>The <b>Devices</b> page contains buttons for the following operations:
+                            <ul>
+                                <li>Search in the devices table.</li>
+                                <li>Create a new device item in tabel.</li>
+                                <li>See all devices on one page.</li>
+                                <li>Export table on page to a csv file.</li>
+                                <li>Import data to the devices table from a csv file.</li>
+                                <li>Go to Assignees page.</li>
+                            </ul>
+                        </li>
+                        <li>The <b>Assignees</b> page contains buttons for the following operations:
+                            <ul>
+                                <li>Search in the assignees table.</li>
+                                <li>Create a new assignee item in table.</li>
+                                <li>See all assignees on one page.</li>
+                                <li>Export table on page to a csv file.</li>
+                                <li>Import data to the assignees table from a csv file.</li>
+                                <li>Go to the Devices page.</li>
+                            </ul>
+                        </li>
+                        <li>Each entry in tables on the <b>Devices</b> and <b>Assignees</b> pages contain buttons for the following operations:
+                            <ul>
+                                <li>View the details of the table item.</li>
+                                <li>Edit the details of the table item.</li>
+                                <li>Delete the item from the table.</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-
 
         <!-- Card about creating devices/assignees -->
         <div class="card">
@@ -68,9 +96,25 @@
             </div>
             <div id="collapse_C" class="collapse" aria-labelledby="heading_C" data-parent="#help_accordion">
                 <div class="card-body">
-                    To create a new device or assignee use the Create button present on the main Devices and Assignees pages.<br>
-                    In order to create a new device the intended assignee must already exist in the Assignees table.
-                    Something something autosuggest.
+                    To create a new device or assignee item in a table use the Create button on the Devices and Assignees pages.<br>
+                    In order to create a new device the intended assignee <b>must already exist</b> in the Assignees table.<br>
+                    The Create page for a new device contains the following fields:
+                    <ul>
+                        <li><b>Assignee Name</b>: The name of the person, section, or location the device should be assigned to.</li>
+                        <li><b>Assignee Section</b>: If applicable, the section which the assignee belongs to.</li>
+                        <li><b>Asset #</b>: The asset number of the device.</li>
+                        <li><b>Serial #</b>: The unique serial number of the device.</li>
+                        <li><b>Device Type</b>: The type of device.</li>
+                        <li><b>Make</b>: The make of the device.</li>
+                        <li><b>Model</b>: The model of the device.</li>
+                        <li><b>Assign Date</b>: TBD</li>
+                        <li><b>Update Date</b>: TBD</li>
+                    </ul>
+                    The Create page for a new assignee contains the following fields:
+                    <ul>
+                        <li><b>Name</b>: The name of a person, section, or location.</li>
+                        <li><b>Section</b>: If applicable the section the assignee belongs to.</li>
+                    </ul>
                 </div>
             </div>
         </div>
