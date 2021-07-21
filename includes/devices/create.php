@@ -11,8 +11,8 @@
         $dev_type = $_POST['dev_type'];
         $make = $_POST['make'];
         $model = $_POST['model'];
-        $assign_date = $_POST['assign_date'];
-        $update_date = $_POST['update_date'];
+        $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
+        $update_date = date("Y-m-d", strtotime($_POST['update_date']));
 
         # This portion should:
         # - look for any assignees that match the user input
@@ -24,12 +24,16 @@
             $assignee = $row['aID'];
 
             if (!$assignee) {
-                echo "something went wrong fetching assignee". mysqli_error($conn);
+                $message = "something went wrong fetching assignee:<br> error '".mysqli_error($conn)."'";
+                $type = "error";
+                alert($type, $message);
             }
         } else {
             # the assignee must be specified by name and section
             # Jane Doe in MIS is different from Jane Doe in Admin
-            echo "<script type='text/javascript'>alert('Assignee does not exist. Please add assignee first.')</script>";
+            $message = "Assignee does not exist in database. Please add assignee first.";
+            $type = "error";
+            alert($type, $message);
         }
 
         # This portion should: # - insert a new device using the previously obtained assignee value and user input values
@@ -38,9 +42,13 @@
 
         # displaying proper message for the user to see whether the query executed perfectly or not
         if (!$add_entry) {
-            echo "something went wrong adding device entry". mysqli_error($conn);
+            $message = "something went wrong adding device entry:<br> error '".mysqli_error($conn)."'";
+            $type = "error";
+            alert($type, $message);
         } else {
-            echo "<script type='text/javascript'>alert('Device added successfully!')</script>";
+            $message = "Device added successfully!";
+            $type = "good";
+            alert($type, $message);
         }
     }
 ?>
@@ -85,12 +93,12 @@
 
     <div class="form-group">
       <label for="assign_date" class="form-label">Assign Date</label>
-      <input type="text" name="assign_date" id="assign_date" class="form-control" />
+      <input type="text" name="assign_date" id="assign_date" class="date form-control" />
     </div>
 
     <div class="form-group">
       <label for="update_date" class="form-label">Update Date</label>
-      <input type="text" name="update_date" id="update_date" class="form-control" />
+      <input type="text" name="update_date" id="update_date" class="date form-control" />
     </div>
 
     <div class="form-group">
@@ -140,9 +148,21 @@
   });
 </script>
 
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker').datetimepicker();
+    });
+</script>
+
+<script type="text/javascript">
+    $(".date").datepicker({
+        format: "mm/dd/yyyy",
+    });
+</script>
+
 <!-- a BACK button to go to the home page -->
 <div class="container text-center mt-5">
-  <a href="home.php" class="btn btn-warning mt-5"> Back </a>
+  <a href="home.php" class="btn btn-warning m-3"> Back </a>
   <div>
     <!-- Footer -->
     <?php include "../../footer.php" ?>

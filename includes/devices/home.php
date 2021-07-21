@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php include "../../header.php"?>
-<div class="container">
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory</h1>
+<div class="container p-0">
+    <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory</h1>
 
     <p>
     <form name="search" action="search.php" method="POST">
@@ -24,47 +24,46 @@
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                 <div class="input-group-append">
-                    <button class="btn btn-secondary" type="submit" value="Search">Search</button>
+                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
         </div>
     </form>
     </p>
 
-    <a href="create.php" class='btn btn-outline-dark mb-2'></i>Create Entry</a>
+    <a href="create.php" class='btn btn-primary mb-2'></i>Create Entry</a>
     <a href="../assignees/assignees.php" class='btn btn-secondary mb-2'></i>Assignees Page</a>
-    <a href="see-all.php" class='btn btn-secondary mb-2'></i>See All Devices</a>
+    <a href="see-all.php" class='btn btn-info mb-2'></i>See All Devices</a>
 
-    <p> <!-- FIXME bootstrap collapse and see if the file input can actaully display file name -->
+    <p>
     <!-- Input form for bulk insertion of data -->
-    <form name="bulk_input" action="../../bulk-add.php" method="POST" enctype="multipart/form-data">
-        <div class="form-group w-25">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <button class="btn btn-secondary" type="submit" name="submit">Import</button>
-                </div>
+        <form name="bulk_input" action="../../bulk-add.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group w-25">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-warning" type="submit" name="submit">Import</button>
+                    </div>
 
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
-                    <label class="custom-file-label" for="input_file">Choose file</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
+                        <label class="custom-file-label" for="input_file"></label>
+                    </div>
                 </div>
+                <script type="application/javascript">
+                    $('input[type="file"]').change(function(e){
+                        var fileName = e.target.files[0].name;
+                        $('.custom-file-label').html(fileName);
+                    });
+                </script>
             </div>
-            <script type="application/javascript">
-                $('input[type="file"]').change(function(e){
-                    var fileName = e.target.files[0].name;
-                    $('.custom-file-label').html(fileName);
-                });
-            </script>
-        </div>
-    </form>
+        </form>
     </p>
 
     <!-- Create table and export button -->
     <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
-
+        <button class="btn btn-warning mb-2" type="submit" value="Submit">Export</button>
         <table class="table table-striped table-bordered table-hover">
-            <thead class="table-dark">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">Item ID</th>
                 <th scope="col">Assigned To</th>
@@ -75,7 +74,7 @@
                 <th scope="col">Model</th>
                 <th scope="col">Assign Date</th>
                 <th scope="col">Update Date</th>
-                <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
+                <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
                 <tbody>
@@ -107,8 +106,8 @@
                             $dev_type = $row['dev_type'];
                             $make = $row['make'];
                             $model = $row['model'];
-                            $assign_date = $row['assign_date'];
-                            $update_date = $row['update_date'];
+                            $assign_date = date("m/d/Y", strtotime($row['assign_date']));
+                            $update_date = date("m/d/Y", strtotime($row['update_date']));
 
                             $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
 
@@ -123,7 +122,7 @@
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 
-                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
                             echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
@@ -196,7 +195,7 @@
 </div>
 <!-- BACK button to go to the index page -->
 <div class="container text-center mb-5">
-    <a href="../../index.php" class="btn btn-warning mb-5"> Back </a>
+    <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

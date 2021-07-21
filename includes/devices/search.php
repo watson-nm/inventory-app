@@ -29,7 +29,7 @@
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                 <div class="input-group-append">
-                    <button class="btn btn-secondary" type="submit" value="Search">Search</button>
+                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
         </div>
@@ -37,10 +37,10 @@
     </p>
 
     <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+        <button class="btn btn-warning mb-2" type="submit" value="Submit">Export</button>
 
         <table class="table table-striped table-bordered table-hover">
-            <thead class="table-dark">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">Device ID</th>
                 <th scope="col">Assigned To</th>
@@ -51,7 +51,7 @@
                 <th scope="col">Model</th>
                 <th scope="col">Assign Date</th>
                 <th scope="col">Update Date</th>
-                <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
+                <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
 
@@ -91,7 +91,7 @@
                                 echo " <td >{$assign_date}</td>";
                                 echo " <td >{$update_date}</td>";
 
-                                echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+                                echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
                                 echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
@@ -134,7 +134,7 @@
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 
-                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
                             echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
@@ -160,6 +160,8 @@
 
 <!-- U BACK button to go to the home page -->
 <div class="container text-center mt-5">
-    <a href="home.php" class="btn btn-warning mt-5"> Back </a>
+    <a href="home.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
+<!-- Footer -->
+<?php include "../../footer.php" ?>

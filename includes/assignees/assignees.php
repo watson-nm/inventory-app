@@ -18,16 +18,16 @@
                     <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                     <div class="input-group-append">
-                        <button class="btn btn-secondary" type="submit" value="Search">Search</button>
+                        <button class="btn btn-primary" type="submit" value="Search">Search</button>
                     </div>
                 </div>
             </div>
         </form>
     </p>
 
-    <a href="create-assignee.php" class='btn btn-outline-dark mb-2'></i>Create Entry</a>
+    <a href="create-assignee.php" class='btn btn-outline-primary mb-2'></i>Create Entry</a>
     <a href="../devices/home.php" class='btn btn-secondary mb-2'></i>Device Inventory</a>
-    <a href="see-all.php" class='btn btn-secondary mb-2'></i>See All Assignees</a>
+    <a href="see-all.php" class='btn btn-info mb-2'></i>See All Assignees</a>
     <form name="export" action="../../export.php" method="POST">
         <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
 
@@ -62,7 +62,7 @@
                         echo " <td >{$name}</td>";
                         echo " <td >{$section}</td>";
 
-                        echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+                        echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
                         echo " <td class='text-center' > <a href='update-assignee.php?edit&aID={$aID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
@@ -81,8 +81,9 @@
         ?>
 
         <input type="hidden" name="export_data" value=<?php echo $serialized_data ?> />
-    </form>
 
+    <!-- Page navigation code -->
+    </form>
         <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
                 <?php

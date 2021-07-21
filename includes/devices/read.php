@@ -5,7 +5,7 @@
 
 <div class="container">
     <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+        <button class="btn btn-warning mb-2" type="submit" value="Submit">Export</button>
 
         <table class="table table-striped table-bordered table-hover">
         <thead class="table-dark">
@@ -39,8 +39,6 @@
                         $aVal = mysqli_fetch_assoc($get_assignee);
                         $assignee = $aVal['name'];
 
-                        $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
-
                         $asset_num = $row['asset_num'];
                         $serial_num = $row['serial_num'];
                         $dev_type = $row['dev_type'];
@@ -48,6 +46,8 @@
                         $model = $row['model'];
                         $assign_date = $row['assign_date'];
                         $update_date = $row['update_date'];
+
+                        $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
 
                         echo "<tr >";
                         echo " <td scope='row' >{$dID}</td>";
@@ -79,7 +79,7 @@
 
 <!-- a BACK Button to go to pervious page -->
 <div class="container text-center mt-5">
-    <a href="home.php" class="btn btn-warning mt-5"> Back </a>
+    <a href="home.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->
