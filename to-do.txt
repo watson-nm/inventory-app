@@ -1,2 +1,5 @@
-- add help page; note, make sure footer path to help page works
-- add documentation
+- make sure that footer stuff is present
+- get final input on the table categories
+- adjust table categories
+- change create to have *Assignee Name* and *Assignee Section* as input names
+- see if it is possible to get the calendar thing working given the new stuff in footer
