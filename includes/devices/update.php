@@ -58,8 +58,9 @@
     }
 ?>
 
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
-<div class="container ">
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
+<div class="container p-0">
+
     <form action="" method="post">
     <div class="form-group">
         <label for="name">Assigned To: Name</label>
@@ -98,12 +99,12 @@
 
     <div class="form-group">
         <label for="assign_date">Assign Date</label>
-        <input type="text" name="assign_date" id="assign_date" class="form-control" value="<?php echo $assign_date ?>">
+        <input type="text" name="assign_date" id="assign_date" class="date form-control" value="<?php echo $assign_date ?>">
     </div>
 
     <div class="form-group">
         <label for="update_date">Update Date</label>
-        <input type="text" name="update_date" id="update_date" class="form-control" value="<?php echo $update_date ?>">
+        <input type="text" name="update_date" id="update_date" class="date form-control" value="<?php echo $update_date ?>">
     </div>
 
     <div class="form-group">
@@ -153,9 +154,15 @@
   });
 </script>
 
+<script type="text/javascript">
+    $(".date").datepicker({
+        format: "mm/dd/yyyy",
+    });
+</script>
+
 <!-- a BACK button to go to the home page -->
-<div class="container text-center mt-5">
-<a href="home.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+<a href="home.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

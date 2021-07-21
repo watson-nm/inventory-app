@@ -29,23 +29,23 @@
     }
 ?>
 
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
-<div class="container">
-  <form action="" method="post">
-    <div class="form-group">
-    <label for="name" class="form-label">Name</label>
-    <input type="text" name="name" id="name" class="form-control" />
-    </div>
+<div class="container p-0">
+    <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="section" class="form-label">Section</label>
-      <input type="text" name="section" id="section" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="section" class="form-label">Section</label>
+            <input type="text" name="section" id="section" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <input type="submit" name="create" class="btn btn-primary mt-2" value="submit" />
-    </div>
-  </form>
+        <div class="form-group">
+            <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit" />
+        </div>
+    </form>
 </div>
 
 <!-- The code that autosuggests for input -->
@@ -66,8 +66,8 @@
 </script>
 
 <!-- a BACK button to go to the assignees page -->
-<div class="container text-center mt-5">
-  <a href="assignees.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+  <a href="assignees.php" class="btn btn-warning m-3"> Back </a>
   <div>
     <!-- Footer -->
     <?php include "../../footer.php" ?>

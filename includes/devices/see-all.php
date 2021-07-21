@@ -1,12 +1,12 @@
 <!-- Header -->
 <?php include "../../header.php"?>
-<div class="container">
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory: All</h1>
+<div class="container p-0">
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory: All</h1>
 
-    <a href="home.php" class='btn btn-outline-dark mb-2'></i>Return to Devices</a>
+    <a href="home.php" class='btn btn-primary mb-1'></i>Return to Devices</a>
 
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover">
             <thead class="table-dark">

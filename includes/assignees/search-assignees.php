@@ -1,40 +1,39 @@
 <!-- Header -->
 <?php  include "../../header.php" ?>
-<div class="container">
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Search Results</h1>
+
+<div class="container p-0">
+    <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Search Results</h1>
 
     <?php
         $category = $_POST['category'];
         $term = $_POST['term'];
     ?>
 
-    <p>
-        <form name="search" action="search-assignees.php" method="POST">
-            <div class="form-group w-50">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <select class="custom-select" name="category">
-                            <option value="aID">ID</option>
-                            <option value="name">Name</option>
-                            <option value="section">Section</option>
-                        </select>
-                    </div>
+    <form name="search" action="search-assignees.php" method="POST">
+        <div class="form-group w-50 mb-1">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <select class="custom-select" name="category">
+                        <option value="aID">ID</option>
+                        <option value="name">Name</option>
+                        <option value="section">Section</option>
+                    </select>
+                </div>
 
-                    <input type="text" class="form-control" name="term" placeholder="Search term"/>
+                <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary" type="submit" value="Search">Search</button>
-                    </div>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
-        </form>
-    </p>
+        </div>
+    </form>
 
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover">
-            <thead class="table-dark">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">Name</th>
@@ -84,7 +83,7 @@
 </div>
 
 <!-- a BACK button to go to the home page -->
-<div class="container text-center mt-5">
-    <a href="assignees.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+    <a href="assignees.php" class="btn btn-warning m-3"> Back </a>
 <div>
 

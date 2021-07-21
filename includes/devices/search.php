@@ -1,16 +1,15 @@
 <!-- Header -->
 <?php  include "../../header.php" ?>
-<div class="container">
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Search Results</h1>
+<div class="container p-1">
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Search Results</h1>
 
     <?php
         $category = $_POST['category'];
         $term = $_POST['term'];
     ?>
 
-    <p>
     <form name="search" action="search.php" method="POST">
-        <div class="form-group w-50">
+        <div class="form-group w-50 mb-1">
             <div class="input-group">
                 <div class="input-group-prepend">
                     <select class="custom-select" name="category">
@@ -34,10 +33,9 @@
             </div>
         </div>
     </form>
-    </p>
 
+    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
     <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-warning mb-2" type="submit" value="Submit">Export</button>
 
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
@@ -159,7 +157,7 @@
 </div>
 
 <!-- U BACK button to go to the home page -->
-<div class="container text-center mt-5">
+<div class="container text-center">
     <a href="home.php" class="btn btn-warning m-3"> Back </a>
 <div>
 

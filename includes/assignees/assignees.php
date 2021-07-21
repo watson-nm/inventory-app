@@ -1,38 +1,67 @@
 <!-- Header -->
 <?php include "../../header.php"?>
-<div class="container">
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Assignees</h1>
+<div class="container p-0">
+    <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Assignees</h1>
 
-    <p>
-        <form name="search" action="search-assignees.php" method="POST">
-            <div class="form-group w-50">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <select class="custom-select" name="category">
-                            <option value="aID">ID</option>
-                            <option value="name">Name</option>
-                            <option value="section">Section</option>
-                        </select>
-                    </div>
+    <form name="search" action="search-assignees.php" method="POST">
+        <div class="form-group w-50 mb-1">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <select class="custom-select" name="category">
+                        <option value="aID">ID</option>
+                        <option value="name">Name</option>
+                        <option value="section">Section</option>
+                    </select>
+                </div>
 
-                    <input type="text" class="form-control" name="term" placeholder="Search term"/>
+                <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
-                    <div class="input-group-append">
-                        <button class="btn btn-primary" type="submit" value="Search">Search</button>
-                    </div>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
-        </form>
-    </p>
+        </div>
+    </form>
 
-    <a href="create-assignee.php" class='btn btn-outline-primary mb-2'></i>Create Entry</a>
-    <a href="../devices/home.php" class='btn btn-secondary mb-2'></i>Device Inventory</a>
-    <a href="see-all.php" class='btn btn-info mb-2'></i>See All Assignees</a>
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+    <a href="create-assignee.php" class='btn btn-primary mb-1'></i>Create Entry</a>
+    <a href="../devices/home.php" class='btn btn-secondary mb-1'></i>Device Inventory</a>
+    <a href="see-all.php" class='btn btn-info mb-1'></i>See All Assignees</a>
 
+    <!-- Import and export buttons -->
+    <div class="row">
+        <!-- Export button that is connected to the export form -->
+        <div class="col-md-auto pr-1">
+            <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+        </div>
+
+        <!-- Import form containing import button -->
+        <div class="col-md-auto pl-0">
+            <form name="import" action="../../import-assignees.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group mb-1">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-warning" type="submit" name="submit">Import</button>
+                        </div>
+
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
+                            <label class="custom-file-label" for="input_file"></label>
+                        </div>
+                    </div>
+                    <script type="application/javascript">
+                        $('input[type="file"]').change(function(e){
+                            var fileName = e.target.files[0].name;
+                            $('.custom-file-label').html(fileName);
+                        });
+                    </script>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <form name="export" id="export" action="../../export.php" method="POST">
         <table class="table table-striped table-bordered table-hover">
-            <thead class="table-dark">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">Assigned To</th>
@@ -48,6 +77,7 @@
 
                     $query_assignees = "SELECT * FROM assignees LIMIT $start_from, ".$results_per_page;
                     $view_assignees_data = mysqli_query($conn, $query_assignees);
+                    $data_arr = array();
 
                     while($row = mysqli_fetch_assoc($view_assignees_data)){
                         $aID = $row['aID'];
@@ -134,9 +164,10 @@
             </ul>
         </nav>
     </div>
+
 <!-- BACK button to go to the index page -->
-<div class="container text-center mt-5">
-    <a href="../../index.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+    <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

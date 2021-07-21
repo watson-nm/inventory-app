@@ -1,11 +1,10 @@
 <!-- Header -->
 <?php include "../../header.php"?>
 <div class="container p-0">
-    <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory</h1>
+    <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory</h1>
 
-    <p>
     <form name="search" action="search.php" method="POST">
-        <div class="form-group w-50">
+        <div class="form-group w-50 mb-1">
             <div class="input-group">
                 <div class="input-group-prepend">
                     <select class="custom-select" name="category">
@@ -29,46 +28,52 @@
             </div>
         </div>
     </form>
-    </p>
 
-    <a href="create.php" class='btn btn-primary mb-2'></i>Create Entry</a>
-    <a href="../assignees/assignees.php" class='btn btn-secondary mb-2'></i>Assignees Page</a>
-    <a href="see-all.php" class='btn btn-info mb-2'></i>See All Devices</a>
+    <a href="create.php" class='btn btn-primary mb-1'></i>Create Entry</a>
+    <a href="../assignees/assignees.php" class='btn btn-secondary mb-1'></i>Assignees Page</a>
+    <a href="see-all.php" class='btn btn-info mb-1'></i>See All Devices</a>
 
-    <p>
-    <!-- Input form for bulk insertion of data -->
-        <form name="bulk_input" action="../../bulk-add.php" method="POST" enctype="multipart/form-data">
-            <div class="form-group w-25">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-warning" type="submit" name="submit">Import</button>
+    <!-- Import and export buttons -->
+    <div class="row">
+        <!-- Export button that is connected to the export form -->
+        <div class="col-md-auto pr-1">
+            <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+        </div>
+
+        <!-- Import form containing import button -->
+        <div class="col-md-auto pl-0">
+            <form name="import" action="../../import-devices.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group mb-1">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-warning" type="submit" name="submit">Import</button>
+                        </div>
+
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
+                            <label class="custom-file-label" for="input_file"></label>
+                        </div>
                     </div>
-
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
-                        <label class="custom-file-label" for="input_file"></label>
-                    </div>
+                    <script type="application/javascript">
+                        $('input[type="file"]').change(function(e){
+                            var fileName = e.target.files[0].name;
+                            $('.custom-file-label').html(fileName);
+                        });
+                    </script>
                 </div>
-                <script type="application/javascript">
-                    $('input[type="file"]').change(function(e){
-                        var fileName = e.target.files[0].name;
-                        $('.custom-file-label').html(fileName);
-                    });
-                </script>
-            </div>
-        </form>
-    </p>
+            </form>
+        </div>
+    </div>
 
-    <!-- Create table and export button -->
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-warning mb-2" type="submit" value="Submit">Export</button>
+   <!-- Create table and export button -->
+    <form name="export" id="export" action="../../export.php" method="POST">
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
             <tr>
-                <th scope="col">Item ID</th>
+                <th scope="col">ID</th>
                 <th scope="col">Assigned To</th>
-                <th scope="col">Asset #</th>
-                <th scope="col">Serial #</th>
+                <th scope="col">Asset#</th>
+                <th scope="col">Serial#</th>
                 <th scope="col">Device</th>
                 <th scope="col">Make</th>
                 <th scope="col">Model</th>
@@ -194,7 +199,7 @@
     </nav>
 </div>
 <!-- BACK button to go to the index page -->
-<div class="container text-center mb-5">
+<div class="container text-center">
     <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
 <div>
 

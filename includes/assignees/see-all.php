@@ -1,11 +1,12 @@
 <!-- Header -->
 <?php include "../../header.php"?>
-<div class="container">
+<div class="container p-0">
 <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Assignees</h1>
 
-    <a href="assignees.php" class='btn btn-outline-dark mb-2'></i>Return to Assignees</a>
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+    <a href="assignees.php" class='btn btn-outline-dark mb-1'></i>Return to Assignees</a>
+
+    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover">
             <thead class="table-dark">
@@ -58,8 +59,8 @@
 
     </div>
 <!-- BACK button to go to the index page -->
-<div class="container text-center mt-5">
-    <a href="../../index.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+    <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

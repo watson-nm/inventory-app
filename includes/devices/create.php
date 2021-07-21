@@ -53,58 +53,58 @@
     }
 ?>
 
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
-<div class="container">
-  <form action="" method="post">
-    <div class="form-group">
-    <label for="name" class="form-label">Assigned To: Name</label>
-    <input type="text" name="name" id="name" class="form-control" />
-    </div>
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
+<div class="container p-0">
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="name" class="form-label">Assigned To: Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="section" class="form-label">Assigned To: Section</label>
-      <input type="text" name="section" id="section" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="section" class="form-label">Assigned To: Section</label>
+            <input type="text" name="section" id="section" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="asset_num" class="form-label">Asset #</label>
-      <input type="text" name="asset_num" id="asset_num" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="asset_num" class="form-label">Asset #</label>
+            <input type="text" name="asset_num" id="asset_num" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="serial_num" class="form-label">Serial #</label>
-      <input type="text" name="serial_num" id="serial_num" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="serial_num" class="form-label">Serial #</label>
+            <input type="text" name="serial_num" id="serial_num" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="dev_type" class="form-label">Device Type</label>
-      <input type="text" name="dev_type" id="dev_type" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="dev_type" class="form-label">Device Type</label>
+            <input type="text" name="dev_type" id="dev_type" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="make" class="form-label">Make</label>
-      <input type="text" name="make" id="make" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="make" class="form-label">Make</label>
+            <input type="text" name="make" id="make" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="model" class="form-label">Model</label>
-      <input type="text" name="model" id="model" class="form-control" />
-    </div>
+        <div class="form-group">
+            <label for="model" class="form-label">Model</label>
+            <input type="text" name="model" id="model" class="form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="assign_date" class="form-label">Assign Date</label>
-      <input type="text" name="assign_date" id="assign_date" class="date form-control" />
-    </div>
+        <div class="form-group">
+            <label for="assign_date" class="form-label">Assign Date</label>
+            <input type="text" name="assign_date" id="assign_date" class="date form-control" />
+        </div>
 
-    <div class="form-group">
-      <label for="update_date" class="form-label">Update Date</label>
-      <input type="text" name="update_date" id="update_date" class="date form-control" />
-    </div>
+        <div class="form-group">
+            <label for="update_date" class="form-label">Update Date</label>
+            <input type="text" name="update_date" id="update_date" class="date form-control" />
+        </div>
 
-    <div class="form-group">
-      <input type="submit" name="create" class="btn btn-primary mt-2" value="submit" />
-    </div>
-  </form>
+        <div class="form-group">
+            <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit" />
+        </div>
+    </form>
 </div>
 
 <!-- The code that autosuggests for input -->
@@ -149,19 +149,13 @@
 </script>
 
 <script type="text/javascript">
-    $(function() {
-        $('#datetimepicker').datetimepicker();
-    });
-</script>
-
-<script type="text/javascript">
     $(".date").datepicker({
         format: "mm/dd/yyyy",
     });
 </script>
 
 <!-- a BACK button to go to the home page -->
-<div class="container text-center mt-5">
+<div class="container text-center">
   <a href="home.php" class="btn btn-warning m-3"> Back </a>
   <div>
     <!-- Footer -->

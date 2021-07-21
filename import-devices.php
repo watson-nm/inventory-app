@@ -1,6 +1,7 @@
-<?php
-include 'db.php';
+<!-- Header -->
+<?php include "header.php"?>
 
+<?php
 $target_dir = "uploads/";
 
 if (isset($_POST["submit"])) {
@@ -10,13 +11,15 @@ if (isset($_POST["submit"])) {
 
     # Allow only csv files
     if($fileType != "csv") {
-        echo "Sorry, only CSV files are allowed";
+        $warn = "Sorry, only CSV files are allowed";
+        alert("error", $warn);
         $uploadOk = 0;
     }
 
     # Upload file
     if ($uploadOk == 0) {
-        echo "Sorry, your file was not uploaded";
+        $warn = "Sorry, your file was not uploaded";
+        alert("error", $warn);
     } else {
         if (move_uploaded_file($_FILES["input_file"]["tmp_name"], $target_file)) {
             $fileExists = 0;
@@ -94,12 +97,23 @@ if (isset($_POST["submit"])) {
                 }
             }
             unlink($target_file);
-            exit();
+
+            $msg = "Successfully imported data!<br>Please return to the devices page and ensure your data is correct.";
+            alert("good", $msg);
         } else {
-            echo "Sorry, there was an error uploading your file.";
+            $warn = "Sorry, there was an error uploading your file.";
+            alert("error", $warn);
         }
     }
 
     header("Location: home.php");
 }
 ?>
+
+<!-- BACK button to go to the assignees page -->
+<div class="container text-center">
+    <a href="includes/assignees/assignees.php" class="btn btn-primary m-3"> Devices Page </a>
+<div>
+
+<!-- Footer -->
+<?php include "footer.php" ?>

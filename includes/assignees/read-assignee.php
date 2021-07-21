@@ -1,13 +1,14 @@
 <!-- Header -->
 <?php  include '../../header.php'?>
 
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Details</h1>
-<div class="container">
-    <form name="export" action="../../export.php" method="POST">
-        <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
+<div class="container p-0">
+    <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Details</h1>
+
+    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover">
-        <thead class="table-dark">
+        <thead class="thead-dark">
             <tr>
             <th scope="col">ID</th>
             <th scope="col">Name</th>
@@ -52,8 +53,8 @@
 </div>
 
 <!-- a BACK Button to go to pervious page -->
-<div class="container text-center mt-5">
-    <a href="assignees.php" class="btn btn-warning mt-5"> Back </a>
+<div class="container text-center">
+    <a href="assignees.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->
