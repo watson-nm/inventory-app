@@ -35,6 +35,31 @@
     <a href="../assignees/assignees.php" class='btn btn-secondary mb-2'></i>Assignees Page</a>
     <a href="see-all.php" class='btn btn-secondary mb-2'></i>See All Devices</a>
 
+    <p> <!-- FIXME bootstrap collapse and see if the file input can actaully display file name -->
+    <!-- Input form for bulk insertion of data -->
+    <form name="bulk_input" action="../../bulk-add.php" method="POST" enctype="multipart/form-data">
+        <div class="form-group w-25">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-secondary" type="submit" name="submit">Import</button>
+                </div>
+
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="input_file" name="input_file" aria-describedby="submit">
+                    <label class="custom-file-label" for="input_file">Choose file</label>
+                </div>
+            </div>
+            <script type="application/javascript">
+                $('input[type="file"]').change(function(e){
+                    var fileName = e.target.files[0].name;
+                    $('.custom-file-label').html(fileName);
+                });
+            </script>
+        </div>
+    </form>
+    </p>
+
+    <!-- Create table and export button -->
     <form name="export" action="../../export.php" method="POST">
         <button class="btn btn-secondary mb-2" type="submit" value="Submit">Export</button>
 
@@ -66,6 +91,7 @@
 
                         $query_devices = "SELECT * FROM devices LIMIT $start_from, ".$results_per_page;
                         $view_devices_data = mysqli_query($conn, $query_devices);
+                        $data_arr = array();
 
                         while ($row = mysqli_fetch_assoc($view_devices_data)) {
                             $dID = $row['dID'];

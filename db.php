@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';  // server
 $user = 'root';
-$pass = "GrowVirgo2000";
-$database = 'inventory';   //Database Name
+$pass = "";
+$database = 'test_inventory';   //Database Name
 $results_per_page = 20;
 
 // establishing connection
