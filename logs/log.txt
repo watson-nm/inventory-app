@@ -1,1 +1,1304 @@
-Alert: inserted assignee 'name(Nola Watson)' into table from input line '0'
+Alert: inserted device 'asset_num(561)' into table from input line '0'
+Error: could not insert device 'asset_num(733)' into table from input line '1'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1904)' into table from input line '2'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1659)' into table from input line '3'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1233)' into table from input line '4'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(175)' into table from input line '5'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(191)' into table from input line '6'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1669)' into table from input line '7'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1925)' into table from input line '8'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1650)' into table from input line '9'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1657)' into table from input line '10'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1654)' into table from input line '11'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1652)' into table from input line '12'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1642)' into table from input line '13'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1637)' into table from input line '14'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1639)' into table from input line '15'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1635)' into table from input line '16'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1643)' into table from input line '17'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1636)' into table from input line '18'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1640)' into table from input line '19'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1644)' into table from input line '20'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1247)' into table from input line '21'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(608)' into table from input line '22'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1921)' into table from input line '23'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(275)' into table from input line '24'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1238)' into table from input line '25'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1237)' into table from input line '26'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1240)' into table from input line '27'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1257)' into table from input line '28'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1258)' into table from input line '29'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1987)' into table from input line '30'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1911)' into table from input line '31'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1901)' into table from input line '32'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1923)' into table from input line '33'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1927)' into table from input line '34'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1259)' into table from input line '35'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1250)' into table from input line '36'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1243)' into table from input line '37'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1246)' into table from input line '38'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1268)' into table from input line '39'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1253)' into table from input line '40'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(94)' into table from input line '41'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert assignee 'Conor O'Shea' into table from input line '42'
+Error: could not insert device 'asset_num(1226)' into table from input line '43'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(93)' into table from input line '44'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(37)' into table from input line '45'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(72)' into table from input line '46'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1223)' into table from input line '47'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(23)' into table from input line '48'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1982)' into table from input line '49'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(149)' into table from input line '50'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1989)' into table from input line '51'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1244)' into table from input line '52'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1245)' into table from input line '53'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(19)' into table from input line '54'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(67)' into table from input line '55'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(101)' into table from input line '56'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(33)' into table from input line '57'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1260)' into table from input line '58'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(42)' into table from input line '59'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1902)' into table from input line '60'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1990)' into table from input line '61'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1256)' into table from input line '62'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(14)' into table from input line '63'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1236)' into table from input line '64'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(620)' into table from input line '65'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1985)' into table from input line '66'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert assignee 'Amy O'Sullivan' into table from input line '67'
+Error: could not insert device 'asset_num(1908)' into table from input line '68'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1906)' into table from input line '69'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1225)' into table from input line '70'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1631)' into table from input line '71'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1239)' into table from input line '72'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(58)' into table from input line '73'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(46)' into table from input line '74'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1234)' into table from input line '75'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1227)' into table from input line '76'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1926)' into table from input line '77'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1254)' into table from input line '78'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(34)' into table from input line '79'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(21)' into table from input line '80'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1221)' into table from input line '81'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1242)' into table from input line '82'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1224)' into table from input line '83'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(631)' into table from input line '84'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(625)' into table from input line '85'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(378)' into table from input line '86'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(628)' into table from input line '87'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(81)' into table from input line '88'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1678)' into table from input line '89'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(95)' into table from input line '90'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(144)' into table from input line '91'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(408)' into table from input line '92'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(79)' into table from input line '93'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1255)' into table from input line '94'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1229)' into table from input line '95'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(217)' into table from input line '96'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1252)' into table from input line '97'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1986)' into table from input line '98'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1668)' into table from input line '99'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1981)' into table from input line '100'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1661)' into table from input line '101'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1249)' into table from input line '102'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1664)' into table from input line '103'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1679)' into table from input line '104'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1269)' into table from input line '105'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1677)' into table from input line '106'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1264)' into table from input line '107'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1261)' into table from input line '108'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(83)' into table from input line '109'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(30)' into table from input line '110'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(102)' into table from input line '111'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1266)' into table from input line '112'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(56)' into table from input line '113'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1241)' into table from input line '114'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(90)' into table from input line '115'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1230)' into table from input line '116'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1988)' into table from input line '117'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1263)' into table from input line '118'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1924)' into table from input line '119'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1270)' into table from input line '120'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1222)' into table from input line '121'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(632)' into table from input line '122'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(111)' into table from input line '123'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(616)' into table from input line '124'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1920)' into table from input line '125'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1913)' into table from input line '126'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(116)' into table from input line '127'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1645)' into table from input line '128'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1251)' into table from input line '129'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(59)' into table from input line '130'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1984)' into table from input line '131'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1922)' into table from input line '132'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(86)' into table from input line '133'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1228)' into table from input line '134'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(8)' into table from input line '135'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(240)' into table from input line '136'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1262)' into table from input line '137'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1641)' into table from input line '138'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1670)' into table from input line '139'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1919)' into table from input line '140'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(120)' into table from input line '141'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1267)' into table from input line '142'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(454)' into table from input line '143'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(798)' into table from input line '144'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1868)' into table from input line '145'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1655)' into table from input line '146'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(686)' into table from input line '147'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1869)' into table from input line '148'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(470)' into table from input line '149'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(173)' into table from input line '150'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(739)' into table from input line '151'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(738)' into table from input line '152'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(336)' into table from input line '153'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(382)' into table from input line '154'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(740)' into table from input line '155'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(736)' into table from input line '156'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(731)' into table from input line '157'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1675)' into table from input line '158'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(603)' into table from input line '159'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(734)' into table from input line '160'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1660)' into table from input line '161'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1632)' into table from input line '162'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(618)' into table from input line '163'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(604)' into table from input line '164'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(446)' into table from input line '165'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(619)' into table from input line '166'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(715)' into table from input line '167'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(147)' into table from input line '168'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(444)' into table from input line '169'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1646)' into table from input line '170'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert assignee 'Kevin O'Connor' into table from input line '171'
+Error: could not insert device 'asset_num(1651)' into table from input line '172'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1638)' into table from input line '173'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1656)' into table from input line '174'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(611)' into table from input line '175'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(471)' into table from input line '176'
+  reason(Duplicate entry '' for key 'serial_num')
+Alert: inserted assignee 'Di’Indra Dhanantwari ' into table from input line '177'
+Error: could not insert device 'asset_num(615)' into table from input line '177'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1680)' into table from input line '178'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(622)' into table from input line '179'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(617)' into table from input line '180'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert assignee 'Suzanne O'Hare' into table from input line '181'
+Error: could not insert device 'asset_num(182)' into table from input line '182'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1231)' into table from input line '183'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1666)' into table from input line '184'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1658)' into table from input line '185'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1633)' into table from input line '186'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1648)' into table from input line '187'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(735)' into table from input line '188'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1665)' into table from input line '189'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1649)' into table from input line '190'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1663)' into table from input line '191'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1634)' into table from input line '192'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1672)' into table from input line '193'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1667)' into table from input line '194'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1673)' into table from input line '195'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1676)' into table from input line '196'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1232)' into table from input line '197'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(369)' into table from input line '198'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(393)' into table from input line '199'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(606)' into table from input line '200'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(626)' into table from input line '201'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(781)' into table from input line '202'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(250)' into table from input line '203'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1265)' into table from input line '204'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1235)' into table from input line '205'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(1671)' into table from input line '206'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(602)' into table from input line '207'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(380)' into table from input line '208'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(792)' into table from input line '209'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(791)' into table from input line '210'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(787)' into table from input line '211'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(786)' into table from input line '212'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(782)' into table from input line '213'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(789)' into table from input line '214'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(785)' into table from input line '215'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(784)' into table from input line '216'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(783)' into table from input line '217'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(790)' into table from input line '218'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(788)' into table from input line '219'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(117)' into table from input line '220'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(571)' into table from input line '221'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(573)' into table from input line '222'
+  reason(Duplicate entry '' for key 'serial_num')
+Alert: inserted device 'asset_num(575)' into table from input line '223'
+Error: could not insert device 'asset_num(1220)' into table from input line '224'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1521)' into table from input line '225'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(576)' into table from input line '226'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(580)' into table from input line '227'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1518)' into table from input line '228'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(584)' into table from input line '229'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(181)' into table from input line '230'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(238)' into table from input line '231'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(687)' into table from input line '232'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(556)' into table from input line '233'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1519)' into table from input line '234'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1215)' into table from input line '235'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1214)' into table from input line '236'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1216)' into table from input line '237'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(524)' into table from input line '238'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(200)' into table from input line '239'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(230)' into table from input line '240'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1218)' into table from input line '241'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1217)' into table from input line '242'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1511)' into table from input line '243'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1719)' into table from input line '244'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1577)' into table from input line '245'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1563)' into table from input line '246'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1578)' into table from input line '247'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1560)' into table from input line '248'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1587)' into table from input line '249'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1588)' into table from input line '250'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1536)' into table from input line '251'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1574)' into table from input line '252'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1718)' into table from input line '253'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1581)' into table from input line '254'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1546)' into table from input line '255'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1564)' into table from input line '256'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1604)' into table from input line '257'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1584)' into table from input line '258'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1580)' into table from input line '259'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1562)' into table from input line '260'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1724)' into table from input line '261'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1548)' into table from input line '262'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1533)' into table from input line '263'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Conor O'Shea' into table from input line '264'
+Error: could not insert device 'asset_num(1801)' into table from input line '265'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1600)' into table from input line '266'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1585)' into table from input line '267'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1532)' into table from input line '268'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1513)' into table from input line '269'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1567)' into table from input line '270'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1582)' into table from input line '271'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1568)' into table from input line '272'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1610)' into table from input line '273'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1517)' into table from input line '274'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1597)' into table from input line '275'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1525)' into table from input line '276'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1569)' into table from input line '277'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1539)' into table from input line '278'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1721)' into table from input line '279'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1589)' into table from input line '280'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1541)' into table from input line '281'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1579)' into table from input line '282'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1537)' into table from input line '283'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1540)' into table from input line '284'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1535)' into table from input line '285'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1557)' into table from input line '286'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1529)' into table from input line '287'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1804)' into table from input line '288'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1534)' into table from input line '289'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1601)' into table from input line '290'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1586)' into table from input line '291'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1613)' into table from input line '292'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Amy O'Sullivan' into table from input line '293'
+Error: could not insert device 'asset_num(1705)' into table from input line '294'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1692)' into table from input line '295'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(176)' into table from input line '296'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1141)' into table from input line '297'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1612)' into table from input line '298'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1549)' into table from input line '299'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1599)' into table from input line '300'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1523)' into table from input line '301'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1512)' into table from input line '302'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1806)' into table from input line '303'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1572)' into table from input line '304'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1603)' into table from input line '305'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1598)' into table from input line '306'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1720)' into table from input line '307'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1561)' into table from input line '308'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1609)' into table from input line '309'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1556)' into table from input line '310'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(516)' into table from input line '311'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1552)' into table from input line '312'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1727)' into table from input line '313'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(328)' into table from input line '314'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(233)' into table from input line '315'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1602)' into table from input line '316'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(303)' into table from input line '317'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1566)' into table from input line '318'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1571)' into table from input line '319'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1593)' into table from input line '320'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1596)' into table from input line '321'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1606)' into table from input line '322'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1595)' into table from input line '323'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1611)' into table from input line '324'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(530)' into table from input line '325'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1707)' into table from input line '326'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(312)' into table from input line '327'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1695)' into table from input line '328'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(203)' into table from input line '329'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(689)' into table from input line '330'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1622)' into table from input line '331'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(183)' into table from input line '332'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1605)' into table from input line '333'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1616)' into table from input line '334'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1524)' into table from input line '335'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1570)' into table from input line '336'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1802)' into table from input line '337'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(180)' into table from input line '338'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1614)' into table from input line '339'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1811)' into table from input line '340'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1725)' into table from input line '341'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1526)' into table from input line '342'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1619)' into table from input line '343'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1728)' into table from input line '344'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1617)' into table from input line '345'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1565)' into table from input line '346'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1515)' into table from input line '347'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1592)' into table from input line '348'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1723)' into table from input line '349'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1621)' into table from input line '350'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1608)' into table from input line '351'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1701)' into table from input line '352'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1594)' into table from input line '353'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1591)' into table from input line '354'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1590)' into table from input line '355'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1538)' into table from input line '356'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1544)' into table from input line '357'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1543)' into table from input line '358'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1558)' into table from input line '359'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1559)' into table from input line '360'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1803)' into table from input line '361'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1805)' into table from input line '362'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1530)' into table from input line '363'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(327)' into table from input line '364'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1516)' into table from input line '365'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(272)' into table from input line '366'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1575)' into table from input line '367'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1576)' into table from input line '368'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1623)' into table from input line '369'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1553)' into table from input line '370'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1583)' into table from input line '371'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1545)' into table from input line '372'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1528)' into table from input line '373'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(551)' into table from input line '374'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(543)' into table from input line '375'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(570)' into table from input line '376'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(417)' into table from input line '377'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(185)' into table from input line '378'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(309)' into table from input line '379'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(542)' into table from input line '380'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(201)' into table from input line '381'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(350)' into table from input line '382'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(693)' into table from input line '383'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(500)' into table from input line '384'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1145)' into table from input line '385'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1148)' into table from input line '386'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(302)' into table from input line '387'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1146)' into table from input line '388'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(339)' into table from input line '389'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(410)' into table from input line '390'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(497)' into table from input line '391'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(385)' into table from input line '392'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(496)' into table from input line '393'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(467)' into table from input line '394'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(466)' into table from input line '395'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(243)' into table from input line '396'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(308)' into table from input line '397'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Kevin O'Connor' into table from input line '398'
+Error: could not insert device 'asset_num(485)' into table from input line '399'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(696)' into table from input line '400'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(478)' into table from input line '401'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(492)' into table from input line '402'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(480)' into table from input line '403'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(544)' into table from input line '404'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(383)' into table from input line '405'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1151)' into table from input line '406'
+  reason(Duplicate entry '' for key 'service_tag')
+Alert: inserted assignee 'Di’Indra Dhanantwari ' into table from input line '407'
+Error: could not insert device 'asset_num(501)' into table from input line '407'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1142)' into table from input line '408'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1153)' into table from input line '409'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(394)' into table from input line '410'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Suzanne O'Hare' into table from input line '411'
+Error: could not insert device 'asset_num(415)' into table from input line '412'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(389)' into table from input line '413'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(644)' into table from input line '414'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(487)' into table from input line '415'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(447)' into table from input line '416'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(670)' into table from input line '417'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(293)' into table from input line '418'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1731)' into table from input line '419'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1729)' into table from input line '420'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(409)' into table from input line '421'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(503)' into table from input line '422'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(184)' into table from input line '423'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(204)' into table from input line '424'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(451)' into table from input line '425'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(403)' into table from input line '426'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(401)' into table from input line '427'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(359)' into table from input line '428'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(362)' into table from input line '429'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(366)' into table from input line '430'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(368)' into table from input line '431'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(668)' into table from input line '432'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(472)' into table from input line '433'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(371)' into table from input line '434'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(461)' into table from input line '435'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(463)' into table from input line '436'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(459)' into table from input line '437'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(196)' into table from input line '438'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(499)' into table from input line '439'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(441)' into table from input line '440'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(479)' into table from input line '441'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(174)' into table from input line '442'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(400)' into table from input line '443'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(379)' into table from input line '444'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(553)' into table from input line '445'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1693)' into table from input line '446'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(313)' into table from input line '447'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(555)' into table from input line '448'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1713)' into table from input line '449'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1522)' into table from input line '450'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(473)' into table from input line '451'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1746)' into table from input line '452'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(579)' into table from input line '453'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(195)' into table from input line '454'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(192)' into table from input line '455'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(248)' into table from input line '456'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(363)' into table from input line '457'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(557)' into table from input line '458'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1527)' into table from input line '459'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(223)' into table from input line '460'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(396)' into table from input line '461'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(287)' into table from input line '462'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(310)' into table from input line '463'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(354)' into table from input line '464'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(348)' into table from input line '465'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(218)' into table from input line '466'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(274)' into table from input line '467'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(212)' into table from input line '468'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(229)' into table from input line '469'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(264)' into table from input line '470'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(422)' into table from input line '471'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(333)' into table from input line '472'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(285)' into table from input line '473'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(465)' into table from input line '474'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(438)' into table from input line '475'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(330)' into table from input line '476'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(355)' into table from input line '477'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(323)' into table from input line '478'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(251)' into table from input line '479'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Conor O'Shea' into table from input line '480'
+Error: could not insert device 'asset_num(506)' into table from input line '481'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(279)' into table from input line '482'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(325)' into table from input line '483'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1152)' into table from input line '484'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(276)' into table from input line '485'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(428)' into table from input line '486'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(249)' into table from input line '487'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(351)' into table from input line '488'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1555)' into table from input line '489'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(352)' into table from input line '490'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(520)' into table from input line '491'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(469)' into table from input line '492'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(515)' into table from input line '493'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(221)' into table from input line '494'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(517)' into table from input line '495'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(283)' into table from input line '496'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(255)' into table from input line '497'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(236)' into table from input line '498'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(242)' into table from input line '499'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(269)' into table from input line '500'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(253)' into table from input line '501'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(259)' into table from input line '502'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(281)' into table from input line '503'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert assignee 'Amy O'Sullivan' into table from input line '504'
+Error: could not insert device 'asset_num(1726)' into table from input line '505'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1531)' into table from input line '506'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(486)' into table from input line '507'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1154)' into table from input line '508'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(342)' into table from input line '509'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(341)' into table from input line '510'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(262)' into table from input line '511'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(510)' into table from input line '512'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(435)' into table from input line '513'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(322)' into table from input line '514'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(436)' into table from input line '515'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(508)' into table from input line '516'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(273)' into table from input line '517'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(239)' into table from input line '518'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(216)' into table from input line '519'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(265)' into table from input line '520'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1550)' into table from input line '521'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1573)' into table from input line '522'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1547)' into table from input line '523'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(297)' into table from input line '524'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(357)' into table from input line '525'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(278)' into table from input line '526'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(306)' into table from input line '527'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(305)' into table from input line '528'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(304)' into table from input line '529'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(232)' into table from input line '530'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(214)' into table from input line '531'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(343)' into table from input line '532'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(220)' into table from input line '533'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(521)' into table from input line '534'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(247)' into table from input line '535'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(690)' into table from input line '536'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(406)' into table from input line '537'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(244)' into table from input line '538'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(349)' into table from input line '539'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(267)' into table from input line '540'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(315)' into table from input line '541'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(268)' into table from input line '542'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(282)' into table from input line '543'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(296)' into table from input line '544'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(256)' into table from input line '545'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(241)' into table from input line '546'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(413)' into table from input line '547'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(321)' into table from input line '548'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(234)' into table from input line '549'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(280)' into table from input line '550'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(344)' into table from input line '551'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(509)' into table from input line '552'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(261)' into table from input line '553'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(289)' into table from input line '554'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(319)' into table from input line '555'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(284)' into table from input line '556'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(377)' into table from input line '557'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(258)' into table from input line '558'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1618)' into table from input line '559'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(245)' into table from input line '560'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(518)' into table from input line '561'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(507)' into table from input line '562'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(231)' into table from input line '563'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(316)' into table from input line '564'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(300)' into table from input line '565'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(370)' into table from input line '566'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1554)' into table from input line '567'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(211)' into table from input line '568'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(424)' into table from input line '569'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(431)' into table from input line '570'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(213)' into table from input line '571'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(430)' into table from input line '572'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(329)' into table from input line '573'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(331)' into table from input line '574'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(219)' into table from input line '575'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(554)' into table from input line '576'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(552)' into table from input line '577'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(541)' into table from input line '578'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1150)' into table from input line '579'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(498)' into table from input line '580'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(399)' into table from input line '581'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(578)' into table from input line '582'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1520)' into table from input line '583'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(257)' into table from input line '584'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num()' into table from input line '585'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(347)' into table from input line '586'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num()' into table from input line '587'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1219)' into table from input line '588'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(337)' into table from input line '589'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(488)' into table from input line '590'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(448)' into table from input line '591'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(545)' into table from input line '592'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(294)' into table from input line '593'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1732)' into table from input line '594'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1730)' into table from input line '595'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(411)' into table from input line '596'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(504)' into table from input line '597'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(202)' into table from input line '598'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(450)' into table from input line '599'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1144)' into table from input line '600'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(577)' into table from input line '601'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1514)' into table from input line '602'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(490)' into table from input line '603'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(688)' into table from input line '604'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(190)' into table from input line '605'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(198)' into table from input line '606'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(197)' into table from input line '607'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(574)' into table from input line '608'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(222)' into table from input line '609'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(224)' into table from input line '610'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(188)' into table from input line '611'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(227)' into table from input line '612'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(199)' into table from input line '613'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(189)' into table from input line '614'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num()' into table from input line '615'
+  reason(Duplicate entry '' for key 'serial_num')
+Error: could not insert device 'asset_num(536)' into table from input line '616'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(514)' into table from input line '617'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(288)' into table from input line '618'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(599)' into table from input line '619'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(445)' into table from input line '620'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(388)' into table from input line '621'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(390)' into table from input line '622'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(665)' into table from input line '623'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(484)' into table from input line '624'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(558)' into table from input line '625'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(559)' into table from input line '626'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(364)' into table from input line '627'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(2)' into table from input line '628'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(476)' into table from input line '629'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(538)' into table from input line '630'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(700)' into table from input line '631'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(397)' into table from input line '632'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(291)' into table from input line '633'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(699)' into table from input line '634'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(186)' into table from input line '635'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(560)' into table from input line '636'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(452)' into table from input line '637'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(698)' into table from input line '638'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(657)' into table from input line '639'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(367)' into table from input line '640'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(525)' into table from input line '641'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(697)' into table from input line '642'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(528)' into table from input line '643'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(443)' into table from input line '644'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(246)' into table from input line '645'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(1155)' into table from input line '646'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(493)' into table from input line '647'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(537)' into table from input line '648'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(522)' into table from input line '649'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(694)' into table from input line '650'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(695)' into table from input line '651'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(391)' into table from input line '652'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(532)' into table from input line '653'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(392)' into table from input line '654'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(482)' into table from input line '655'
+  reason(Duplicate entry '' for key 'service_tag')
+Error: could not insert device 'asset_num(539)' into table from input line '656'
+  reason(Duplicate entry '' for key 'service_tag')

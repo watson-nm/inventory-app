@@ -18,12 +18,12 @@
         $assignee = $aVal['name'];
         $section = $aVal['section'];
 
-
         $asset_num = $row['asset_num'];
         $serial_num = $row['serial_num'];
         $dev_type = $row['dev_type'];
         $make = $row['make'];
         $model = $row['model'];
+        $service_tag = $row['service_tag'];
         $assign_date = $row['assign_date'];
         $update_date = $row['update_date'];
     }
@@ -37,6 +37,7 @@
         $dev_type = $_POST['dev_type'];
         $make = $_POST['make'];
         $model = $_POST['model'];
+        $service_tag = $_POST['service_tag'];
         $assign_date = $_POST['assign_date'];
         $update_date = $_POST['update_date'];
 
@@ -47,13 +48,15 @@
             $data = mysqli_fetch_assoc($search_res);
             $aID = $data['aID'];
             # SQL query to update the data in devices table where the dID = $dID
-            $query = "UPDATE devices SET assignee = '{$aID}' , asset_num = '{$asset_num}' , serial_num = '{$serial_num}', dev_type = '{$dev_type}', make = '{$make}', model = '{$model}', assign_date = '{$assign_date}', update_date = '{$update_date}' WHERE dID = $dID";
+            $query = "UPDATE devices SET assignee = '{$aID}' , asset_num = '{$asset_num}' , serial_num = '{$serial_num}', dev_type = '{$dev_type}', make = '{$make}', model = '{$model}', service_tag = '{$service_tag}', assign_date = '{$assign_date}', update_date = '{$update_date}' WHERE dID = $dID";
             $update_device = mysqli_query($conn, $query);
-            echo "<script type='text/javascript'>alert('Table data updated successfully!')</script>";
+            $msg = "Table data updated successfully!";
+            alert("good", $msg);
         } else {
             # the assignee must be specified by name and section
             # Jane Doe in MIS is different from Jane Doe in Admin
-            echo "<script type='text/javascript'>alert('Assignee does not exist. Please add assignee first.')</script>";
+            $warn = "Assignee does not exist. Please add assignee first.";
+            alert("error", $warn);
         }
     }
 ?>
@@ -95,6 +98,11 @@
     <div class="form-group">
         <label for="model">Model</label>
         <input type="text" name="model" id="model" class="form-control" value="<?php echo $model ?>">
+    </div>
+
+    <div class="form-group">
+        <label for="service_tag">Service Tag</label>
+        <input type="text" name="service_tag" id="service_tag" class="form-control" value="<?php echo $service_tag ?>">
     </div>
 
     <div class="form-group">

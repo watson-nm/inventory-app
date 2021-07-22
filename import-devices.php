@@ -48,8 +48,9 @@ if (isset($_POST["submit"])) {
                     $dev_type = $row[3];
                     $make = $row[4];
                     $model = $row[5];
-                    $assign_date = date("Y-m-d", strtotime($row[6]));
-                    $update_date = date("Y-m-d", strtotime($row[7]));
+                    $service_tag = $row[6];
+                    $assign_date = date("Y-m-d", strtotime($row[7]));
+                    $update_date = date("Y-m-d", strtotime($row[8]));
 
                     $query = "SELECT aID FROM assignees WHERE name LIKE '%$name%' ORDER BY aID ASC LIMIT 1";
                     $table_result = mysqli_query($conn, $query);
@@ -79,11 +80,19 @@ if (isset($_POST["submit"])) {
                     }
 
                     # Insert device into table
-                    $intoD = "INSERT INTO devices (assignee, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+                    if ($serial_num == '' && $service_tag != '') {
+                        $intoD = "INSERT INTO devices (assignee, asset_num, dev_type, make, model, service_tag, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$dev_type', '$make', '$model', '$service_tag', '$assign_date', '$update_date');";
+                    } else if ($serial_num != '' && $service_tag == '') {
+                        $intoD = "INSERT INTO devices (assignee, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+                    } else if ($service_tag == '' && $serial_num == '') {
+                        $intoD = "INSERT INTO devices (assignee, asset_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+                    } else {
+                        $intoD = "INSERT INTO devices (assignee, asset_num, serial_num, dev_type, make, model, service_tag, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$service_tag', '$assign_date', '$update_date');";
+                    }
                     $add_entry = mysqli_query($conn, $intoD);
 
                     if ($add_entry <= 0) {
-                        $log_data = "Error: could not insert device 'asset_num($asset_num)' into table from input line '$i'".PHP_EOL;
+                        $log_data = "Error: could not insert device 'asset_num($asset_num)' into table from input line '$i'".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
                         fwrite($log, $log_data);
                         $f = $f + 1;
                         $i = $i + 1;
@@ -105,14 +114,12 @@ if (isset($_POST["submit"])) {
             alert("error", $warn);
         }
     }
-
-    header("Location: home.php");
 }
 ?>
 
-<!-- BACK button to go to the assignees page -->
+<!-- BACK button to go to the devices page -->
 <div class="container text-center">
-    <a href="includes/assignees/assignees.php" class="btn btn-primary m-3"> Devices Page </a>
+    <a href="includes/devices/home.php" class="btn btn-primary m-3"> Devices Page </a>
 <div>
 
 <!-- Footer -->

@@ -15,6 +15,7 @@
                         <option value="dev_type">Device</option>
                         <option value="make">Make</option>
                         <option value="model">Model</option>
+                        <option value="model">Service Tag</option>
                         <option value="assign_date">Assign Date</option>
                         <option value="update_date">Update Date</option>
                     </select>
@@ -77,6 +78,7 @@
                 <th scope="col">Device</th>
                 <th scope="col">Make</th>
                 <th scope="col">Model</th>
+                <th scope="col">Service Tag</th>
                 <th scope="col">Assign Date</th>
                 <th scope="col">Update Date</th>
                 <th scope="col" colspan="3" class="text-center">Item Operations</th>
@@ -111,10 +113,11 @@
                             $dev_type = $row['dev_type'];
                             $make = $row['make'];
                             $model = $row['model'];
+                            $service_tag = $row['service_tag'];
                             $assign_date = date("m/d/Y", strtotime($row['assign_date']));
                             $update_date = date("m/d/Y", strtotime($row['update_date']));
 
-                            $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                            $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$service_tag,$assign_date,$update_date);
 
                             echo "<tr >";
                             echo " <td scope='row' >{$dID}</td>";
@@ -124,6 +127,7 @@
                             echo " <td >{$dev_type}</td>";
                             echo " <td >{$make}</td>";
                             echo " <td >{$model}</td>";
+                            echo " <td >{$service_tag}</td>";
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 

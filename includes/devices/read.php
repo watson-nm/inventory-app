@@ -18,6 +18,7 @@
             <th scope="col">Device</th>
             <th scope="col">Make</th>
             <th scope="col">Model</th>
+            <th scope="col">Service Tag</th>
             <th scope="col">Assign Date</th>
             <th scope="col">Update Date</th>
             </tr>
@@ -45,10 +46,11 @@
                         $dev_type = $row['dev_type'];
                         $make = $row['make'];
                         $model = $row['model'];
+                        $service_tag = $row['service_tag'];
                         $assign_date = $row['assign_date'];
                         $update_date = $row['update_date'];
 
-                        $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                        $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$service_tag,$assign_date,$update_date);
 
                         echo "<tr >";
                         echo " <td scope='row' >{$dID}</td>";
@@ -58,6 +60,7 @@
                         echo " <td >{$dev_type}</td>";
                         echo " <td >{$make}</td>";
                         echo " <td >{$model}</td>";
+                        echo " <td >{$service_tag}</td>";
                         echo " <td >{$assign_date}</td>";
                         echo " <td >{$update_date}</td>";
                         echo " </tr> ";
