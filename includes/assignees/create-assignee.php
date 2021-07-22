@@ -15,15 +15,18 @@
         $search_res = mysqli_query($conn, $search_aID);
 
         if (mysqli_num_rows($search_res) > 0) {
-            echo "<script type='text/javascript'>alert('That assignee already exists in the table!')</script>";
+            $warn = "That assignee already exists in the table!";
+            alert("error", $warn);
         } else {
             $intoA = "INSERT INTO assignees(name, section) VALUES('{$name}', '{$section}')";
             $addA = mysqli_query($conn, $intoA);
 
             if ($addA <= 0) {
-                echo "something went wrong adding assignee". mysqli_error($conn);
+                $warn = "Something went wrong adding assignee". mysqli_error($conn);
+                alert("error", $warn);
             } else {
-                echo "<script type='text/javascript'>alert('User added successfully!')</script>";
+                $msg = "User added successfully!";
+                alert("good", $msg);
             }
         }
     }

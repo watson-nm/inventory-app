@@ -12,6 +12,14 @@
         $aID = $_GET['aID'];
         $query = "DELETE FROM assignees WHERE aID = '$aID'";
         $delete_query = mysqli_query($conn, $query);
+
+        if (!$delete_query) {
+            $warn = "Was unable to delete item from table:<br>error '".mysqli_error($conn)."'";
+            alert("error", $warn);
+        } else {
+            $msg = "Successfully deleted item from table!";
+        }
+
         header("Location: assignees.php");
     }
 ?>

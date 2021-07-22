@@ -2,7 +2,7 @@
 $host = 'localhost';  // server
 $user = 'root';
 $pass = "";
-$database = 'inventory';   //Database Name
+$database = 'inventory-sample';   //Database Name
 $results_per_page = 20;
 
 // establishing connection

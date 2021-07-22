@@ -3,7 +3,7 @@
 <div class="container p-0">
 <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Assignees</h1>
 
-    <a href="assignees.php" class='btn btn-outline-dark mb-1'></i>Return to Assignees</a>
+    <a href="assignees.php" class='btn btn-primary mb-1'></i>Return to Assignees</a>
 
     <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
     <form name="export" id="export" action="../../export.php" method="POST">
