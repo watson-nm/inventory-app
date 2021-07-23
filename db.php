@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';  // server
 $user = 'root';
-$pass = "";
+$pass = "GrowVirgo2000";
 $database = 'inventory';   //Database Name
 $results_per_page = 20;
 
