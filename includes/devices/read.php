@@ -1,9 +1,10 @@
 <!-- Header -->
 <?php  include '../../header.php'?>
 
-<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Details</h1>
 
 <div class="container p-0">
+<h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Details</h1>
+
     <button class="btn btn-warning mb-2" type="submit" form="export">Export</button>
     <form name="export" id="export" action="../../export.php" method="POST">
 

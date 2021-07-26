@@ -53,8 +53,9 @@
     }
 ?>
 
-<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
 <div class="container p-0">
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
+
     <form action="" method="post">
         <div class="form-group">
             <label for="name" class="form-label">Assigned To: Name</label>

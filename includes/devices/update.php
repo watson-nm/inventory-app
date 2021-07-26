@@ -58,8 +58,8 @@
     }
 ?>
 
-<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
 <div class="container p-0">
+<h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
 
     <form action="" method="post">
     <div class="form-group">
