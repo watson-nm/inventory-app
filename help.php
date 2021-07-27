@@ -28,8 +28,8 @@
                         <li><b>make</b>: The make of the device.</li>
                         <li><b>model</b>: The model of the device.</li>
                         <li><b>service_tag</b>: The unique service tag of a device.</li>
-                        <li><b>assign date</b>: TBD</li>
-                        <li><b>update date</b>: TBD</li>
+                        <li><b>assign date</b>: The date when the device is assigned.</li>
+                        <li><b>update date</b>: The date when the device is updated.</li>
                     </ul>
                     The Assignees table has columns:
                     <ul>
@@ -111,13 +111,13 @@
                         <li><b>Item ID</b>: The automatically assigned table ID of an item.</li>
                         <li><b>Assigned To</b>: The name of the device's assignee.</li>
                         <li><b>Asset #</b>: The device's asset number.</li>
-                        <li><b>Serial #</b>: The device's unique serial number.</li> <!-- FIXME put something in create and import about unique values -->
+                        <li><b>Serial #</b>: The device's unique serial number.</li>
                         <li><b>Device</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
                         <li><b>Service Tag</b>: The device's unique service tag.</li>
-                        <li><b>Assign Date</b>: TBD</li>
-                        <li><b>Update Date</b>: TBD</li>
+                        <li><b>Assign Date</b>: The date when a device was assigned.</li>
+                        <li><b>Update Date</b>: The date when a device was updated.</li>
                     </ul>
                     The dropdown menu for searching in the Assignees table has the following search categories:
                     <ul>
@@ -150,8 +150,9 @@
                         <li><b>Device Type</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
-                        <li><b>Assign Date</b>: TBD</li>
-                        <li><b>Update Date</b>: TBD</li>
+                        <li><b>Service Tag</b>: The device's unique service tag.</li>
+                        <li><b>Assign Date</b>: The date when the device was assigned.</li>
+                        <li><b>Update Date</b>: The date when the device was updated</li>
                     </ul>
                     The inputs for Assignee Name, Assignee Section, Device Type, Make, and Model will show suggestions as you type.<br>
                     The suggestions are based off of information that is already in the table.<br>
@@ -207,8 +208,9 @@
                         <li><b>Device Type</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
-                        <li><b>Assign Date</b>: TBD</li>
-                        <li><b>Update Date</b>: TBD</li>
+                        <li><b>Service Tag</b>: The unique service tag of a device.</li>
+                        <li><b>Assign Date</b>: The date the device was assigned.</li>
+                        <li><b>Update Date</b>: The date the device was updated.</li>
                     </ul>
                     As with the create page, the inputs for Assignee Name, Assignee Section, Device Type, Make, and Model will show suggestions as you type.<br>
                     The Date inputs will also show small calendar tools when clicked, so as to ensure proper formatting of data.<br>
@@ -290,7 +292,7 @@
                     <li><b>Device Make</b></li>
                     <li><b>Device Model</b></li>
                     <li><b>Service Tag</b></li>
-                    <li><b>Assign Date</b></li> <!-- FIXME all date sections may change -->
+                    <li><b>Assign Date</b></li>
                     <li><b>Update Date</b></li>
                 </ul>
 
