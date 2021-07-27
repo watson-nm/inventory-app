@@ -1,9 +1,9 @@
 <?php
 $host = 'localhost';  // server
 $user = 'root';
-$pass = "";
-$database = 'inventory-sample';   //Database Name
-$results_per_page = 20;
+$pass = "GrowVirgo2000";
+$database = 'inventory_test';   //Database Name
+$results_per_page = 50;
 
 // establishing connection
   $conn = mysqli_connect($host,$user,$pass,$database);

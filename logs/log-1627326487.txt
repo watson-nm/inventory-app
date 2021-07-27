@@ -1,0 +1,1319 @@
+Error on line '0': could not insert device 'asset_num(561)' into table
+  reason(Duplicate entry 'GLC0KB2' for key 'service_tag')
+Error on line '1': could not insert device 'asset_num(733)' into table
+  reason(Duplicate entry 'BQPZKH2' for key 'service_tag')
+Error on line '2': could not insert device 'asset_num(1904)' into table
+  reason(Duplicate entry 'JG75H63' for key 'service_tag')
+Error on line '3': could not insert device 'asset_num(1659)' into table
+  reason(Duplicate entry 'H91YDX2' for key 'service_tag')
+Error on line '4': could not insert device 'asset_num(1233)' into table
+  reason(Duplicate entry 'H653DP2' for key 'service_tag')
+Error on line '5': could not insert device 'asset_num(175)' into table
+  reason(Duplicate entry 'D720L02' for key 'service_tag')
+Error on line '6': could not insert device 'asset_num(191)' into table
+  reason(Duplicate entry 'D724L02' for key 'service_tag')
+Error on line '7': could not insert device 'asset_num(1669)' into table
+  reason(Duplicate entry 'H94YDX2' for key 'service_tag')
+Error on line '8': could not insert device 'asset_num(1925)' into table
+  reason(Duplicate entry 'JQ65H63' for key 'service_tag')
+Error on line '9': could not insert device 'asset_num(1650)' into table
+  reason(Duplicate entry 'H982FX2' for key 'service_tag')
+Error on line '10': could not insert device 'asset_num(1657)' into table
+  reason(Duplicate entry 'H91XDX2' for key 'service_tag')
+Error on line '11': could not insert device 'asset_num(1654)' into table
+  reason(Duplicate entry 'H96XDX2' for key 'service_tag')
+Error on line '12': could not insert device 'asset_num(1652)' into table
+  reason(Duplicate entry 'H913FX2' for key 'service_tag')
+Error on line '13': could not insert device 'asset_num(1642)' into table
+  reason(Duplicate entry 'H97YDX2' for key 'service_tag')
+Error on line '14': could not insert device 'asset_num(1637)' into table
+  reason(Duplicate entry 'H950FX2' for key 'service_tag')
+Error on line '15': could not insert device 'asset_num(1639)' into table
+  reason(Duplicate entry 'H98ZDX2' for key 'service_tag')
+Error on line '16': could not insert device 'asset_num(1635)' into table
+  reason(Duplicate entry 'H97XDX2' for key 'service_tag')
+Error on line '17': could not insert device 'asset_num(1643)' into table
+  reason(Duplicate entry 'H96ZDX2' for key 'service_tag')
+Error on line '18': could not insert device 'asset_num(1636)' into table
+  reason(Duplicate entry 'H980FX2' for key 'service_tag')
+Error on line '19': could not insert device 'asset_num(1640)' into table
+  reason(Duplicate entry 'DVP1FX2' for key 'service_tag')
+Error on line '20': could not insert device 'asset_num(1644)' into table
+  reason(Duplicate entry 'H962FX2' for key 'service_tag')
+Error on line '21': could not insert device 'asset_num(1247)' into table
+  reason(Duplicate entry 'H65MQP2' for key 'service_tag')
+Error on line '22': could not insert device 'asset_num(608)' into table
+  reason(Duplicate entry 'JVCT842' for key 'service_tag')
+Error on line '23': could not insert device 'asset_num(1921)' into table
+  reason(Duplicate entry 'JG55H63' for key 'service_tag')
+Error on line '24': could not insert device 'asset_num(275)' into table
+  reason(Duplicate entry 'JVTVC42' for key 'service_tag')
+Error on line '25': could not insert device 'asset_num(1238)' into table
+  reason(Duplicate entry 'H634DP2' for key 'service_tag')
+Error on line '26': could not insert device 'asset_num(1237)' into table
+  reason(Duplicate entry 'H62TQP2' for key 'service_tag')
+Error on line '27': could not insert device 'asset_num(1240)' into table
+  reason(Duplicate entry 'H63XQP2' for key 'service_tag')
+Error on line '28': could not insert device 'asset_num(1257)' into table
+  reason(Duplicate entry 'H63TQP2' for key 'service_tag')
+Error on line '29': could not insert device 'asset_num(1258)' into table
+  reason(Duplicate entry 'H64SQP2' for key 'service_tag')
+Error on line '30': could not insert device 'asset_num(1987)' into table
+  reason(Duplicate entry 'JQ67853' for key 'service_tag')
+Error on line '31': could not insert device 'asset_num(1911)' into table
+  reason(Duplicate entry 'JQ62H63' for key 'service_tag')
+Error on line '32': could not insert device 'asset_num(1901)' into table
+  reason(Duplicate entry 'JG88H63' for key 'service_tag')
+Error on line '33': could not insert device 'asset_num(1923)' into table
+  reason(Duplicate entry 'JQ6F853' for key 'service_tag')
+Error on line '34': could not insert device 'asset_num(1927)' into table
+  reason(Duplicate entry 'JQ5SQ53' for key 'service_tag')
+Error on line '35': could not insert device 'asset_num(1259)' into table
+  reason(Duplicate entry 'H63RQP2' for key 'service_tag')
+Error on line '36': could not insert device 'asset_num(1250)' into table
+  reason(Duplicate entry 'H65QQP2' for key 'service_tag')
+Error on line '37': could not insert device 'asset_num(1243)' into table
+  reason(Duplicate entry 'H644DP2' for key 'service_tag')
+Error on line '38': could not insert device 'asset_num(1246)' into table
+  reason(Duplicate entry 'H633DP2' for key 'service_tag')
+Error on line '39': could not insert device 'asset_num(1268)' into table
+  reason(Duplicate entry 'H643DP2' for key 'service_tag')
+Error on line '40': could not insert device 'asset_num(1253)' into table
+  reason(Duplicate entry 'H636DP2' for key 'service_tag')
+Error on line '41': could not insert device 'asset_num(94)' into table
+  reason(Duplicate entry 'J549CX1' for key 'service_tag')
+Error on line '42': could not insert device 'asset_num(1248)' into table
+  reason(Duplicate entry 'H64TQP2' for key 'service_tag')
+Error on line '43': could not insert device 'asset_num(1226)' into table
+  reason(Duplicate entry 'H65TQP2' for key 'service_tag')
+Error on line '44': could not insert device 'asset_num(93)' into table
+  reason(Duplicate entry 'J54BCX1' for key 'service_tag')
+Error on line '45': could not insert device 'asset_num(37)' into table
+  reason(Duplicate entry 'J5B7CX1' for key 'service_tag')
+Error on line '46': could not insert device 'asset_num(72)' into table
+  reason(Duplicate entry 'J56DCX1' for key 'service_tag')
+Error on line '47': could not insert device 'asset_num(1223)' into table
+  reason(Duplicate entry 'H635DP2' for key 'service_tag')
+Error on line '48': could not insert device 'asset_num(23)' into table
+  reason(Duplicate entry 'J586CX1' for key 'service_tag')
+Error on line '49': could not insert device 'asset_num(1982)' into table
+  reason(Duplicate entry 'JQ5RQ53' for key 'service_tag')
+Error on line '50': could not insert device 'asset_num(149)' into table
+  reason(Duplicate entry 'JVVS942' for key 'service_tag')
+Error on line '51': could not insert device 'asset_num(1989)' into table
+  reason(Duplicate entry 'JQ6C853' for key 'service_tag')
+Error on line '52': could not insert device 'asset_num(1244)' into table
+  reason(Duplicate entry 'H64WQP2' for key 'service_tag')
+Error on line '53': could not insert device 'asset_num(1245)' into table
+  reason(Duplicate entry 'H62XQP2' for key 'service_tag')
+Error on line '54': could not insert device 'asset_num(19)' into table
+  reason(Duplicate entry 'J57CCX1' for key 'service_tag')
+Error on line '55': could not insert device 'asset_num(67)' into table
+  reason(Duplicate entry 'J581CX1' for key 'service_tag')
+Error on line '56': could not insert device 'asset_num(101)' into table
+  reason(Duplicate entry 'J565CX1' for key 'service_tag')
+Error on line '57': could not insert device 'asset_num(33)' into table
+  reason(Duplicate entry 'J5B8CX1' for key 'service_tag')
+Error on line '58': could not insert device 'asset_num(1260)' into table
+  reason(Duplicate entry 'H62RQP2' for key 'service_tag')
+Error on line '59': could not insert device 'asset_num(42)' into table
+  reason(Duplicate entry 'G7N1RW1' for key 'service_tag')
+Error on line '60': could not insert device 'asset_num(1902)' into table
+  reason(Duplicate entry 'JQ5XQ53' for key 'service_tag')
+Error on line '61': could not insert device 'asset_num(1990)' into table
+  reason(Duplicate entry 'JQ69853' for key 'service_tag')
+Error on line '62': could not insert device 'asset_num(1256)' into table
+  reason(Duplicate entry 'H645DP2' for key 'service_tag')
+Error on line '63': could not insert device 'asset_num(14)' into table
+  reason(Duplicate entry 'J55CCX1' for key 'service_tag')
+Error on line '64': could not insert device 'asset_num(1236)' into table
+  reason(Duplicate entry 'H646DP2' for key 'service_tag')
+Error on line '65': could not insert device 'asset_num(620)' into table
+  reason(Duplicate entry 'JVCG942' for key 'service_tag')
+Error on line '66': could not insert device 'asset_num(1985)' into table
+  reason(Duplicate entry 'JQ6BQ53' for key 'service_tag')
+Error on line '67': could not insert device 'asset_num(1903)' into table
+  reason(Duplicate entry 'JG74H63' for key 'service_tag')
+Error on line '68': could not insert device 'asset_num(1908)' into table
+  reason(Duplicate entry 'JQ67H63' for key 'service_tag')
+Error on line '69': could not insert device 'asset_num(1906)' into table
+  reason(Duplicate entry 'JG64H63' for key 'service_tag')
+Error on line '70': could not insert device 'asset_num(1225)' into table
+  reason(Duplicate entry 'H663DP2' for key 'service_tag')
+Error on line '71': could not insert device 'asset_num(1631)' into table
+  reason(Duplicate entry 'H98XDX2' for key 'service_tag')
+Error on line '72': could not insert device 'asset_num(1239)' into table
+  reason(Duplicate entry 'H65VQP2' for key 'service_tag')
+Error on line '73': could not insert device 'asset_num(58)' into table
+  reason(Duplicate entry 'J572CX1' for key 'service_tag')
+Error on line '74': could not insert device 'asset_num(46)' into table
+  reason(Duplicate entry 'J5B1CX1' for key 'service_tag')
+Error on line '75': could not insert device 'asset_num(1234)' into table
+  reason(Duplicate entry 'H64MQP2' for key 'service_tag')
+Error on line '76': could not insert device 'asset_num(1227)' into table
+  reason(Duplicate entry 'H65RQP2' for key 'service_tag')
+Error on line '77': could not insert device 'asset_num(1926)' into table
+  reason(Duplicate entry 'JQ5PQ53' for key 'service_tag')
+Error on line '78': could not insert device 'asset_num(1254)' into table
+  reason(Duplicate entry 'H63SQP2' for key 'service_tag')
+Error on line '79': could not insert device 'asset_num(34)' into table
+  reason(Duplicate entry 'J587CX1' for key 'service_tag')
+Error on line '80': could not insert device 'asset_num(21)' into table
+  reason(Duplicate entry 'G7K0RW1' for key 'service_tag')
+Error on line '81': could not insert device 'asset_num(1221)' into table
+  reason(Duplicate entry 'H63QQP2' for key 'service_tag')
+Error on line '82': could not insert device 'asset_num(1242)' into table
+  reason(Duplicate entry 'H65NQP2' for key 'service_tag')
+Error on line '83': could not insert device 'asset_num(1224)' into table
+  reason(Duplicate entry 'H65WQP2' for key 'service_tag')
+Error on line '84': could not insert device 'asset_num(631)' into table
+  reason(Duplicate entry 'JW7S842' for key 'service_tag')
+Error on line '85': could not insert device 'asset_num(625)' into table
+  reason(Duplicate entry 'JW7TQ22' for key 'service_tag')
+Error on line '86': could not insert device 'asset_num(378)' into table
+  reason(Duplicate entry 'CPP0N22' for key 'service_tag')
+Error on line '87': could not insert device 'asset_num(628)' into table
+  reason(Duplicate entry 'JW78RL1' for key 'service_tag')
+Error on line '88': could not insert device 'asset_num(81)' into table
+  reason(Duplicate entry 'J584CX1' for key 'service_tag')
+Error on line '89': could not insert device 'asset_num(1678)' into table
+  reason(Duplicate entry 'H92XDX2' for key 'service_tag')
+Error on line '90': could not insert device 'asset_num(95)' into table
+  reason(Duplicate entry 'J558CX1' for key 'service_tag')
+Error on line '91': could not insert device 'asset_num(144)' into table
+  reason(Duplicate entry 'JW7JS22' for key 'service_tag')
+Error on line '92': could not insert device 'asset_num(408)' into table
+  reason(Duplicate entry 'CPR0N22' for key 'service_tag')
+Error on line '93': could not insert device 'asset_num(79)' into table
+  reason(Duplicate entry 'J551CX1' for key 'service_tag')
+Error on line '94': could not insert device 'asset_num(1255)' into table
+  reason(Duplicate entry 'H654DP2' for key 'service_tag')
+Error on line '95': could not insert device 'asset_num(1229)' into table
+  reason(Duplicate entry 'H63VQP2' for key 'service_tag')
+Error on line '96': could not insert device 'asset_num(217)' into table
+  reason(Duplicate entry 'CPNTM22' for key 'service_tag')
+Error on line '97': could not insert device 'asset_num(1252)' into table
+  reason(Duplicate entry 'H64VQP2' for key 'service_tag')
+Error on line '98': could not insert device 'asset_num(1986)' into table
+  reason(Duplicate entry 'JQ65R53' for key 'service_tag')
+Error on line '99': could not insert device 'asset_num(1668)' into table
+  reason(Duplicate entry 'H95ZDX2' for key 'service_tag')
+Error on line '100': could not insert device 'asset_num(1981)' into table
+  reason(Duplicate entry 'JG61H63' for key 'service_tag')
+Error on line '101': could not insert device 'asset_num(1661)' into table
+  reason(Duplicate entry 'H92YDX2' for key 'service_tag')
+Error on line '102': could not insert device 'asset_num(1249)' into table
+  reason(Duplicate entry 'H656DP2' for key 'service_tag')
+Error on line '103': could not insert device 'asset_num(1664)' into table
+  reason(Duplicate entry 'H94XDX2' for key 'service_tag')
+Error on line '104': could not insert device 'asset_num(1679)' into table
+  reason(Duplicate entry 'H92ZDX2' for key 'service_tag')
+Error on line '105': could not insert device 'asset_num(1269)' into table
+  reason(Duplicate entry 'H62QQP2' for key 'service_tag')
+Error on line '106': could not insert device 'asset_num(1677)' into table
+  reason(Duplicate entry 'H940FX2' for key 'service_tag')
+Error on line '107': could not insert device 'asset_num(1264)' into table
+  reason(Duplicate entry 'H64NQP2' for key 'service_tag')
+Error on line '108': could not insert device 'asset_num(1261)' into table
+  reason(Duplicate entry 'H63MQP2' for key 'service_tag')
+Error on line '109': could not insert device 'asset_num(83)' into table
+  reason(Duplicate entry 'J579CX1' for key 'service_tag')
+Error on line '110': could not insert device 'asset_num(30)' into table
+  reason(Duplicate entry 'J5B2CX1' for key 'service_tag')
+Error on line '111': could not insert device 'asset_num(102)' into table
+  reason(Duplicate entry 'J59CCX1' for key 'service_tag')
+Error on line '112': could not insert device 'asset_num(1266)' into table
+  reason(Duplicate entry 'H64RQP2' for key 'service_tag')
+Error on line '113': could not insert device 'asset_num(56)' into table
+  reason(Duplicate entry 'J593CX1' for key 'service_tag')
+Error on line '114': could not insert device 'asset_num(1241)' into table
+  reason(Duplicate entry 'H655DP2' for key 'service_tag')
+Error on line '115': could not insert device 'asset_num(90)' into table
+  reason(Duplicate entry '4F7YSW1' for key 'service_tag')
+Error on line '116': could not insert device 'asset_num(1230)' into table
+  reason(Duplicate entry 'H62SQP2' for key 'service_tag')
+Error on line '117': could not insert device 'asset_num(1988)' into table
+  reason(Duplicate entry 'JQ6FQ53' for key 'service_tag')
+Error on line '118': could not insert device 'asset_num(1263)' into table
+  reason(Duplicate entry 'H62PQP2' for key 'service_tag')
+Error on line '119': could not insert device 'asset_num(1924)' into table
+  reason(Duplicate entry 'JQ64853' for key 'service_tag')
+Error on line '120': could not insert device 'asset_num(1270)' into table
+  reason(Duplicate entry 'H62VQP2' for key 'service_tag')
+Error on line '121': could not insert device 'asset_num(1222)' into table
+  reason(Duplicate entry 'H65SQP2' for key 'service_tag')
+Error on line '122': could not insert device 'asset_num(632)' into table
+  reason(Duplicate entry 'JW7ZLM1' for key 'service_tag')
+Error on line '123': could not insert device 'asset_num(111)' into table
+  reason(Duplicate entry '4FBYSW1' for key 'service_tag')
+Error on line '124': could not insert device 'asset_num(616)' into table
+  reason(Duplicate entry 'JVTSKM1' for key 'service_tag')
+Error on line '125': could not insert device 'asset_num(1920)' into table
+  reason(Duplicate entry 'JG47H63' for key 'service_tag')
+Error on line '126': could not insert device 'asset_num(1913)' into table
+  reason(Duplicate entry 'JQ5TQ53' for key 'service_tag')
+Error on line '127': could not insert device 'asset_num(116)' into table
+  reason(Duplicate entry '4F8ZSW1' for key 'service_tag')
+Error on line '128': could not insert device 'asset_num(1645)' into table
+  reason(Duplicate entry 'H981FX2' for key 'service_tag')
+Error on line '129': could not insert device 'asset_num(1251)' into table
+  reason(Duplicate entry 'H63NQP2' for key 'service_tag')
+Error on line '130': could not insert device 'asset_num(59)' into table
+  reason(Duplicate entry 'J5BBCX1' for key 'service_tag')
+Error on line '131': could not insert device 'asset_num(1984)' into table
+  reason(Duplicate entry 'JQ60853' for key 'service_tag')
+Error on line '132': could not insert device 'asset_num(1922)' into table
+  reason(Duplicate entry 'JQ5QQ53' for key 'service_tag')
+Error on line '133': could not insert device 'asset_num(86)' into table
+  reason(Duplicate entry 'J562CX1' for key 'service_tag')
+Error on line '134': could not insert device 'asset_num(1228)' into table
+  reason(Duplicate entry 'H65PQP2' for key 'service_tag')
+Error on line '135': could not insert device 'asset_num(8)' into table
+  reason(Duplicate entry 'J583CX1' for key 'service_tag')
+Error on line '136': could not insert device 'asset_num(240)' into table
+  reason(Duplicate entry 'CPPVM22' for key 'service_tag')
+Error on line '137': could not insert device 'asset_num(1262)' into table
+  reason(Duplicate entry 'H63PQP2' for key 'service_tag')
+Error on line '138': could not insert device 'asset_num(1641)' into table
+  reason(Duplicate entry 'H91ZDX2' for key 'service_tag')
+Error on line '139': could not insert device 'asset_num(1670)' into table
+  reason(Duplicate entry 'H920FX2' for key 'service_tag')
+Error on line '140': could not insert device 'asset_num(1919)' into table
+  reason(Duplicate entry 'JQ62853' for key 'service_tag')
+Error on line '141': could not insert device 'asset_num(120)' into table
+  reason(Duplicate entry '4F9YSW1' for key 'service_tag')
+Error on line '142': could not insert device 'asset_num(1267)' into table
+  reason(Duplicate entry 'H64PQP2' for key 'service_tag')
+Error on line '143': could not insert device 'asset_num(454)' into table
+  reason(Duplicate entry 'CPNVM22' for key 'service_tag')
+Error on line '144': could not insert device 'asset_num(798)' into table
+  reason(Duplicate entry 'GJJCGK2' for key 'service_tag')
+Error on line '145': could not insert device 'asset_num(1868)' into table
+  reason(Duplicate entry '41ZXG03' for key 'service_tag')
+Error on line '146': could not insert device 'asset_num(1655)' into table
+  reason(Duplicate entry 'H96YDX2' for key 'service_tag')
+Error on line '147': could not insert device 'asset_num(686)' into table
+  reason(Duplicate entry 'GLBZJB2' for key 'service_tag')
+Error on line '148': could not insert device 'asset_num(1869)' into table
+  reason(Duplicate entry '41Z6H03' for key 'service_tag')
+Error on line '149': could not insert device 'asset_num(470)' into table
+  reason(Duplicate entry '5VML482' for key 'service_tag')
+Error on line '150': could not insert device 'asset_num(173)' into table
+  reason(Duplicate entry 'JW7WQ22' for key 'service_tag')
+Error on line '151': could not insert device 'asset_num(739)' into table
+  reason(Duplicate entry 'BQPVKH2' for key 'service_tag')
+Error on line '152': could not insert device 'asset_num(738)' into table
+  reason(Duplicate entry 'BQPSKH2' for key 'service_tag')
+Error on line '153': could not insert device 'asset_num(336)' into table
+  reason(Duplicate entry 'D721L02' for key 'service_tag')
+Error on line '154': could not insert device 'asset_num(382)' into table
+  reason(Duplicate entry 'CPNZM22' for key 'service_tag')
+Error on line '155': could not insert device 'asset_num(740)' into table
+  reason(Duplicate entry 'BQNTKH2' for key 'service_tag')
+Error on line '156': could not insert device 'asset_num(736)' into table
+  reason(Duplicate entry 'BQP2LH2' for key 'service_tag')
+Error on line '157': could not insert device 'asset_num(731)' into table
+  reason(Duplicate entry 'BQPTKH2' for key 'service_tag')
+Error on line '158': could not insert device 'asset_num(1675)' into table
+  reason(Duplicate entry 'H912FX2' for key 'service_tag')
+Error on line '159': could not insert device 'asset_num(603)' into table
+  reason(Duplicate entry 'CPPZM22' for key 'service_tag')
+Error on line '160': could not insert device 'asset_num(734)' into table
+  reason(Duplicate entry 'BQNZKH2' for key 'service_tag')
+Error on line '161': could not insert device 'asset_num(1660)' into table
+  reason(Duplicate entry 'H930FX2' for key 'service_tag')
+Error on line '162': could not insert device 'asset_num(1632)' into table
+  reason(Duplicate entry 'H952FX2' for key 'service_tag')
+Error on line '163': could not insert device 'asset_num(618)' into table
+  reason(Duplicate entry 'JVCJC42' for key 'service_tag')
+Error on line '164': could not insert device 'asset_num(604)' into table
+  reason(Duplicate entry 'JVCKPM1' for key 'service_tag')
+Error on line '165': could not insert device 'asset_num(446)' into table
+  reason(Duplicate entry 'CPQ0N22' for key 'service_tag')
+Error on line '166': could not insert device 'asset_num(619)' into table
+  reason(Duplicate entry 'JVCRQ22' for key 'service_tag')
+Error on line '167': could not insert device 'asset_num(715)' into table
+  reason(Duplicate entry 'JVCF842' for key 'service_tag')
+Error on line '168': could not insert device 'asset_num(147)' into table
+  reason(Duplicate entry 'JVCBS22' for key 'service_tag')
+Error on line '169': could not insert device 'asset_num(444)' into table
+  reason(Duplicate entry 'JVW4B42' for key 'service_tag')
+Error on line '170': could not insert device 'asset_num(1646)' into table
+  reason(Duplicate entry 'H972FX2' for key 'service_tag')
+Error on line '171': could not insert device 'asset_num(1653)' into table
+  reason(Duplicate entry 'H98YDX2' for key 'service_tag')
+Error on line '172': could not insert device 'asset_num(1651)' into table
+  reason(Duplicate entry 'H923FX2' for key 'service_tag')
+Error on line '173': could not insert device 'asset_num(1638)' into table
+  reason(Duplicate entry 'H970FX2' for key 'service_tag')
+Error on line '174': could not insert device 'asset_num(1656)' into table
+  reason(Duplicate entry 'H922FX2' for key 'service_tag')
+Error on line '175': could not insert device 'asset_num(611)' into table
+  reason(Duplicate entry 'JVCJ842' for key 'service_tag')
+Error on line '176': could not insert device 'asset_num(471)' into table
+  reason(Duplicate entry 'CPN1N22' for key 'service_tag')
+Error on line '177': could not insert assignee 'Di’Indra Dhanantwari ' into table
+  reason(Incorrect string value: '\x92Indra...' for column `inventory_test`.`assignees`.`name` at row 1)
+Error on line '178': could not insert device 'asset_num(1680)' into table
+  reason(Duplicate entry 'H932FX2' for key 'service_tag')
+Error on line '179': could not insert device 'asset_num(622)' into table
+  reason(Duplicate entry 'JVTZC42' for key 'service_tag')
+Error on line '180': could not insert device 'asset_num(617)' into table
+  reason(Duplicate entry 'JW82SL1' for key 'service_tag')
+Error on line '181': could not insert device 'asset_num(1647)' into table
+  reason(Duplicate entry 'H971FX2' for key 'service_tag')
+Error on line '182': could not insert device 'asset_num(182)' into table
+  reason(Duplicate entry 'JVVMKN1' for key 'service_tag')
+Error on line '183': could not insert device 'asset_num(1231)' into table
+  reason(Duplicate entry 'H62WQP2' for key 'service_tag')
+Error on line '184': could not insert device 'asset_num(1666)' into table
+  reason(Duplicate entry 'H93ZDX2' for key 'service_tag')
+Error on line '185': could not insert device 'asset_num(1658)' into table
+  reason(Duplicate entry 'H94ZDX2' for key 'service_tag')
+Error on line '186': could not insert device 'asset_num(1633)' into table
+  reason(Duplicate entry 'H93XDX2' for key 'service_tag')
+Error on line '187': could not insert device 'asset_num(1648)' into table
+  reason(Duplicate entry 'H951FX2' for key 'service_tag')
+Error on line '188': could not insert device 'asset_num(735)' into table
+  reason(Duplicate entry 'BQP1LH2' for key 'service_tag')
+Error on line '189': could not insert device 'asset_num(1665)' into table
+  reason(Duplicate entry 'H942FX2' for key 'service_tag')
+Error on line '190': could not insert device 'asset_num(1649)' into table
+  reason(Duplicate entry 'H97ZDX2' for key 'service_tag')
+Error on line '191': could not insert device 'asset_num(1663)' into table
+  reason(Duplicate entry 'H960FX2' for key 'service_tag')
+Error on line '192': could not insert device 'asset_num(1634)' into table
+  reason(Duplicate entry 'DVP2FX2' for key 'service_tag')
+Error on line '193': could not insert device 'asset_num(1672)' into table
+  reason(Duplicate entry 'H95XDX2' for key 'service_tag')
+Error on line '194': could not insert device 'asset_num(1667)' into table
+  reason(Duplicate entry 'H921FX2' for key 'service_tag')
+Error on line '195': could not insert device 'asset_num(1673)' into table
+  reason(Duplicate entry 'H941FX2' for key 'service_tag')
+Error on line '196': could not insert device 'asset_num(1676)' into table
+  reason(Duplicate entry 'H961FX2' for key 'service_tag')
+Error on line '197': could not insert device 'asset_num(1232)' into table
+  reason(Duplicate entry 'H63WQP2' for key 'service_tag')
+Error on line '198': could not insert device 'asset_num(369)' into table
+  reason(Duplicate entry 'BC7SCY1' for key 'service_tag')
+Error on line '199': could not insert device 'asset_num(393)' into table
+  reason(Duplicate entry 'CPP1N22' for key 'service_tag')
+Error on line '200': could not insert device 'asset_num(606)' into table
+  reason(Duplicate entry 'JVVSB42' for key 'service_tag')
+Error on line '201': could not insert device 'asset_num(626)' into table
+  reason(Duplicate entry 'JVVQLN1' for key 'service_tag')
+Error on line '202': could not insert device 'asset_num(781)' into table
+  reason(Duplicate entry '3335KB2' for key 'service_tag')
+Error on line '203': could not insert device 'asset_num(250)' into table
+  reason(Duplicate entry 'J598CX1' for key 'service_tag')
+Error on line '204': could not insert device 'asset_num(1265)' into table
+  reason(Duplicate entry 'H64QQP2' for key 'service_tag')
+Error on line '205': could not insert device 'asset_num(1235)' into table
+  reason(Duplicate entry 'H64XQP2' for key 'service_tag')
+Error on line '206': could not insert device 'asset_num(1671)' into table
+  reason(Duplicate entry 'H931FX1' for key 'service_tag')
+Error on line '207': could not insert device 'asset_num(602)' into table
+  reason(Duplicate entry 'CPQZM22' for key 'service_tag')
+Error on line '208': could not insert device 'asset_num(380)' into table
+  reason(Duplicate entry 'CPQRM22' for key 'service_tag')
+Error on line '209': could not insert device 'asset_num(792)' into table
+  reason(Duplicate entry '32Z5KB2' for key 'service_tag')
+Error on line '210': could not insert device 'asset_num(791)' into table
+  reason(Duplicate entry '3324KB2' for key 'service_tag')
+Error on line '211': could not insert device 'asset_num(787)' into table
+  reason(Duplicate entry '3334KB2' for key 'service_tag')
+Error on line '212': could not insert device 'asset_num(786)' into table
+  reason(Duplicate entry '3306KB2' for key 'service_tag')
+Error on line '213': could not insert device 'asset_num(782)' into table
+  reason(Duplicate entry '3314KB2' for key 'service_tag')
+Error on line '214': could not insert device 'asset_num(789)' into table
+  reason(Duplicate entry '3304KB2' for key 'service_tag')
+Error on line '215': could not insert device 'asset_num(785)' into table
+  reason(Duplicate entry '3326KB2' for key 'service_tag')
+Error on line '216': could not insert device 'asset_num(784)' into table
+  reason(Duplicate entry '3316KB2' for key 'service_tag')
+Error on line '217': could not insert device 'asset_num(783)' into table
+  reason(Duplicate entry '3305KB2' for key 'service_tag')
+Error on line '218': could not insert device 'asset_num(790)' into table
+  reason(Duplicate entry '3315KB2' for key 'service_tag')
+Error on line '219': could not insert device 'asset_num(788)' into table
+  reason(Duplicate entry '3325KB2' for key 'service_tag')
+Error on line '220': could not insert device 'asset_num(117)' into table
+  reason(Duplicate entry '4F7XSW1' for key 'service_tag')
+Error on line '221': could not insert device 'asset_num(571)' into table
+  reason(Duplicate entry 'H19ZJB2' for key 'service_tag')
+Error on line '222': could not insert device 'asset_num(573)' into table
+  reason(Duplicate entry 'H1B1KB2' for key 'service_tag')
+Error on line '223': could not insert device 'asset_num(575)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1LGT' for key 'serial_num')
+Error on line '224': could not insert device 'asset_num(1220)' into table
+  reason(Duplicate entry '83RQTR2' for key 'serial_num')
+Error on line '225': could not insert device 'asset_num(1521)' into table
+  reason(Duplicate entry 'D23MJN2' for key 'serial_num')
+Error on line '226': could not insert device 'asset_num(576)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1VMT' for key 'serial_num')
+Error on line '227': could not insert device 'asset_num(580)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1LBT' for key 'serial_num')
+Error on line '228': could not insert device 'asset_num(1518)' into table
+  reason(Duplicate entry '523MJN2' for key 'serial_num')
+Alert on line '229': inserted assignee 'MIS Troubleshoot WS \\ Intern' into table
+Error on line '229': could not insert device 'asset_num(584)' into table
+  reason(Incorrect integer value: '' for column `inventory_test`.`devices`.`assignee` at row 1)
+Error on line '230': could not insert device 'asset_num(181)' into table
+  reason(Duplicate entry 'CN-0XTK9N-74445-252-587L' for key 'serial_num')
+Error on line '231': could not insert device 'asset_num(238)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-79L-GJQP' for key 'serial_num')
+Error on line '232': could not insert device 'asset_num(687)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1LAT' for key 'serial_num')
+Error on line '233': could not insert device 'asset_num(556)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5NPM' for key 'serial_num')
+Error on line '234': could not insert device 'asset_num(1519)' into table
+  reason(Duplicate entry '823MJN2' for key 'serial_num')
+Error on line '235': could not insert device 'asset_num(1215)' into table
+  reason(Duplicate entry 'BPYVZR2' for key 'serial_num')
+Error on line '236': could not insert device 'asset_num(1214)' into table
+  reason(Duplicate entry 'JPYVZR2' for key 'serial_num')
+Error on line '237': could not insert device 'asset_num(1216)' into table
+  reason(Duplicate entry '7RYVZR2' for key 'serial_num')
+Error on line '238': could not insert device 'asset_num(524)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38ML' for key 'serial_num')
+Error on line '239': could not insert device 'asset_num(200)' into table
+  reason(Duplicate entry 'CN-07R1K3-74445-44H-ADPL' for key 'serial_num')
+Error on line '240': could not insert device 'asset_num(230)' into table
+  reason(Duplicate entry 'CN-07R1K3-74445-44J-AHDS' for key 'serial_num')
+Error on line '241': could not insert device 'asset_num(1218)' into table
+  reason(Duplicate entry 'GQYVZR2' for key 'serial_num')
+Error on line '242': could not insert device 'asset_num(1217)' into table
+  reason(Duplicate entry 'DSYVZR2' for key 'serial_num')
+Error on line '243': could not insert device 'asset_num(1511)' into table
+  reason(Duplicate entry '423MJN2' for key 'serial_num')
+Error on line '244': could not insert device 'asset_num(1719)' into table
+  reason(Duplicate entry '7G8CTR2' for key 'serial_num')
+Error on line '245': could not insert device 'asset_num(1577)' into table
+  reason(Duplicate entry '3VRTKL2' for key 'serial_num')
+Error on line '246': could not insert device 'asset_num(1563)' into table
+  reason(Duplicate entry 'DMG7TR2' for key 'serial_num')
+Error on line '247': could not insert device 'asset_num(1578)' into table
+  reason(Duplicate entry '3TVSKL2' for key 'serial_num')
+Error on line '248': could not insert device 'asset_num(1560)' into table
+  reason(Duplicate entry 'DGK6TR2' for key 'serial_num')
+Error on line '249': could not insert device 'asset_num(1587)' into table
+  reason(Duplicate entry 'DD18TR2' for key 'serial_num')
+Error on line '250': could not insert device 'asset_num(1588)' into table
+  reason(Duplicate entry '3SXSKL2' for key 'serial_num')
+Error on line '251': could not insert device 'asset_num(1536)' into table
+  reason(Duplicate entry 'BQF6TR2' for key 'serial_num')
+Error on line '252': could not insert device 'asset_num(1574)' into table
+  reason(Duplicate entry 'BG57TR2' for key 'serial_num')
+Error on line '253': could not insert device 'asset_num(1718)' into table
+  reason(Duplicate entry '7H9CTR2' for key 'serial_num')
+Error on line '254': could not insert device 'asset_num(1581)' into table
+  reason(Duplicate entry 'BPC6TR2' for key 'serial_num')
+Error on line '255': could not insert device 'asset_num(1546)' into table
+  reason(Duplicate entry '3Q4TKL2' for key 'serial_num')
+Error on line '256': could not insert device 'asset_num(1564)' into table
+  reason(Duplicate entry '3MLTKL2' for key 'serial_num')
+Error on line '257': could not insert device 'asset_num(1604)' into table
+  reason(Duplicate entry '3JYSKL2' for key 'serial_num')
+Error on line '258': could not insert device 'asset_num(1584)' into table
+  reason(Duplicate entry '3NLTKL2' for key 'serial_num')
+Error on line '259': could not insert device 'asset_num(1580)' into table
+  reason(Duplicate entry '3M58TR2' for key 'serial_num')
+Error on line '260': could not insert device 'asset_num(1562)' into table
+  reason(Duplicate entry '3N6TKL2' for key 'serial_num')
+Error on line '261': could not insert device 'asset_num(1724)' into table
+  reason(Duplicate entry '7CYJTR2' for key 'serial_num')
+Error on line '262': could not insert device 'asset_num(1548)' into table
+  reason(Duplicate entry '3SHTKL2' for key 'serial_num')
+Error on line '263': could not insert device 'asset_num(1533)' into table
+  reason(Duplicate entry 'BH48TR2' for key 'serial_num')
+Error on line '264': could not insert device 'asset_num(1607)' into table
+  reason(Duplicate entry 'BXKTKL2' for key 'serial_num')
+Error on line '265': could not insert device 'asset_num(1801)' into table
+  reason(Duplicate entry 'C2WGTR2' for key 'serial_num')
+Error on line '266': could not insert device 'asset_num(1600)' into table
+  reason(Duplicate entry 'DBG8TR2' for key 'serial_num')
+Error on line '267': could not insert device 'asset_num(1585)' into table
+  reason(Duplicate entry 'DJS7TR2' for key 'serial_num')
+Error on line '268': could not insert device 'asset_num(1532)' into table
+  reason(Duplicate entry 'DFM6TR2' for key 'serial_num')
+Error on line '269': could not insert device 'asset_num(1513)' into table
+  reason(Duplicate entry '723MJN2' for key 'serial_num')
+Error on line '270': could not insert device 'asset_num(1567)' into table
+  reason(Duplicate entry 'D617TR2' for key 'serial_num')
+Error on line '271': could not insert device 'asset_num(1582)' into table
+  reason(Duplicate entry 'JDHSKL2' for key 'serial_num')
+Error on line '272': could not insert device 'asset_num(1568)' into table
+  reason(Duplicate entry 'D9C6TR2' for key 'serial_num')
+Error on line '273': could not insert device 'asset_num(1610)' into table
+  reason(Duplicate entry '3QLTKL2' for key 'serial_num')
+Error on line '274': could not insert device 'asset_num(1517)' into table
+  reason(Duplicate entry 'F23MJN2' for key 'serial_num')
+Error on line '275': could not insert device 'asset_num(1597)' into table
+  reason(Duplicate entry '3V7TKL2' for key 'serial_num')
+Error on line '276': could not insert device 'asset_num(1525)' into table
+  reason(Duplicate entry 'BJK6TR2' for key 'serial_num')
+Error on line '277': could not insert device 'asset_num(1569)' into table
+  reason(Duplicate entry 'BP78TR2' for key 'serial_num')
+Error on line '278': could not insert device 'asset_num(1539)' into table
+  reason(Duplicate entry 'DPC6TR2' for key 'serial_num')
+Error on line '279': could not insert device 'asset_num(1721)' into table
+  reason(Duplicate entry 'CTXJTR2' for key 'serial_num')
+Error on line '280': could not insert device 'asset_num(1589)' into table
+  reason(Duplicate entry '3LHTKL2' for key 'serial_num')
+Error on line '281': could not insert device 'asset_num(1541)' into table
+  reason(Duplicate entry 'DF78TR2' for key 'serial_num')
+Error on line '282': could not insert device 'asset_num(1579)' into table
+  reason(Duplicate entry '3LWTKL2' for key 'serial_num')
+Error on line '283': could not insert device 'asset_num(1537)' into table
+  reason(Duplicate entry 'DTK6TR2' for key 'serial_num')
+Error on line '284': could not insert device 'asset_num(1540)' into table
+  reason(Duplicate entry '3VKTKL2' for key 'serial_num')
+Error on line '285': could not insert device 'asset_num(1535)' into table
+  reason(Duplicate entry 'BH98TR2' for key 'serial_num')
+Error on line '286': could not insert device 'asset_num(1557)' into table
+  reason(Duplicate entry 'JF4TKL2' for key 'serial_num')
+Error on line '287': could not insert device 'asset_num(1529)' into table
+  reason(Duplicate entry 'DVD7TR2' for key 'serial_num')
+Error on line '288': could not insert device 'asset_num(1804)' into table
+  reason(Duplicate entry '7BGCTR2' for key 'serial_num')
+Error on line '289': could not insert device 'asset_num(1534)' into table
+  reason(Duplicate entry 'JNHTKL2' for key 'serial_num')
+Error on line '290': could not insert device 'asset_num(1601)' into table
+  reason(Duplicate entry 'D1N6TR2' for key 'serial_num')
+Error on line '291': could not insert device 'asset_num(1586)' into table
+  reason(Duplicate entry '3RVSKL2' for key 'serial_num')
+Error on line '292': could not insert device 'asset_num(1613)' into table
+  reason(Duplicate entry 'DDG8TR2' for key 'serial_num')
+Error on line '293': could not insert device 'asset_num(1712)' into table
+  reason(Duplicate entry '7G6BTR2' for key 'serial_num')
+Error on line '294': could not insert device 'asset_num(1705)' into table
+  reason(Duplicate entry '7DBCTR2' for key 'serial_num')
+Error on line '295': could not insert device 'asset_num(1692)' into table
+  reason(Duplicate entry '7GHXTR2' for key 'serial_num')
+Error on line '296': could not insert device 'asset_num(176)' into table
+  reason(Duplicate entry 'CN-0XTK9N-74445-24H-917S' for key 'serial_num')
+Error on line '297': could not insert device 'asset_num(1141)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CP-0L8U' for key 'serial_num')
+Error on line '298': could not insert device 'asset_num(1612)' into table
+  reason(Duplicate entry '3X5TKL2' for key 'serial_num')
+Error on line '299': could not insert device 'asset_num(1549)' into table
+  reason(Duplicate entry '3KTTKL2' for key 'serial_num')
+Error on line '300': could not insert device 'asset_num(1599)' into table
+  reason(Duplicate entry 'D4M6TR2' for key 'serial_num')
+Error on line '301': could not insert device 'asset_num(1523)' into table
+  reason(Duplicate entry 'DDL6TR2' for key 'serial_num')
+Error on line '302': could not insert device 'asset_num(1512)' into table
+  reason(Duplicate entry 'H13MJN2' for key 'serial_num')
+Error on line '303': could not insert device 'asset_num(1806)' into table
+  reason(Duplicate entry 'C25JTR2' for key 'serial_num')
+Error on line '304': could not insert device 'asset_num(1572)' into table
+  reason(Duplicate entry 'DXK6TR2' for key 'serial_num')
+Error on line '305': could not insert device 'asset_num(1603)' into table
+  reason(Duplicate entry 'D9G8TR2' for key 'serial_num')
+Error on line '306': could not insert device 'asset_num(1598)' into table
+  reason(Duplicate entry 'DCN6TR2' for key 'serial_num')
+Error on line '307': could not insert device 'asset_num(1720)' into table
+  reason(Duplicate entry 'C1C9TR2' for key 'serial_num')
+Error on line '308': could not insert device 'asset_num(1561)' into table
+  reason(Duplicate entry '3WRSKL2' for key 'serial_num')
+Error on line '309': could not insert device 'asset_num(1609)' into table
+  reason(Duplicate entry 'DDB6TR2' for key 'serial_num')
+Error on line '310': could not insert device 'asset_num(1556)' into table
+  reason(Duplicate entry '3PHTKL2' for key 'serial_num')
+Error on line '311': could not insert device 'asset_num(516)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-67B-BCJZ' for key 'serial_num')
+Error on line '312': could not insert device 'asset_num(1552)' into table
+  reason(Duplicate entry 'D7G8TR2' for key 'serial_num')
+Error on line '313': could not insert device 'asset_num(1727)' into table
+  reason(Duplicate entry 'C1JZTR2' for key 'serial_num')
+Error on line '314': could not insert device 'asset_num(328)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCKM' for key 'serial_num')
+Error on line '315': could not insert device 'asset_num(233)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTW' for key 'serial_num')
+Error on line '316': could not insert device 'asset_num(1602)' into table
+  reason(Duplicate entry 'D2C6TR2' for key 'serial_num')
+Error on line '317': could not insert device 'asset_num(303)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGS' for key 'serial_num')
+Error on line '318': could not insert device 'asset_num(1566)' into table
+  reason(Duplicate entry 'DZF6TR2' for key 'serial_num')
+Error on line '319': could not insert device 'asset_num(1571)' into table
+  reason(Duplicate entry '3J58TR2' for key 'serial_num')
+Error on line '320': could not insert device 'asset_num(1593)' into table
+  reason(Duplicate entry '3NYSKL2' for key 'serial_num')
+Error on line '321': could not insert device 'asset_num(1596)' into table
+  reason(Duplicate entry 'D547TR2' for key 'serial_num')
+Error on line '322': could not insert device 'asset_num(1606)' into table
+  reason(Duplicate entry '3MVSKL2' for key 'serial_num')
+Error on line '323': could not insert device 'asset_num(1595)' into table
+  reason(Duplicate entry 'D778TR2' for key 'serial_num')
+Error on line '324': could not insert device 'asset_num(1611)' into table
+  reason(Duplicate entry '3NVSKL2' for key 'serial_num')
+Error on line '325': could not insert device 'asset_num(530)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0L8L' for key 'serial_num')
+Error on line '326': could not insert device 'asset_num(1707)' into table
+  reason(Duplicate entry 'C3ZFTR2' for key 'serial_num')
+Error on line '327': could not insert device 'asset_num(312)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MLL' for key 'serial_num')
+Error on line '328': could not insert device 'asset_num(1695)' into table
+  reason(Duplicate entry 'C2RBTR2' for key 'serial_num')
+Error on line '329': could not insert device 'asset_num(203)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0G9L' for key 'serial_num')
+Error on line '330': could not insert device 'asset_num(689)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P5M' for key 'serial_num')
+Error on line '331': could not insert device 'asset_num(1622)' into table
+  reason(Duplicate entry 'DWG6TR2' for key 'serial_num')
+Error on line '332': could not insert device 'asset_num(183)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-48J-0E0U' for key 'serial_num')
+Error on line '333': could not insert device 'asset_num(1605)' into table
+  reason(Duplicate entry 'CZF6TR2' for key 'serial_num')
+Error on line '334': could not insert device 'asset_num(1616)' into table
+  reason(Duplicate entry '3L58TR2' for key 'serial_num')
+Error on line '335': could not insert device 'asset_num(1524)' into table
+  reason(Duplicate entry 'BN98TR2' for key 'serial_num')
+Error on line '336': could not insert device 'asset_num(1570)' into table
+  reason(Duplicate entry 'DPM6TR2' for key 'serial_num')
+Error on line '337': could not insert device 'asset_num(1802)' into table
+  reason(Duplicate entry '7GYJTR2' for key 'serial_num')
+Error on line '338': could not insert device 'asset_num(180)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38LL' for key 'serial_num')
+Error on line '339': could not insert device 'asset_num(1614)' into table
+  reason(Duplicate entry '3SCTKL2' for key 'serial_num')
+Error on line '340': could not insert device 'asset_num(1811)' into table
+  reason(Duplicate entry 'C17JTR2' for key 'serial_num')
+Error on line '341': could not insert device 'asset_num(1725)' into table
+  reason(Duplicate entry 'BZDBTR2' for key 'serial_num')
+Error on line '342': could not insert device 'asset_num(1526)' into table
+  reason(Duplicate entry 'D5G8TR2' for key 'serial_num')
+Error on line '343': could not insert device 'asset_num(1619)' into table
+  reason(Duplicate entry '3TZ7TR2' for key 'serial_num')
+Error on line '344': could not insert device 'asset_num(1728)' into table
+  reason(Duplicate entry 'C1ZBTR2' for key 'serial_num')
+Error on line '345': could not insert device 'asset_num(1617)' into table
+  reason(Duplicate entry '3N4TKL2' for key 'serial_num')
+Error on line '346': could not insert device 'asset_num(1565)' into table
+  reason(Duplicate entry '3LLTKL2' for key 'serial_num')
+Error on line '347': could not insert device 'asset_num(1515)' into table
+  reason(Duplicate entry '323MJN2' for key 'serial_num')
+Error on line '348': could not insert device 'asset_num(1592)' into table
+  reason(Duplicate entry '3TGSKL2' for key 'serial_num')
+Error on line '349': could not insert device 'asset_num(1723)' into table
+  reason(Duplicate entry 'C4VJTR2' for key 'serial_num')
+Error on line '350': could not insert device 'asset_num(1621)' into table
+  reason(Duplicate entry '3N2TKL2' for key 'serial_num')
+Error on line '351': could not insert device 'asset_num(1608)' into table
+  reason(Duplicate entry 'DDK6TR2' for key 'serial_num')
+Error on line '352': could not insert device 'asset_num(1701)' into table
+  reason(Duplicate entry '7H6GTR2' for key 'serial_num')
+Error on line '353': could not insert device 'asset_num(1594)' into table
+  reason(Duplicate entry 'DJ78T32' for key 'serial_num')
+Error on line '354': could not insert device 'asset_num(1591)' into table
+  reason(Duplicate entry 'DKS7TR2' for key 'serial_num')
+Error on line '355': could not insert device 'asset_num(1590)' into table
+  reason(Duplicate entry '3JYTKL2' for key 'serial_num')
+Error on line '356': could not insert device 'asset_num(1538)' into table
+  reason(Duplicate entry 'JP48TR2' for key 'serial_num')
+Error on line '357': could not insert device 'asset_num(1544)' into table
+  reason(Duplicate entry 'JD48TR2' for key 'serial_num')
+Error on line '358': could not insert device 'asset_num(1543)' into table
+  reason(Duplicate entry 'BJS7TR2' for key 'serial_num')
+Error on line '359': could not insert device 'asset_num(1558)' into table
+  reason(Duplicate entry '3SVSKL2' for key 'serial_num')
+Error on line '360': could not insert device 'asset_num(1559)' into table
+  reason(Duplicate entry '3V1TKL2' for key 'serial_num')
+Error on line '361': could not insert device 'asset_num(1803)' into table
+  reason(Duplicate entry '7BG9TR2' for key 'serial_num')
+Error on line '362': could not insert device 'asset_num(1805)' into table
+  reason(Duplicate entry '7HQFTR2' for key 'serial_num')
+Error on line '363': could not insert device 'asset_num(1530)' into table
+  reason(Duplicate entry 'D517TR2' for key 'serial_num')
+Error on line '364': could not insert device 'asset_num(327)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-AFPJ' for key 'serial_num')
+Error on line '365': could not insert device 'asset_num(1516)' into table
+  reason(Duplicate entry 'G13MJN2' for key 'serial_num')
+Error on line '366': could not insert device 'asset_num(272)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N0L' for key 'serial_num')
+Error on line '367': could not insert device 'asset_num(1575)' into table
+  reason(Duplicate entry 'JJWTKL2' for key 'serial_num')
+Error on line '368': could not insert device 'asset_num(1576)' into table
+  reason(Duplicate entry '3LZ7TR2' for key 'serial_num')
+Error on line '369': could not insert device 'asset_num(1623)' into table
+  reason(Duplicate entry '3TPTKL2' for key 'serial_num')
+Error on line '370': could not insert device 'asset_num(1553)' into table
+  reason(Duplicate entry 'D1B6TR2' for key 'serial_num')
+Error on line '371': could not insert device 'asset_num(1583)' into table
+  reason(Duplicate entry 'CZK6TR2' for key 'serial_num')
+Error on line '372': could not insert device 'asset_num(1545)' into table
+  reason(Duplicate entry '3T3TKL2' for key 'serial_num')
+Error on line '373': could not insert device 'asset_num(1528)' into table
+  reason(Duplicate entry 'DD78TR2' for key 'serial_num')
+Error on line '374': could not insert device 'asset_num(551)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P4M' for key 'serial_num')
+Error on line '375': could not insert device 'asset_num(543)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P0M' for key 'serial_num')
+Error on line '376': could not insert device 'asset_num(570)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1VPT' for key 'serial_num')
+Error on line '377': could not insert device 'asset_num(417)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0MEL' for key 'serial_num')
+Error on line '378': could not insert device 'asset_num(185)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38FL' for key 'serial_num')
+Error on line '379': could not insert device 'asset_num(309)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N7L' for key 'serial_num')
+Error on line '380': could not insert device 'asset_num(542)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0L6L' for key 'serial_num')
+Error on line '381': could not insert device 'asset_num(201)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0G3L' for key 'serial_num')
+Error on line '382': could not insert device 'asset_num(350)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G094' for key 'serial_num')
+Error on line '383': could not insert device 'asset_num(693)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P1M' for key 'serial_num')
+Error on line '384': could not insert device 'asset_num(500)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CM-2NJM' for key 'serial_num')
+Error on line '385': could not insert device 'asset_num(1145)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0NVL' for key 'serial_num')
+Error on line '386': could not insert device 'asset_num(1148)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-29A-1F1M' for key 'serial_num')
+Error on line '387': could not insert device 'asset_num(302)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D2L' for key 'serial_num')
+Error on line '388': could not insert device 'asset_num(1146)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CP-0L3U' for key 'serial_num')
+Error on line '389': could not insert device 'asset_num(339)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D7L' for key 'serial_num')
+Error on line '390': could not insert device 'asset_num(410)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-A43S' for key 'serial_num')
+Error on line '391': could not insert device 'asset_num(497)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-73Q-951S' for key 'serial_num')
+Error on line '392': could not insert device 'asset_num(385)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D9L' for key 'serial_num')
+Error on line '393': could not insert device 'asset_num(496)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZE' for key 'serial_num')
+Error on line '394': could not insert device 'asset_num(467)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGG' for key 'serial_num')
+Error on line '395': could not insert device 'asset_num(466)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GF2N' for key 'serial_num')
+Error on line '396': could not insert device 'asset_num(243)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGE' for key 'serial_num')
+Error on line '397': could not insert device 'asset_num(308)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZK' for key 'serial_num')
+Error on line '398': could not insert device 'asset_num(298)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZS' for key 'serial_num')
+Error on line '399': could not insert device 'asset_num(485)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-2VDL' for key 'serial_num')
+Error on line '400': could not insert device 'asset_num(696)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1LCT' for key 'serial_num')
+Error on line '401': could not insert device 'asset_num(478)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38NL' for key 'serial_num')
+Error on line '402': could not insert device 'asset_num(492)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A0L' for key 'serial_num')
+Error on line '403': could not insert device 'asset_num(480)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38PL' for key 'serial_num')
+Error on line '404': could not insert device 'asset_num(544)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P3M' for key 'serial_num')
+Error on line '405': could not insert device 'asset_num(383)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5NTM' for key 'serial_num')
+Error on line '406': could not insert device 'asset_num(1151)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0P4L' for key 'serial_num')
+Error on line '407': could not insert assignee 'Di’Indra Dhanantwari ' into table
+  reason(Incorrect string value: '\x92Indra...' for column `inventory_test`.`assignees`.`name` at row 1)
+Error on line '408': could not insert device 'asset_num(1142)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0PDL' for key 'serial_num')
+Error on line '409': could not insert device 'asset_num(1153)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-29A-1ELM' for key 'serial_num')
+Error on line '410': could not insert device 'asset_num(394)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0P3L' for key 'serial_num')
+Error on line '411': could not insert device 'asset_num(667)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5NRM' for key 'serial_num')
+Error on line '412': could not insert device 'asset_num(415)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P7M' for key 'serial_num')
+Error on line '413': could not insert device 'asset_num(389)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A1L' for key 'serial_num')
+Error on line '414': could not insert device 'asset_num(644)' into table
+  reason(Duplicate entry '604NTKFF0549' for key 'serial_num')
+Error on line '415': could not insert device 'asset_num(487)' into table
+  reason(Duplicate entry 'CN-0XTK9N-74445-24H-8775' for key 'serial_num')
+Error on line '416': could not insert device 'asset_num(447)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-A1DS' for key 'serial_num')
+Error on line '417': could not insert device 'asset_num(670)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1VJT' for key 'serial_num')
+Error on line '418': could not insert device 'asset_num(293)' into table
+  reason(Duplicate entry 'CN-70R1K3-74445-44J-ACXS' for key 'serial_num')
+Error on line '419': could not insert device 'asset_num(1731)' into table
+  reason(Duplicate entry '7C2CTR2' for key 'serial_num')
+Error on line '420': could not insert device 'asset_num(1729)' into table
+  reason(Duplicate entry '7BHCTR2' for key 'serial_num')
+Error on line '421': could not insert device 'asset_num(409)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-945S' for key 'serial_num')
+Error on line '422': could not insert device 'asset_num(503)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-943S' for key 'serial_num')
+Error on line '423': could not insert device 'asset_num(184)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-39VL' for key 'serial_num')
+Error on line '424': could not insert device 'asset_num(204)' into table
+  reason(Duplicate entry 'CN-0D3073-7445-93Q-A3WS' for key 'serial_num')
+Error on line '425': could not insert device 'asset_num(451)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-48J-0DYU' for key 'serial_num')
+Error on line '426': could not insert device 'asset_num(403)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-39YL' for key 'serial_num')
+Error on line '427': could not insert device 'asset_num(401)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A2L' for key 'serial_num')
+Error on line '428': could not insert device 'asset_num(359)' into table
+  reason(Duplicate entry 'CN-0524NS-74261-475-39WL' for key 'serial_num')
+Error on line '429': could not insert device 'asset_num(362)' into table
+  reason(Duplicate entry 'CN-0RV21-74261-324' for key 'serial_num')
+Error on line '430': could not insert device 'asset_num(366)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-A41S' for key 'serial_num')
+Error on line '431': could not insert device 'asset_num(368)' into table
+  reason(Duplicate entry 'CN-0GP004-72872-7C4-20RU' for key 'serial_num')
+Error on line '432': could not insert device 'asset_num(668)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CM-2NEM' for key 'serial_num')
+Error on line '433': could not insert device 'asset_num(472)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0N8L' for key 'serial_num')
+Error on line '434': could not insert device 'asset_num(371)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0LEL' for key 'serial_num')
+Error on line '435': could not insert device 'asset_num(461)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38KL' for key 'serial_num')
+Error on line '436': could not insert device 'asset_num(463)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-37KL' for key 'serial_num')
+Error on line '437': could not insert device 'asset_num(459)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-38HL' for key 'serial_num')
+Error on line '438': could not insert device 'asset_num(196)' into table
+  reason(Duplicate entry 'CN-07R1K3-74445-44H-ADML' for key 'serial_num')
+Error on line '439': could not insert device 'asset_num(499)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0P2L' for key 'serial_num')
+Error on line '440': could not insert device 'asset_num(441)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A6L' for key 'serial_num')
+Error on line '441': could not insert device 'asset_num(479)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A3L' for key 'serial_num')
+Error on line '442': could not insert device 'asset_num(174)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-48J-1AYU' for key 'serial_num')
+Error on line '443': could not insert device 'asset_num(400)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A4L' for key 'serial_num')
+Error on line '444': could not insert device 'asset_num(379)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CM-2NHM' for key 'serial_num')
+Error on line '445': could not insert device 'asset_num(553)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0L0L' for key 'serial_num')
+Error on line '446': could not insert device 'asset_num(1693)' into table
+  reason(Duplicate entry 'C2FCTR2' for key 'serial_num')
+Error on line '447': could not insert device 'asset_num(313)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MWL' for key 'serial_num')
+Error on line '448': could not insert device 'asset_num(555)' into table
+  reason(Duplicate entry 'CN-0DCV1K-64180-56G-15QL' for key 'serial_num')
+Error on line '449': could not insert device 'asset_num(1713)' into table
+  reason(Duplicate entry 'C5ZFTR2' for key 'serial_num')
+Error on line '450': could not insert device 'asset_num(1522)' into table
+  reason(Duplicate entry '923MJN2' for key 'serial_num')
+Error on line '451': could not insert device 'asset_num(473)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CP-0L5U' for key 'serial_num')
+Error on line '452': could not insert device 'asset_num(1746)' into table
+  reason(Duplicate entry 'C2PBTR2' for key 'serial_num')
+Error on line '453': could not insert device 'asset_num(579)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1VHT' for key 'serial_num')
+Alert on line '454': inserted assignee 'MIS Troubleshoot WS \\ Intern' into table
+Error on line '454': could not insert device 'asset_num(195)' into table
+  reason(Incorrect integer value: '' for column `inventory_test`.`devices`.`assignee` at row 1)
+Error on line '455': could not insert device 'asset_num(192)' into table
+  reason(Duplicate entry 'CN-0XTK9N-74445-24H-893S' for key 'serial_num')
+Error on line '456': could not insert device 'asset_num(248)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTN' for key 'serial_num')
+Error on line '457': could not insert device 'asset_num(363)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0NRL' for key 'serial_num')
+Error on line '458': could not insert device 'asset_num(557)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0L7L' for key 'serial_num')
+Error on line '459': could not insert device 'asset_num(1527)' into table
+  reason(Duplicate entry 'CY07TR2' for key 'serial_num')
+Error on line '460': could not insert device 'asset_num(223)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0GLL' for key 'serial_num')
+Error on line '461': could not insert device 'asset_num(396)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGN' for key 'serial_num')
+Error on line '462': could not insert device 'asset_num(287)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0DDL' for key 'serial_num')
+Error on line '463': could not insert device 'asset_num(310)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CWL' for key 'serial_num')
+Error on line '464': could not insert device 'asset_num(354)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGT' for key 'serial_num')
+Error on line '465': could not insert device 'asset_num(348)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTQ' for key 'serial_num')
+Error on line '466': could not insert device 'asset_num(218)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-849-RDZ2' for key 'serial_num')
+Error on line '467': could not insert device 'asset_num(274)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N2L' for key 'serial_num')
+Error on line '468': could not insert device 'asset_num(212)' into table
+  reason(Duplicate entry 'CN-0D3073-7445-93Q-A4FS' for key 'serial_num')
+Error on line '469': could not insert device 'asset_num(229)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0GEL' for key 'serial_num')
+Error on line '470': could not insert device 'asset_num(264)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CVL' for key 'serial_num')
+Error on line '471': could not insert device 'asset_num(422)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MDL' for key 'serial_num')
+Error on line '472': could not insert device 'asset_num(333)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGF' for key 'serial_num')
+Error on line '473': could not insert device 'asset_num(285)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N6L' for key 'serial_num')
+Error on line '474': could not insert device 'asset_num(465)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CUL' for key 'serial_num')
+Error on line '475': could not insert device 'asset_num(438)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCKJ' for key 'serial_num')
+Error on line '476': could not insert device 'asset_num(330)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CSL' for key 'serial_num')
+Error on line '477': could not insert device 'asset_num(355)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G053' for key 'serial_num')
+Error on line '478': could not insert device 'asset_num(323)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GF2U' for key 'serial_num')
+Error on line '479': could not insert device 'asset_num(251)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0DCL' for key 'serial_num')
+Error on line '480': could not insert device 'asset_num(346)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGP' for key 'serial_num')
+Error on line '481': could not insert device 'asset_num(506)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZ2' for key 'serial_num')
+Error on line '482': could not insert device 'asset_num(279)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CNL' for key 'serial_num')
+Error on line '483': could not insert device 'asset_num(325)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G056' for key 'serial_num')
+Error on line '484': could not insert device 'asset_num(1152)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5NUM' for key 'serial_num')
+Error on line '485': could not insert device 'asset_num(276)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G066' for key 'serial_num')
+Error on line '486': could not insert device 'asset_num(428)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-05YL' for key 'serial_num')
+Error on line '487': could not insert device 'asset_num(249)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7AJ-5LAS' for key 'serial_num')
+Error on line '488': could not insert device 'asset_num(351)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CYL' for key 'serial_num')
+Error on line '489': could not insert device 'asset_num(1555)' into table
+  reason(Duplicate entry '3JSTKL2' for key 'serial_num')
+Error on line '490': could not insert device 'asset_num(352)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFU0' for key 'serial_num')
+Error on line '491': could not insert device 'asset_num(520)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MML' for key 'serial_num')
+Error on line '492': could not insert device 'asset_num(469)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D3L' for key 'serial_num')
+Error on line '493': could not insert device 'asset_num(515)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G062' for key 'serial_num')
+Error on line '494': could not insert device 'asset_num(221)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G090' for key 'serial_num')
+Error on line '495': could not insert device 'asset_num(517)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTM' for key 'serial_num')
+Error on line '496': could not insert device 'asset_num(283)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFYN' for key 'serial_num')
+Error on line '497': could not insert device 'asset_num(255)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BBHO' for key 'serial_num')
+Error on line '498': could not insert device 'asset_num(236)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZ6' for key 'serial_num')
+Error on line '499': could not insert device 'asset_num(242)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GF2T' for key 'serial_num')
+Error on line '500': could not insert device 'asset_num(269)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZF' for key 'serial_num')
+Error on line '501': could not insert device 'asset_num(253)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-83H-2MXU' for key 'serial_num')
+Error on line '502': could not insert device 'asset_num(259)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-GETX' for key 'serial_num')
+Error on line '503': could not insert device 'asset_num(281)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-GETV' for key 'serial_num')
+Error on line '504': could not insert device 'asset_num(1712)' into table
+  reason(Duplicate entry '7G6BTR2' for key 'serial_num')
+Error on line '505': could not insert device 'asset_num(1726)' into table
+  reason(Duplicate entry 'C0VJTR2' for key 'serial_num')
+Error on line '506': could not insert device 'asset_num(1531)' into table
+  reason(Duplicate entry 'D818TR2' for key 'serial_num')
+Error on line '507': could not insert device 'asset_num(486)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-6JGM' for key 'serial_num')
+Error on line '508': could not insert device 'asset_num(1154)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CP-0L9U' for key 'serial_num')
+Error on line '509': could not insert device 'asset_num(342)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G077' for key 'serial_num')
+Error on line '510': could not insert device 'asset_num(341)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFYY' for key 'serial_num')
+Error on line '511': could not insert device 'asset_num(262)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTF' for key 'serial_num')
+Error on line '512': could not insert device 'asset_num(510)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G035' for key 'serial_num')
+Error on line '513': could not insert device 'asset_num(435)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCG9' for key 'serial_num')
+Error on line '514': could not insert device 'asset_num(322)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFT7' for key 'serial_num')
+Error on line '515': could not insert device 'asset_num(436)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-GETQ' for key 'serial_num')
+Error on line '516': could not insert device 'asset_num(508)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCGF' for key 'serial_num')
+Error on line '517': could not insert device 'asset_num(273)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D4L' for key 'serial_num')
+Error on line '518': could not insert device 'asset_num(239)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTK' for key 'serial_num')
+Error on line '519': could not insert device 'asset_num(216)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTS' for key 'serial_num')
+Error on line '520': could not insert device 'asset_num(265)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0DAL' for key 'serial_num')
+Error on line '521': could not insert device 'asset_num(1550)' into table
+  reason(Duplicate entry '3PDSKL2' for key 'serial_num')
+Error on line '522': could not insert device 'asset_num(1573)' into table
+  reason(Duplicate entry 'DH98TR2' for key 'serial_num')
+Error on line '523': could not insert device 'asset_num(1547)' into table
+  reason(Duplicate entry 'DR78TR2' for key 'serial_num')
+Error on line '524': could not insert device 'asset_num(297)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GQF3' for key 'serial_num')
+Error on line '525': could not insert device 'asset_num(357)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCGD' for key 'serial_num')
+Error on line '526': could not insert device 'asset_num(278)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MRL' for key 'serial_num')
+Error on line '527': could not insert device 'asset_num(306)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUG2' for key 'serial_num')
+Error on line '528': could not insert device 'asset_num(305)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N1L' for key 'serial_num')
+Error on line '529': could not insert device 'asset_num(304)' into table
+  reason(Duplicate entry 'CN-0FP182-17618-77M-ABP8' for key 'serial_num')
+Error on line '530': could not insert device 'asset_num(232)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0GWL' for key 'serial_num')
+Error on line '531': could not insert device 'asset_num(214)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0GFL' for key 'serial_num')
+Error on line '532': could not insert device 'asset_num(343)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTG' for key 'serial_num')
+Error on line '533': could not insert device 'asset_num(220)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFU1' for key 'serial_num')
+Error on line '534': could not insert device 'asset_num(521)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFYT' for key 'serial_num')
+Error on line '535': could not insert device 'asset_num(247)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BAQG' for key 'serial_num')
+Error on line '536': could not insert device 'asset_num(690)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-2CM-2LAM' for key 'serial_num')
+Error on line '537': could not insert device 'asset_num(406)' into table
+  reason(Duplicate entry 'CN-OUW042-64180-7BD-1MSL' for key 'serial_num')
+Error on line '538': could not insert device 'asset_num(244)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFUA' for key 'serial_num')
+Error on line '539': could not insert device 'asset_num(349)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-2K3L' for key 'serial_num')
+Error on line '540': could not insert device 'asset_num(267)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGV' for key 'serial_num')
+Error on line '541': could not insert device 'asset_num(315)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUHQ' for key 'serial_num')
+Error on line '542': could not insert device 'asset_num(268)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G081' for key 'serial_num')
+Error on line '543': could not insert device 'asset_num(282)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFYQ' for key 'serial_num')
+Error on line '544': could not insert device 'asset_num(296)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G079' for key 'serial_num')
+Error on line '545': could not insert device 'asset_num(256)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7AJ-5KTS' for key 'serial_num')
+Error on line '546': could not insert device 'asset_num(241)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D5L' for key 'serial_num')
+Error on line '547': could not insert device 'asset_num(413)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFU8' for key 'serial_num')
+Error on line '548': could not insert device 'asset_num(321)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZQ' for key 'serial_num')
+Error on line '549': could not insert device 'asset_num(234)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0D8L' for key 'serial_num')
+Error on line '550': could not insert device 'asset_num(280)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGB' for key 'serial_num')
+Error on line '551': could not insert device 'asset_num(344)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1N5L' for key 'serial_num')
+Error on line '552': could not insert device 'asset_num(509)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFU6' for key 'serial_num')
+Error on line '553': could not insert device 'asset_num(261)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0APL' for key 'serial_num')
+Error on line '554': could not insert device 'asset_num(289)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGY' for key 'serial_num')
+Error on line '555': could not insert device 'asset_num(319)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G099' for key 'serial_num')
+Error on line '556': could not insert device 'asset_num(284)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-04KL' for key 'serial_num')
+Error on line '557': could not insert device 'asset_num(377)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G055' for key 'serial_num')
+Error on line '558': could not insert device 'asset_num(258)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFZG' for key 'serial_num')
+Error on line '559': could not insert device 'asset_num(1618)' into table
+  reason(Duplicate entry '3S58TR2' for key 'serial_num')
+Error on line '560': could not insert device 'asset_num(245)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GUGU' for key 'serial_num')
+Error on line '561': could not insert device 'asset_num(518)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUG6' for key 'serial_num')
+Error on line '562': could not insert device 'asset_num(507)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTJ' for key 'serial_num')
+Error on line '563': could not insert device 'asset_num(231)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G073' for key 'serial_num')
+Error on line '564': could not insert device 'asset_num(316)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFU4' for key 'serial_num')
+Error on line '565': could not insert device 'asset_num(300)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CQL' for key 'serial_num')
+Error on line '566': could not insert device 'asset_num(370)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G064' for key 'serial_num')
+Error on line '567': could not insert device 'asset_num(1554)' into table
+  reason(Duplicate entry '3NTTKL2' for key 'serial_num')
+Error on line '568': could not insert device 'asset_num(211)' into table
+  reason(Duplicate entry 'CN-OUW042-64180-7BG-0GSL' for key 'serial_num')
+Error on line '569': could not insert device 'asset_num(424)' into table
+  reason(Duplicate entry 'CN-0DC323-71618-67B-BCG8' for key 'serial_num')
+Error on line '570': could not insert device 'asset_num(431)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-754-G075' for key 'serial_num')
+Error on line '571': could not insert device 'asset_num(213)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTV' for key 'serial_num')
+Error on line '572': could not insert device 'asset_num(430)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MVL' for key 'serial_num')
+Error on line '573': could not insert device 'asset_num(329)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CML' for key 'serial_num')
+Error on line '574': could not insert device 'asset_num(331)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-732-GUGQ' for key 'serial_num')
+Error on line '575': could not insert device 'asset_num(219)' into table
+  reason(Duplicate entry 'CN-0FP182-71618-738-GFTP' for key 'serial_num')
+Error on line '576': could not insert device 'asset_num(554)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P6M' for key 'serial_num')
+Error on line '577': could not insert device 'asset_num(552)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-6JEM' for key 'serial_num')
+Error on line '578': could not insert device 'asset_num(541)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5NWM' for key 'serial_num')
+Error on line '579': could not insert device 'asset_num(1150)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0NTL' for key 'serial_num')
+Error on line '580': could not insert device 'asset_num(498)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-312-5P2M' for key 'serial_num')
+Error on line '581': could not insert device 'asset_num(399)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3A5L' for key 'serial_num')
+Error on line '582': could not insert device 'asset_num(578)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1LFT' for key 'serial_num')
+Error on line '583': could not insert device 'asset_num(1520)' into table
+  reason(Duplicate entry 'C23MJN2' for key 'serial_num')
+Error on line '584': could not insert device 'asset_num(257)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BG-0CPL' for key 'serial_num')
+Error on line '585': could not insert device 'asset_num()' into table
+  reason(Duplicate entry 'add extra monitor' for key 'serial_num')
+Error on line '586': could not insert device 'asset_num(347)' into table
+  reason(Duplicate entry 'CN-0UW042-64180-7BD-1MFL' for key 'serial_num')
+Error on line '587': could not insert device 'asset_num()' into table
+  reason(Duplicate entry 'second monitor' for key 'serial_num')
+Error on line '588': could not insert device 'asset_num(1219)' into table
+  reason(Duplicate entry 'FQYVZR2' for key 'serial_num')
+Error on line '589': could not insert device 'asset_num(337)' into table
+  reason(Duplicate entry 'CN-0XTK9N-74445-252-702L' for key 'serial_num')
+Error on line '590': could not insert device 'asset_num(488)' into table
+  reason(Duplicate entry 'CN-OXTK9N-74445-24H-8915' for key 'serial_num')
+Error on line '591': could not insert device 'asset_num(448)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-8785' for key 'serial_num')
+Error on line '592': could not insert device 'asset_num(545)' into table
+  reason(Duplicate entry '606NTEP1N292' for key 'serial_num')
+Error on line '593': could not insert device 'asset_num(294)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-475-3AVL' for key 'serial_num')
+Error on line '594': could not insert device 'asset_num(1732)' into table
+  reason(Duplicate entry 'BYYJTR2' for key 'serial_num')
+Error on line '595': could not insert device 'asset_num(1730)' into table
+  reason(Duplicate entry 'C4VCTR2' for key 'serial_num')
+Error on line '596': could not insert device 'asset_num(411)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-A47S' for key 'serial_num')
+Error on line '597': could not insert device 'asset_num(504)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-A3ZS' for key 'serial_num')
+Error on line '598': could not insert device 'asset_num(202)' into table
+  reason(Duplicate entry 'CN-0D307J-74445-93Q-939S' for key 'serial_num')
+Error on line '599': could not insert device 'asset_num(450)' into table
+  reason(Duplicate entry 'CN-0524N3-74261-48J-1AWU' for key 'serial_num')
+Error on line '600': could not insert device 'asset_num(1144)' into table
+  reason(Duplicate entry 'CN-0RVC21-74261-324-0FVL' for key 'serial_num')
+Error on line '601': could not insert device 'asset_num(577)' into table
+  reason(Duplicate entry 'CN-0FMXNR-64180-64B-1VNT' for key 'serial_num')
+Error on line '602': could not insert device 'asset_num(1514)' into table
+  reason(Duplicate entry '233MJN2' for key 'serial_num')
+Alert on line '603': inserted assignee 'MIS Troubleshoot WS \\ Intern' into table
+Error on line '603': could not insert device 'asset_num(490)' into table
+  reason(Incorrect integer value: '' for column `inventory_test`.`devices`.`assignee` at row 1)
+Error on line '604': could not insert device 'asset_num(688)' into table
+  reason(Duplicate entry 'PHBVF12633' for key 'serial_num')
+Error on line '605': could not insert device 'asset_num(190)' into table
+  reason(Duplicate entry 'A5931RI1006' for key 'serial_num')
+Error on line '606': could not insert device 'asset_num(198)' into table
+  reason(Duplicate entry 'CNDY112680' for key 'serial_num')
+Error on line '607': could not insert device 'asset_num(197)' into table
+  reason(Duplicate entry '85944RJ1070' for key 'serial_num')
+Error on line '608': could not insert device 'asset_num(574)' into table
+  reason(Duplicate entry 'A5943RJ1044' for key 'serial_num')
+Error on line '609': could not insert device 'asset_num(222)' into table
+  reason(Duplicate entry 'VNB3B16315' for key 'serial_num')
+Error on line '610': could not insert device 'asset_num(224)' into table
+  reason(Duplicate entry '8028ZMA1709' for key 'serial_num')
+Error on line '611': could not insert device 'asset_num(188)' into table
+  reason(Duplicate entry '80282MA1111' for key 'serial_num')
+Error on line '612': could not insert device 'asset_num(227)' into table
+  reason(Duplicate entry '8028XMA1656' for key 'serial_num')
+Error on line '613': could not insert device 'asset_num(199)' into table
+  reason(Duplicate entry 'A5943RJ1061' for key 'serial_num')
+Error on line '614': could not insert device 'asset_num(189)' into table
+  reason(Duplicate entry 'CNCCF3W1G7' for key 'serial_num')
+Alert on line '615': inserted device 'asset_num()' into table
+Error on line '616': could not insert device 'asset_num(536)' into table
+  reason(Duplicate entry 'PHGFD15708' for key 'serial_num')
+Error on line '617': could not insert device 'asset_num(514)' into table
+  reason(Duplicate entry 'CNB9L19286' for key 'serial_num')
+Error on line '618': could not insert device 'asset_num(288)' into table
+  reason(Duplicate entry 'PHGFC74171' for key 'serial_num')
+Error on line '619': could not insert device 'asset_num(599)' into table
+  reason(Duplicate entry 'VNB3H26453' for key 'serial_num')
+Error on line '620': could not insert device 'asset_num(445)' into table
+  reason(Duplicate entry 'CNB7H3XFSY' for key 'serial_num')
+Error on line '621': could not insert device 'asset_num(388)' into table
+  reason(Duplicate entry 'VNB3N25864' for key 'serial_num')
+Error on line '622': could not insert device 'asset_num(390)' into table
+  reason(Duplicate entry 'PHGFC20247' for key 'serial_num')
+Error on line '623': could not insert device 'asset_num(665)' into table
+  reason(Duplicate entry 'VNB8J6G54K' for key 'serial_num')
+Error on line '624': could not insert device 'asset_num(484)' into table
+  reason(Duplicate entry 'VNB3H26465' for key 'serial_num')
+Error on line '625': could not insert device 'asset_num(558)' into table
+  reason(Duplicate entry 'PHBVF12684' for key 'serial_num')
+Error on line '626': could not insert device 'asset_num(559)' into table
+  reason(Duplicate entry 'PHGFC74164' for key 'serial_num')
+Error on line '627': could not insert device 'asset_num(364)' into table
+  reason(Duplicate entry 'VNB3H26460' for key 'serial_num')
+Error on line '628': could not insert device 'asset_num(2)' into table
+  reason(Duplicate entry 'VNB3K01460' for key 'serial_num')
+Error on line '629': could not insert device 'asset_num(476)' into table
+  reason(Duplicate entry 'CNB7H3XG0R' for key 'serial_num')
+Error on line '630': could not insert device 'asset_num(538)' into table
+  reason(Duplicate entry 'PHGFC20178' for key 'serial_num')
+Error on line '631': could not insert device 'asset_num(700)' into table
+  reason(Duplicate entry 'PHBVF12682' for key 'serial_num')
+Error on line '632': could not insert device 'asset_num(397)' into table
+  reason(Duplicate entry 'CNB7H6J85V' for key 'serial_num')
+Error on line '633': could not insert device 'asset_num(291)' into table
+  reason(Duplicate entry 'CNB7H6J867' for key 'serial_num')
+Error on line '634': could not insert device 'asset_num(699)' into table
+  reason(Duplicate entry 'PHBVF12681' for key 'serial_num')
+Error on line '635': could not insert device 'asset_num(186)' into table
+  reason(Duplicate entry 'CNF8G2WDLP' for key 'serial_num')
+Error on line '636': could not insert device 'asset_num(560)' into table
+  reason(Duplicate entry 'PHBVF12680' for key 'serial_num')
+Error on line '637': could not insert device 'asset_num(452)' into table
+  reason(Duplicate entry 'PHGFD15705' for key 'serial_num')
+Error on line '638': could not insert device 'asset_num(698)' into table
+  reason(Duplicate entry 'PHBVF12676' for key 'serial_num')
+Error on line '639': could not insert device 'asset_num(657)' into table
+  reason(Duplicate entry 'CNDCJ3G0PG' for key 'serial_num')
+Error on line '640': could not insert device 'asset_num(367)' into table
+  reason(Duplicate entry 'CNB7H834JV' for key 'serial_num')
+Error on line '641': could not insert device 'asset_num(525)' into table
+  reason(Duplicate entry 'PHGFC74170' for key 'serial_num')
+Error on line '642': could not insert device 'asset_num(697)' into table
+  reason(Duplicate entry 'PHBQD34034' for key 'serial_num')
+Error on line '643': could not insert device 'asset_num(528)' into table
+  reason(Duplicate entry 'CNBJG00926' for key 'serial_num')
+Error on line '644': could not insert device 'asset_num(443)' into table
+  reason(Duplicate entry 'VNB3B16311' for key 'serial_num')
+Error on line '645': could not insert device 'asset_num(246)' into table
+  reason(Duplicate entry 'CNCCF1N12X' for key 'serial_num')
+Error on line '646': could not insert device 'asset_num(1155)' into table
+  reason(Duplicate entry 'CNCCDDF2W1' for key 'serial_num')
+Error on line '647': could not insert device 'asset_num(493)' into table
+  reason(Duplicate entry 'CNDY212050' for key 'serial_num')
+Error on line '648': could not insert device 'asset_num(537)' into table
+  reason(Duplicate entry 'CNCCF3W16V' for key 'serial_num')
+Error on line '649': could not insert device 'asset_num(522)' into table
+  reason(Duplicate entry 'CNDY212959' for key 'serial_num')
+Error on line '650': could not insert device 'asset_num(694)' into table
+  reason(Duplicate entry 'CNDCJ3G0P7' for key 'serial_num')
+Error on line '651': could not insert device 'asset_num(695)' into table
+  reason(Duplicate entry 'CNDCJ3G0PP' for key 'serial_num')
+Error on line '652': could not insert device 'asset_num(391)' into table
+  reason(Duplicate entry 'CNCCF1W0BH' for key 'serial_num')
+Error on line '653': could not insert device 'asset_num(532)' into table
+  reason(Duplicate entry 'CNCCF1J141' for key 'serial_num')
+Error on line '654': could not insert device 'asset_num(392)' into table
+  reason(Duplicate entry '1MPTXS1' for key 'serial_num')
+Error on line '655': could not insert device 'asset_num(482)' into table
+  reason(Duplicate entry 'VNB3K01461' for key 'serial_num')
+Error on line '656': could not insert device 'asset_num(539)' into table
+  reason(Duplicate entry 'VNB3C49556' for key 'serial_num')
+
+Total successes out of 657 is: 1
+Total failures out of 657 is : 656

@@ -27,6 +27,7 @@
                         <li><b>dev_type</b>: The type of device.</li>
                         <li><b>make</b>: The make of the device.</li>
                         <li><b>model</b>: The model of the device.</li>
+                        <li><b>service_tag</b>: The unique service tag of a device.</li>
                         <li><b>assign date</b>: TBD</li>
                         <li><b>update date</b>: TBD</li>
                     </ul>
@@ -42,7 +43,7 @@
 
         <!-- Card about navigating -->
         <div class="card">
-            <div class="card-header" id="create_info">
+            <div class="card-header" id="navigation_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_N" aria-expanded="false" aria-controls="collapse_N">
                         Navigating App Pages
@@ -81,7 +82,7 @@
                             </ul>
                         </li>
                     </ul>
-                    Both the Devices and Assignees pages will show up to 20 results from their respective database tables.<br>
+                    Both the Devices and Assignees pages will show up to 50 results from their respective database tables.<br>
                     The navigation bar beneath the tables can be used to see more results.<br>
                     If you wish to see every item in a table, use the <b>See All</b> button beneath the search bar.
                 </div>
@@ -90,7 +91,7 @@
 
         <!-- Card about searching -->
         <div class="card">
-            <div class="card-header" id="read_info">
+            <div class="card-header" id="search_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_S" aria-expanded="false" aria-controls="collapse_S">
                         Searching
@@ -114,6 +115,7 @@
                         <li><b>Device</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
+                        <li><b>Service Tag</b>: The device's unique service tag.</li>
                         <li><b>Assign Date</b>: TBD</li>
                         <li><b>Update Date</b>: TBD</li>
                     </ul>
@@ -186,7 +188,7 @@
 
         <!-- Card about updating devices/assignees -->
         <div class="card">
-            <div class="card-header" id="read_info">
+            <div class="card-header" id="update_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_U" aria-expanded="false" aria-controls="collapse_U">
                         Updating Items
@@ -224,7 +226,7 @@
 
         <!-- Card about delting devices/assignees -->
         <div class="card">
-            <div class="card-header" id="read_info">
+            <div class="card-header" id="delete_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_D" aria-expanded="false" aria-controls="collapse_D">
                         Deleting Items
@@ -249,7 +251,7 @@
 
         <!-- Card about exporting data -->
         <div class="card">
-            <div class="card-header" id="read_info">
+            <div class="card-header" id="export_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_E" aria-expanded="false" aria-controls="collapse_E">
                         Exporting
@@ -268,7 +270,7 @@
 
         <!-- Card about importing data -->
         <div class="card">
-            <div class="card-header" id="read_info">
+            <div class="card-header" id="import_info">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_I" aria-expanded="false" aria-controls="collapse_I">
                         Importing
@@ -287,13 +289,27 @@
                     <li><b>Device Type</b></li>
                     <li><b>Device Make</b></li>
                     <li><b>Device Model</b></li>
+                    <li><b>Service Tag</b></li>
                     <li><b>Assign Date</b></li> <!-- FIXME all date sections may change -->
                     <li><b>Update Date</b></li>
                 </ul>
 
                 <b>Do not</b> include column names in the csv file, just make sure the data is in this order.<br>
-                All dates must be in the format <b>mm/dd/yyyy</b>.
-                <br>
+                The rules for how column data should be formatted:
+                <ul>
+                    <li>It is allowed to have blank entries in columns.</li>
+                    <li>Serial numbers and service tags must be unique values. If they are not, then the device will not be placed in the database.</li>
+                    <li>All dates must be in the format <b>mm/dd/yyyy</b>.</li>
+                    <li>Input data shold not include:
+                        <ul>
+                            <li>unknown symbols �</li>
+                            <li>double quotes (")</li>
+                            <li>back slashes (\)</li>
+                            <li>percentages (%)</li>
+                            <li>underscores (_)</li>
+                        </ul>
+                    </li>
+                </ul>
                 To import data into the Assignees table the csv file must include the following columns, in this <b>exact order</b>:
                 <ul>
                     <li><b>Name</b></li>

@@ -31,7 +31,8 @@ if (isset($_POST["submit"])) {
             if ($fileExists == 1) {
                 $file = fopen($target_file, "r");
 
-                $log_dir = "logs/";
+                $timestamp = date("Y-m-d_H:i:s", time());
+                $logname = $log_dir . "log_" . $timestamp . ".txt";
                 $logname = $log_dir . "log.txt";
                 $log = fopen($logname, "w");
 
@@ -42,8 +43,8 @@ if (isset($_POST["submit"])) {
                 $count = 0;
 
                 while (($row = fgetcsv($file, 10000, ",")) !== false) {
-                    $name = $row[0];
-                    $section = $row[1];
+                    $name = mysqli_real_escape_string($conn, $row[0]);
+                    $section =  mysqli_real_escape_string($conn, $row[1]);
 
                     # Insert assignee into table
                     $intoA = "INSERT INTO assignees (name, section) VALUES ('$name', '$section');";

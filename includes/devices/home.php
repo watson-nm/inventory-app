@@ -15,7 +15,7 @@
                         <option value="dev_type">Device</option>
                         <option value="make">Make</option>
                         <option value="model">Model</option>
-                        <option value="model">Service Tag</option>
+                        <option value="service_tag">Service Tag</option>
                         <option value="assign_date">Assign Date</option>
                         <option value="update_date">Update Date</option>
                     </select>

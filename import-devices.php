@@ -29,20 +29,18 @@ if (isset($_POST["submit"])) {
 
             # read file
             if ($fileExists == 1) {
-                $file = fopen($target_file, "r");
-
+                $file = fopen($target_file, "r") or die("Unable to open file!");
                 $log_dir = "logs/";
-                $logname = $log_dir . "log.txt";
+                $timestamp = date("Y-m-d_H:i:s", time());
+                $logname = $log_dir . "log_" . $timestamp . ".txt";
                 $log = fopen($logname, "w");
 
-                $i = 0;
+                $i = 1;
                 $s = 0;
                 $f = 0;
 
-                $count = 0;
-
-                while (($row = fgetcsv($file, 10000, ",")) !== false) {
-                    $name = $row[0];
+                while (($row = fgetcsv($file, 1000, ",")) !== false) {
+                    $name = mysqli_real_escape_string($conn, $row[0]);
                     $asset_num = $row[1];
                     $serial_num = $row[2];
                     $dev_type = $row[3];
@@ -60,17 +58,17 @@ if (isset($_POST["submit"])) {
                         $a_array = mysqli_fetch_assoc($table_result);
                         $assignee = $a_array['aID'];
                     } else {
-                        $a_query = "INSERT INTO assignees(name) VALUES('{$name}')";
+                        $a_query = "INSERT INTO assignees (name) VALUES('{$name}')";
                         $a_insert = mysqli_query($conn, $a_query);
 
                         if ($a_insert <= 0) {
-                            $log_data = "Error: could not insert assignee '$name' into table from input line '$i'".PHP_EOL;
+                            $log_data = "Error on line '" . $i . "': could not insert assignee '$name' into table".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
                             fwrite($log, $log_data);
                             $f = $f + 1;
                             $i = $i + 1;
                             continue;
                         } else {
-                            $log_data = "Alert: inserted assignee '$name' into table from input line '$i'".PHP_EOL;
+                            $log_data = "Alert on line '" . $i . "': inserted assignee '$name' into table".PHP_EOL;
                             fwrite($log, $log_data);
 
                             $get_new_aID = mysqli_query($conn, $query);
@@ -92,13 +90,13 @@ if (isset($_POST["submit"])) {
                     $add_entry = mysqli_query($conn, $intoD);
 
                     if ($add_entry <= 0) {
-                        $log_data = "Error: could not insert device 'asset_num($asset_num)' into table from input line '$i'".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
+                        $log_data = "Error on line '" . $i . "': could not insert device 'asset_num($asset_num)' into table".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
                         fwrite($log, $log_data);
                         $f = $f + 1;
                         $i = $i + 1;
                         continue;
                     } else {
-                        $log_data = "Alert: inserted device 'asset_num($asset_num)' into table from input line '$i'".PHP_EOL;
+                        $log_data = "Alert on line '" . $i . "': inserted device 'asset_num($asset_num)' into table".PHP_EOL;
                         fwrite($log, $log_data);
                         $s = $s + 1;
                         $i = $i + 1;
@@ -106,6 +104,9 @@ if (isset($_POST["submit"])) {
                 }
             }
             unlink($target_file);
+
+            $log_data = PHP_EOL . "Total successes out of " . $i . " is: " . $s . PHP_EOL . "Total failures out of " . $i . " is : " . $f . PHP_EOL;
+            fwrite($log, $log_data);
 
             $msg = "Successfully imported data!<br>Please return to the devices page and ensure your data is correct.";
             alert("good", $msg);

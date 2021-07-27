@@ -20,7 +20,7 @@
                         <option value="dev_type">Device</option>
                         <option value="make">Make</option>
                         <option value="model">Model</option>
-                        <option value="model">Service Tag</option>
+                        <option value="service_tag">Service Tag</option>
                         <option value="assign_date">Assign Date</option>
                         <option value="update_date">Update Date</option>
                     </select>
@@ -97,16 +97,16 @@
 
                                 echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                                echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                                echo " <td  class='text-center'> <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                                 echo " </tr> ";
                             }
                         }
                     } else {
-                        $query = "select * from devices where $category like '%$term%'";
+                        $query = "SELECT * FROM devices WHERE $category LIKE '%$term%'";
                         $view_data=mysqli_query($conn, $query);
 
-                        while ($row= mysqli_fetch_assoc($view_data)) {
+                        while ($row = mysqli_fetch_assoc($view_data)) {
                             $dID = $row['dID'];
 
                             $aID = $row['assignee'];

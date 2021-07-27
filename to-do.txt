@@ -1,4 +1,2 @@
 - make sure that footer stuff is present
-- get final input on the table categories
-- adjust table categories
-- set up better log system
+- explain in import help section the constrains on input

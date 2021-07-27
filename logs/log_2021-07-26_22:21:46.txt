@@ -1,0 +1,897 @@
+Alert on line '1': inserted assignee 'John Rozmus' into table
+Alert on line '1': inserted device 'asset_num(561)' into table
+Alert on line '2': inserted assignee 'MIS Intern [Nola Watson]' into table
+Alert on line '2': inserted device 'asset_num(733)' into table
+Alert on line '3': inserted assignee 'TIK-TOK WS' into table
+Alert on line '3': inserted device 'asset_num(1904)' into table
+Alert on line '4': inserted assignee 'HR LTSC' into table
+Alert on line '4': inserted device 'asset_num(1659)' into table
+Alert on line '5': inserted assignee 'Greg Finch ' into table
+Alert on line '5': inserted device 'asset_num(1233)' into table
+Alert on line '6': inserted assignee 'Michael Badalyan ' into table
+Alert on line '6': inserted device 'asset_num(175)' into table
+Alert on line '7': inserted assignee 'Sarah Ho' into table
+Alert on line '7': inserted device 'asset_num(191)' into table
+Alert on line '8': inserted assignee 'Sorin Vatavu' into table
+Alert on line '8': inserted device 'asset_num(1669)' into table
+Alert on line '9': inserted assignee 'Shannon Sassone' into table
+Alert on line '9': inserted device 'asset_num(1925)' into table
+Alert on line '10': inserted assignee 'Shawn Edouardo' into table
+Alert on line '10': inserted device 'asset_num(1650)' into table
+Alert on line '11': inserted assignee 'Jennifer Gonzalez' into table
+Alert on line '11': inserted device 'asset_num(1657)' into table
+Alert on line '12': inserted assignee 'Manuela Blanc' into table
+Alert on line '12': inserted device 'asset_num(1654)' into table
+Alert on line '13': inserted assignee 'Jesse  Spieler-Jones' into table
+Alert on line '13': inserted device 'asset_num(1652)' into table
+Alert on line '14': inserted assignee 'Phyllis Haigler' into table
+Alert on line '14': inserted device 'asset_num(1642)' into table
+Alert on line '15': inserted assignee 'Rudy Marrajh' into table
+Alert on line '15': inserted device 'asset_num(1637)' into table
+Alert on line '16': inserted assignee 'Carlos Melendez' into table
+Alert on line '16': inserted device 'asset_num(1639)' into table
+Alert on line '17': inserted assignee 'Dawn Williams' into table
+Alert on line '17': inserted device 'asset_num(1635)' into table
+Alert on line '18': inserted assignee 'Mason Logie' into table
+Alert on line '18': inserted device 'asset_num(1643)' into table
+Alert on line '19': inserted assignee 'Shawn Frazier' into table
+Alert on line '19': inserted device 'asset_num(1636)' into table
+Alert on line '20': inserted assignee '[Vacant]' into table
+Alert on line '20': inserted device 'asset_num(1640)' into table
+Alert on line '21': inserted assignee 'Abby Pouncey' into table
+Alert on line '21': inserted device 'asset_num(1644)' into table
+Alert on line '22': inserted assignee 'Ethan De Angelo' into table
+Alert on line '22': inserted device 'asset_num(1247)' into table
+Alert on line '23': inserted assignee 'John Jeffrey' into table
+Alert on line '23': inserted device 'asset_num(608)' into table
+Alert on line '24': inserted assignee 'Sam Ross' into table
+Alert on line '24': inserted device 'asset_num(1921)' into table
+Alert on line '25': inserted assignee 'Genevieve Lamont' into table
+Alert on line '25': inserted device 'asset_num(275)' into table
+Alert on line '26': inserted assignee 'Patrick Yu' into table
+Alert on line '26': inserted device 'asset_num(1238)' into table
+Alert on line '27': inserted assignee 'Noah Kim' into table
+Alert on line '27': inserted device 'asset_num(1237)' into table
+Alert on line '28': inserted assignee 'Monique West' into table
+Alert on line '28': inserted device 'asset_num(1240)' into table
+Alert on line '29': inserted assignee 'Noa Street-Sachs' into table
+Alert on line '29': inserted device 'asset_num(1257)' into table
+Alert on line '30': inserted assignee 'Wassim Abedrabbo' into table
+Alert on line '30': inserted device 'asset_num(1258)' into table
+Alert on line '31': inserted assignee 'Aaron Gibbings' into table
+Alert on line '31': inserted device 'asset_num(1987)' into table
+Alert on line '32': inserted assignee 'Juan Arango' into table
+Alert on line '32': inserted device 'asset_num(1911)' into table
+Alert on line '33': inserted assignee 'Leslie Martinez' into table
+Alert on line '33': inserted device 'asset_num(1901)' into table
+Alert on line '34': inserted assignee 'Melanyn Rivas' into table
+Alert on line '34': inserted device 'asset_num(1923)' into table
+Alert on line '35': inserted assignee 'Stephanie Dukich' into table
+Alert on line '35': inserted device 'asset_num(1927)' into table
+Alert on line '36': inserted assignee 'Chris Olmsted' into table
+Alert on line '36': inserted device 'asset_num(1259)' into table
+Alert on line '37': inserted assignee 'Daniel Giansante ' into table
+Alert on line '37': inserted device 'asset_num(1250)' into table
+Alert on line '38': inserted assignee 'Jessica Russo' into table
+Alert on line '38': inserted device 'asset_num(1243)' into table
+Alert on line '39': inserted assignee 'Laura Strauss ' into table
+Alert on line '39': inserted device 'asset_num(1246)' into table
+Alert on line '40': inserted assignee 'Miriam Lynch' into table
+Alert on line '40': inserted device 'asset_num(1268)' into table
+Alert on line '41': inserted assignee 'Julian Phillips' into table
+Alert on line '41': inserted device 'asset_num(1253)' into table
+Alert on line '42': inserted assignee 'Tahreem Khan' into table
+Alert on line '42': inserted device 'asset_num(94)' into table
+Alert on line '43': inserted assignee 'Conor O\'Shea' into table
+Alert on line '43': inserted device 'asset_num(1248)' into table
+Alert on line '44': inserted assignee 'Michael Talisayan' into table
+Alert on line '44': inserted device 'asset_num(1226)' into table
+Alert on line '45': inserted assignee 'Stephen Difiore ' into table
+Alert on line '45': inserted device 'asset_num(93)' into table
+Alert on line '46': inserted assignee 'Benjamin Shelton' into table
+Alert on line '46': inserted device 'asset_num(37)' into table
+Alert on line '47': inserted assignee 'Katherine White' into table
+Alert on line '47': inserted device 'asset_num(72)' into table
+Alert on line '48': inserted assignee 'Edwin Pena ' into table
+Alert on line '48': inserted device 'asset_num(1223)' into table
+Alert on line '49': inserted assignee 'Evan Tims' into table
+Alert on line '49': inserted device 'asset_num(23)' into table
+Alert on line '50': inserted assignee 'Isabel Cifarelli' into table
+Alert on line '50': inserted device 'asset_num(1982)' into table
+Alert on line '51': inserted assignee 'Angel Riddle' into table
+Alert on line '51': inserted device 'asset_num(149)' into table
+Alert on line '52': inserted assignee 'Anya Curtis' into table
+Alert on line '52': inserted device 'asset_num(1989)' into table
+Alert on line '53': inserted assignee 'Eric Rigie' into table
+Alert on line '53': inserted device 'asset_num(1244)' into table
+Alert on line '54': inserted assignee 'Cassandra Fenkel' into table
+Alert on line '54': inserted device 'asset_num(1245)' into table
+Alert on line '55': inserted assignee 'Kelly Lyon' into table
+Alert on line '55': inserted device 'asset_num(19)' into table
+Alert on line '56': inserted assignee 'Michael Zajakowski Uhll' into table
+Alert on line '56': inserted device 'asset_num(67)' into table
+Alert on line '57': inserted assignee 'Matthew Donaghy' into table
+Alert on line '57': inserted device 'asset_num(101)' into table
+Alert on line '58': inserted assignee 'Carter Garfield' into table
+Alert on line '58': inserted device 'asset_num(33)' into table
+Alert on line '59': inserted assignee 'Casey McCann' into table
+Alert on line '59': inserted device 'asset_num(1260)' into table
+Alert on line '60': inserted assignee 'Maura Roche' into table
+Alert on line '60': inserted device 'asset_num(42)' into table
+Alert on line '61': inserted assignee 'Robert Bryan' into table
+Alert on line '61': inserted device 'asset_num(1902)' into table
+Alert on line '62': inserted assignee 'Alex Guinn' into table
+Alert on line '62': inserted device 'asset_num(1990)' into table
+Alert on line '63': inserted assignee 'Griffin Sherbert' into table
+Alert on line '63': inserted device 'asset_num(1256)' into table
+Alert on line '64': inserted assignee 'Ethan Waterman' into table
+Alert on line '64': inserted device 'asset_num(14)' into table
+Alert on line '65': inserted assignee 'Matthew Corwin' into table
+Alert on line '65': inserted device 'asset_num(1236)' into table
+Alert on line '66': inserted assignee 'Carlo Vescovi' into table
+Alert on line '66': inserted device 'asset_num(620)' into table
+Alert on line '67': inserted assignee '?' into table
+Alert on line '67': inserted device 'asset_num(1985)' into table
+Alert on line '68': inserted assignee 'Amy O\'Sullivan' into table
+Alert on line '68': inserted device 'asset_num(1903)' into table
+Alert on line '69': inserted assignee 'Ivonne Torres' into table
+Alert on line '69': inserted device 'asset_num(1908)' into table
+Alert on line '70': inserted assignee 'Raul Prince' into table
+Alert on line '70': inserted device 'asset_num(1906)' into table
+Alert on line '71': inserted assignee 'CAU [Justin Francis]' into table
+Alert on line '71': inserted device 'asset_num(1225)' into table
+Alert on line '72': inserted assignee 'Biana Turat' into table
+Alert on line '72': inserted device 'asset_num(1631)' into table
+Alert on line '73': inserted device 'asset_num(1239)' into table
+Alert on line '74': inserted assignee 'Tileyah Williams ' into table
+Alert on line '74': inserted device 'asset_num(58)' into table
+Alert on line '75': inserted assignee 'Julia Moran' into table
+Alert on line '75': inserted device 'asset_num(46)' into table
+Alert on line '76': inserted assignee 'Zev Carter' into table
+Alert on line '76': inserted device 'asset_num(1234)' into table
+Alert on line '77': inserted assignee 'Jessica Pena' into table
+Alert on line '77': inserted device 'asset_num(1227)' into table
+Alert on line '78': inserted assignee 'Jonathan Busk' into table
+Alert on line '78': inserted device 'asset_num(1926)' into table
+Alert on line '79': inserted assignee 'Thomas Juliano ' into table
+Alert on line '79': inserted device 'asset_num(1254)' into table
+Alert on line '80': inserted assignee 'Rachel Adler' into table
+Alert on line '80': inserted device 'asset_num(34)' into table
+Alert on line '81': inserted assignee 'Lily Kim' into table
+Alert on line '81': inserted device 'asset_num(21)' into table
+Alert on line '82': inserted assignee 'Olga Golub' into table
+Alert on line '82': inserted device 'asset_num(1221)' into table
+Alert on line '83': inserted assignee 'Mac Muir' into table
+Alert on line '83': inserted device 'asset_num(1242)' into table
+Alert on line '84': inserted assignee 'Michael Miskovski ' into table
+Alert on line '84': inserted device 'asset_num(1224)' into table
+Alert on line '85': inserted assignee 'Amanda Field' into table
+Alert on line '85': inserted device 'asset_num(631)' into table
+Alert on line '86': inserted assignee 'Charis Jones' into table
+Alert on line '86': inserted device 'asset_num(625)' into table
+Alert on line '87': inserted assignee 'Massiel Pichardo' into table
+Alert on line '87': inserted device 'asset_num(378)' into table
+Alert on line '88': inserted assignee 'Melina Diaz' into table
+Alert on line '88': inserted device 'asset_num(628)' into table
+Alert on line '89': inserted assignee 'Caroline Hannna' into table
+Alert on line '89': inserted device 'asset_num(81)' into table
+Alert on line '90': inserted assignee 'Chris Denitto' into table
+Alert on line '90': inserted device 'asset_num(1678)' into table
+Alert on line '91': inserted assignee 'Calvin Huan' into table
+Alert on line '91': inserted device 'asset_num(95)' into table
+Alert on line '92': inserted assignee 'Melissa Deonsarine' into table
+Alert on line '92': inserted device 'asset_num(144)' into table
+Alert on line '93': inserted assignee 'Olubukola Ajayi ' into table
+Alert on line '93': inserted device 'asset_num(408)' into table
+Alert on line '94': inserted assignee 'Simone Cherry ' into table
+Alert on line '94': inserted device 'asset_num(79)' into table
+Alert on line '95': inserted assignee 'Simon Wang' into table
+Alert on line '95': inserted device 'asset_num(1255)' into table
+Alert on line '96': inserted assignee 'Emily Devaney' into table
+Alert on line '96': inserted device 'asset_num(1229)' into table
+Alert on line '97': inserted assignee 'Valentina Concho-Toro' into table
+Alert on line '97': inserted device 'asset_num(217)' into table
+Alert on line '98': inserted assignee 'Cloey Romans' into table
+Alert on line '98': inserted device 'asset_num(1252)' into table
+Alert on line '99': inserted assignee 'Adriaan Denbroeder' into table
+Alert on line '99': inserted device 'asset_num(1986)' into table
+Alert on line '100': inserted assignee 'Kevin Villa ' into table
+Alert on line '100': inserted device 'asset_num(1668)' into table
+Alert on line '101': inserted assignee 'Jeffrey Tsui' into table
+Alert on line '101': inserted device 'asset_num(1981)' into table
+Alert on line '102': inserted assignee 'Bernardo Gutierrez ' into table
+Alert on line '102': inserted device 'asset_num(1661)' into table
+Alert on line '103': inserted assignee 'Emma Kaisla' into table
+Alert on line '103': inserted device 'asset_num(1249)' into table
+Alert on line '104': inserted assignee 'Colin Gardner ' into table
+Alert on line '104': inserted device 'asset_num(1664)' into table
+Alert on line '105': inserted assignee 'Helen Presberg' into table
+Alert on line '105': inserted device 'asset_num(1679)' into table
+Alert on line '106': inserted assignee 'Owen Godshall' into table
+Alert on line '106': inserted device 'asset_num(1269)' into table
+Alert on line '107': inserted assignee 'Alma Rivera' into table
+Alert on line '107': inserted device 'asset_num(1677)' into table
+Alert on line '108': inserted assignee 'Jean Paul Lozado ' into table
+Alert on line '108': inserted device 'asset_num(1264)' into table
+Alert on line '109': inserted assignee 'Julia Pagnamenta' into table
+Alert on line '109': inserted device 'asset_num(1261)' into table
+Alert on line '110': inserted assignee 'Emma Stydahar ' into table
+Alert on line '110': inserted device 'asset_num(83)' into table
+Alert on line '111': inserted assignee 'Rachel Murgo' into table
+Alert on line '111': inserted device 'asset_num(30)' into table
+Alert on line '112': inserted assignee 'William Moss' into table
+Alert on line '112': inserted device 'asset_num(102)' into table
+Alert on line '113': inserted assignee 'Alex Opoku-Agyemang ' into table
+Alert on line '113': inserted device 'asset_num(1266)' into table
+Alert on line '114': inserted assignee 'Rolando Vasquez' into table
+Alert on line '114': inserted device 'asset_num(56)' into table
+Alert on line '115': inserted assignee 'Mckenzie Dean' into table
+Alert on line '115': inserted device 'asset_num(1241)' into table
+Alert on line '116': inserted device 'asset_num(90)' into table
+Alert on line '117': inserted assignee 'Santosh Prakash ' into table
+Alert on line '117': inserted device 'asset_num(1230)' into table
+Alert on line '118': inserted assignee 'Arianna Thomas' into table
+Alert on line '118': inserted device 'asset_num(1988)' into table
+Alert on line '119': inserted assignee 'Lianne May' into table
+Alert on line '119': inserted device 'asset_num(1263)' into table
+Alert on line '120': inserted assignee 'Aliza Klingenstein' into table
+Alert on line '120': inserted device 'asset_num(1924)' into table
+Alert on line '121': inserted assignee 'Vanessa Rosen' into table
+Alert on line '121': inserted device 'asset_num(1270)' into table
+Alert on line '122': inserted assignee 'Tessa Yesselman ' into table
+Alert on line '122': inserted device 'asset_num(1222)' into table
+Alert on line '123': inserted assignee 'William Rasenberger' into table
+Alert on line '123': inserted device 'asset_num(632)' into table
+Alert on line '124': inserted assignee 'Tyler Walls' into table
+Alert on line '124': inserted device 'asset_num(111)' into table
+Alert on line '125': inserted assignee 'Nicholas Venduras' into table
+Alert on line '125': inserted device 'asset_num(616)' into table
+Alert on line '126': inserted assignee 'Keitha-Clemon Duhaney ' into table
+Alert on line '126': inserted device 'asset_num(1920)' into table
+Alert on line '127': inserted assignee 'Justin Huang' into table
+Alert on line '127': inserted device 'asset_num(1913)' into table
+Alert on line '128': inserted assignee 'Esme Trontz' into table
+Alert on line '128': inserted device 'asset_num(116)' into table
+Alert on line '129': inserted assignee '[SQD?] Raquel Velasquez' into table
+Alert on line '129': inserted device 'asset_num(1645)' into table
+Alert on line '130': inserted assignee 'Mathew Chaves' into table
+Alert on line '130': inserted device 'asset_num(1251)' into table
+Alert on line '131': inserted assignee 'Sebastian Saavedra' into table
+Alert on line '131': inserted device 'asset_num(59)' into table
+Alert on line '132': inserted assignee 'Joseph Hennessy' into table
+Alert on line '132': inserted device 'asset_num(1984)' into table
+Alert on line '133': inserted assignee 'Erica Jung' into table
+Alert on line '133': inserted device 'asset_num(1922)' into table
+Alert on line '134': inserted assignee 'Shadman Khan' into table
+Alert on line '134': inserted device 'asset_num(86)' into table
+Alert on line '135': inserted assignee 'Enoch Sowah' into table
+Alert on line '135': inserted device 'asset_num(1228)' into table
+Alert on line '136': inserted assignee 'Sylvia Davidovicz' into table
+Alert on line '136': inserted device 'asset_num(8)' into table
+Alert on line '137': inserted assignee 'Eliana Behar' into table
+Alert on line '137': inserted device 'asset_num(240)' into table
+Alert on line '138': inserted assignee 'Chris Anderson' into table
+Alert on line '138': inserted device 'asset_num(1262)' into table
+Alert on line '139': inserted assignee 'Carlmais Johnson' into table
+Alert on line '139': inserted device 'asset_num(1641)' into table
+Alert on line '140': inserted assignee 'Olas Carayannis ' into table
+Alert on line '140': inserted device 'asset_num(1670)' into table
+Alert on line '141': inserted assignee '[SQD?] Edward Tsigel' into table
+Alert on line '141': inserted device 'asset_num(1919)' into table
+Alert on line '142': inserted assignee '[SQD?] Trevor Hackett' into table
+Alert on line '142': inserted device 'asset_num(120)' into table
+Alert on line '143': inserted assignee '[SQD 13] Laura Kastner' into table
+Alert on line '143': inserted device 'asset_num(1267)' into table
+Alert on line '144': inserted assignee 'Liz Pegues' into table
+Alert on line '144': inserted device 'asset_num(454)' into table
+Alert on line '145': inserted assignee 'Ryan Chen (Test WS)' into table
+Alert on line '145': inserted device 'asset_num(798)' into table
+Alert on line '146': inserted assignee 'Lincoln MacVeagh' into table
+Alert on line '146': inserted device 'asset_num(1868)' into table
+Alert on line '147': inserted assignee 'Sean McMahon' into table
+Alert on line '147': inserted device 'asset_num(1655)' into table
+Alert on line '148': inserted device 'asset_num(686)' into table
+Alert on line '149': inserted assignee 'Cecilia Rodriguez' into table
+Alert on line '149': inserted device 'asset_num(1869)' into table
+Alert on line '150': inserted assignee 'Lincoln (Test WS)' into table
+Alert on line '150': inserted device 'asset_num(470)' into table
+Alert on line '151': inserted device 'asset_num(173)' into table
+Alert on line '152': inserted assignee 'Anthony Cennamo' into table
+Alert on line '152': inserted device 'asset_num(739)' into table
+Alert on line '153': inserted device 'asset_num(738)' into table
+Alert on line '154': inserted assignee 'Steven Vargas' into table
+Alert on line '154': inserted device 'asset_num(336)' into table
+Alert on line '155': inserted assignee 'Michelle Cruz' into table
+Alert on line '155': inserted device 'asset_num(382)' into table
+Alert on line '156': inserted assignee 'Kaitlin Campbell' into table
+Alert on line '156': inserted device 'asset_num(740)' into table
+Alert on line '157': inserted assignee 'Emilia Mancini' into table
+Alert on line '157': inserted device 'asset_num(736)' into table
+Alert on line '158': inserted assignee 'Rosemary Espinal' into table
+Alert on line '158': inserted device 'asset_num(731)' into table
+Alert on line '159': inserted assignee 'Harya Tarekegn' into table
+Alert on line '159': inserted device 'asset_num(1675)' into table
+Alert on line '160': inserted assignee 'LaShawn Lindsey' into table
+Alert on line '160': inserted device 'asset_num(603)' into table
+Alert on line '161': inserted assignee 'Jacqueline Levy' into table
+Alert on line '161': inserted device 'asset_num(734)' into table
+Alert on line '162': inserted assignee 'Tawakalitu Amusa' into table
+Alert on line '162': inserted device 'asset_num(1660)' into table
+Alert on line '163': inserted assignee 'Jennifer Jarett ' into table
+Alert on line '163': inserted device 'asset_num(1632)' into table
+Alert on line '164': inserted assignee 'Chico Stephanie ' into table
+Alert on line '164': inserted device 'asset_num(618)' into table
+Alert on line '165': inserted assignee 'Jessica Tinjaca' into table
+Alert on line '165': inserted device 'asset_num(604)' into table
+Alert on line '166': inserted assignee 'Naqi Cruz' into table
+Alert on line '166': inserted device 'asset_num(446)' into table
+Alert on line '167': inserted assignee 'Sonia Benegas' into table
+Alert on line '167': inserted device 'asset_num(619)' into table
+Alert on line '168': inserted assignee 'Maroua Righi' into table
+Alert on line '168': inserted device 'asset_num(715)' into table
+Alert on line '169': inserted assignee 'Timothy Harrell' into table
+Alert on line '169': inserted device 'asset_num(147)' into table
+Alert on line '170': inserted assignee 'Jahi Rose' into table
+Alert on line '170': inserted device 'asset_num(444)' into table
+Alert on line '171': inserted assignee 'Alexander Schiavo' into table
+Alert on line '171': inserted device 'asset_num(1646)' into table
+Alert on line '172': inserted assignee 'Kevin O\'Connor' into table
+Alert on line '172': inserted device 'asset_num(1653)' into table
+Alert on line '173': inserted assignee 'Jon Darche' into table
+Alert on line '173': inserted device 'asset_num(1651)' into table
+Alert on line '174': inserted assignee 'Yojaira Alvarez ' into table
+Alert on line '174': inserted device 'asset_num(1638)' into table
+Alert on line '175': inserted assignee 'Jayne Cifuni ' into table
+Alert on line '175': inserted device 'asset_num(1656)' into table
+Alert on line '176': inserted assignee 'Jeannie Elie' into table
+Alert on line '176': inserted device 'asset_num(611)' into table
+Alert on line '177': inserted assignee 'Igbokwe' into table
+Alert on line '177': inserted device 'asset_num(471)' into table
+Alert on line '178': inserted assignee 'Di�Indra Dhanantwari ' into table
+Alert on line '178': inserted device 'asset_num(615)' into table
+Alert on line '179': inserted assignee 'Andrea Robinson' into table
+Alert on line '179': inserted device 'asset_num(1680)' into table
+Alert on line '180': inserted assignee 'Claudia Avin' into table
+Alert on line '180': inserted device 'asset_num(622)' into table
+Alert on line '181': inserted assignee 'Jonathan Fogel' into table
+Alert on line '181': inserted device 'asset_num(617)' into table
+Alert on line '182': inserted assignee 'Suzanne O\'Hare' into table
+Alert on line '182': inserted device 'asset_num(1647)' into table
+Alert on line '183': inserted assignee 'Simone Manigo' into table
+Alert on line '183': inserted device 'asset_num(182)' into table
+Alert on line '184': inserted assignee 'Conference Room ' into table
+Alert on line '184': inserted device 'asset_num(1231)' into table
+Alert on line '185': inserted assignee 'Lisa Grace Cohen ' into table
+Alert on line '185': inserted device 'asset_num(1666)' into table
+Alert on line '186': inserted assignee 'Monte (Mercer) Givhan' into table
+Alert on line '186': inserted device 'asset_num(1658)' into table
+Alert on line '187': inserted assignee 'Matthew Kadushin' into table
+Alert on line '187': inserted device 'asset_num(1633)' into table
+Alert on line '188': inserted assignee 'David Douek' into table
+Alert on line '188': inserted device 'asset_num(1648)' into table
+Alert on line '189': inserted assignee 'Jeanine Marie' into table
+Alert on line '189': inserted device 'asset_num(735)' into table
+Alert on line '190': inserted device 'asset_num(1665)' into table
+Alert on line '191': inserted assignee 'Kyla Foster-Bagley' into table
+Alert on line '191': inserted device 'asset_num(1649)' into table
+Alert on line '192': inserted assignee 'Ethan Teicher' into table
+Alert on line '192': inserted device 'asset_num(1663)' into table
+Alert on line '193': inserted device 'asset_num(1634)' into table
+Alert on line '194': inserted assignee 'Eshwarie Mahadeo ' into table
+Alert on line '194': inserted device 'asset_num(1672)' into table
+Alert on line '195': inserted assignee 'Jennelle Brooks' into table
+Alert on line '195': inserted device 'asset_num(1667)' into table
+Alert on line '196': inserted assignee 'Wanda Didi' into table
+Alert on line '196': inserted device 'asset_num(1673)' into table
+Alert on line '197': inserted assignee 'Imani Grampus' into table
+Alert on line '197': inserted device 'asset_num(1676)' into table
+Alert on line '198': inserted assignee 'ID Machine' into table
+Alert on line '198': inserted device 'asset_num(1232)' into table
+Alert on line '199': inserted assignee 'Symmetry workstation' into table
+Alert on line '199': inserted device 'asset_num(369)' into table
+Alert on line '200': inserted assignee 'Heather Cook' into table
+Alert on line '200': inserted device 'asset_num(393)' into table
+Alert on line '201': inserted assignee 'Elizabeth Seymore' into table
+Alert on line '201': inserted device 'asset_num(606)' into table
+Alert on line '202': inserted assignee 'Kerry Jamieson' into table
+Alert on line '202': inserted device 'asset_num(626)' into table
+Alert on line '203': inserted assignee 'Board Panel Rooms' into table
+Alert on line '203': inserted device 'asset_num(781)' into table
+Alert on line '204': inserted assignee '[SQD?] Latrice Frazier' into table
+Alert on line '204': inserted device 'asset_num(250)' into table
+Alert on line '205': inserted assignee '[SQD?] Harold Rodriguez' into table
+Alert on line '205': inserted device 'asset_num(1265)' into table
+Alert on line '206': inserted assignee '[SQD?] Joy Ameyda' into table
+Alert on line '206': inserted device 'asset_num(1235)' into table
+Alert on line '207': inserted assignee 'Marcellino Smith' into table
+Alert on line '207': inserted device 'asset_num(1671)' into table
+Alert on line '208': inserted assignee 'Roger Bishop' into table
+Alert on line '208': inserted device 'asset_num(602)' into table
+Alert on line '209': inserted assignee 'Evone Nelson' into table
+Alert on line '209': inserted device 'asset_num(380)' into table
+Alert on line '210': inserted assignee 'Interview Room 1' into table
+Alert on line '210': inserted device 'asset_num(792)' into table
+Alert on line '211': inserted assignee 'Interview Room 2' into table
+Alert on line '211': inserted device 'asset_num(791)' into table
+Alert on line '212': inserted assignee 'Interview Room 3' into table
+Alert on line '212': inserted device 'asset_num(787)' into table
+Alert on line '213': inserted assignee 'Interview Room 4' into table
+Alert on line '213': inserted device 'asset_num(786)' into table
+Alert on line '214': inserted assignee 'Interview Room 5' into table
+Alert on line '214': inserted device 'asset_num(782)' into table
+Alert on line '215': inserted assignee 'Interview Room 6' into table
+Alert on line '215': inserted device 'asset_num(789)' into table
+Alert on line '216': inserted assignee 'Interview Room 7' into table
+Alert on line '216': inserted device 'asset_num(785)' into table
+Alert on line '217': inserted assignee 'Interview Room 8' into table
+Alert on line '217': inserted device 'asset_num(784)' into table
+Alert on line '218': inserted assignee 'Interview Room 9' into table
+Alert on line '218': inserted device 'asset_num(783)' into table
+Alert on line '219': inserted assignee 'Interview Room 10' into table
+Alert on line '219': inserted device 'asset_num(790)' into table
+Alert on line '220': inserted assignee 'Interview Room 11' into table
+Alert on line '220': inserted device 'asset_num(788)' into table
+Alert on line '221': inserted device 'asset_num(117)' into table
+Alert on line '222': inserted device 'asset_num(571)' into table
+Alert on line '223': inserted device 'asset_num(573)' into table
+Alert on line '224': inserted device 'asset_num(575)' into table
+Alert on line '225': inserted device 'asset_num(1220)' into table
+Alert on line '226': inserted device 'asset_num(1521)' into table
+Alert on line '227': inserted device 'asset_num(576)' into table
+Alert on line '228': inserted device 'asset_num(580)' into table
+Alert on line '229': inserted assignee 'Sorin Vatavu [Home]' into table
+Alert on line '229': inserted device 'asset_num(1518)' into table
+Alert on line '230': inserted assignee 'MIS Troubleshoot WS / Intern' into table
+Alert on line '230': inserted device 'asset_num(584)' into table
+Alert on line '231': inserted device 'asset_num(181)' into table
+Alert on line '232': inserted device 'asset_num(238)' into table
+Alert on line '233': inserted device 'asset_num(687)' into table
+Alert on line '234': inserted device 'asset_num(556)' into table
+Alert on line '235': inserted assignee 'Jesse Spieler-Jones – 24in monitor' into table
+Alert on line '235': inserted device 'asset_num(1519)' into table
+Alert on line '236': inserted device 'asset_num(1215)' into table
+Alert on line '237': inserted device 'asset_num(1214)' into table
+Alert on line '238': inserted device 'asset_num(1216)' into table
+Alert on line '239': inserted device 'asset_num(524)' into table
+Alert on line '240': inserted device 'asset_num(200)' into table
+Alert on line '241': inserted device 'asset_num(230)' into table
+Alert on line '242': inserted device 'asset_num(1218)' into table
+Alert on line '243': inserted device 'asset_num(1217)' into table
+Alert on line '244': inserted device 'asset_num(1511)' into table
+Alert on line '245': inserted device 'asset_num(1719)' into table
+Alert on line '246': inserted device 'asset_num(1577)' into table
+Alert on line '247': inserted device 'asset_num(1563)' into table
+Alert on line '248': inserted device 'asset_num(1578)' into table
+Alert on line '249': inserted device 'asset_num(1560)' into table
+Alert on line '250': inserted device 'asset_num(1587)' into table
+Alert on line '251': inserted device 'asset_num(1588)' into table
+Alert on line '252': inserted device 'asset_num(1536)' into table
+Alert on line '253': inserted device 'asset_num(1574)' into table
+Alert on line '254': inserted device 'asset_num(1718)' into table
+Alert on line '255': inserted device 'asset_num(1581)' into table
+Alert on line '256': inserted device 'asset_num(1546)' into table
+Alert on line '257': inserted device 'asset_num(1564)' into table
+Alert on line '258': inserted device 'asset_num(1604)' into table
+Alert on line '259': inserted device 'asset_num(1584)' into table
+Alert on line '260': inserted device 'asset_num(1580)' into table
+Alert on line '261': inserted device 'asset_num(1562)' into table
+Alert on line '262': inserted device 'asset_num(1724)' into table
+Alert on line '263': inserted device 'asset_num(1548)' into table
+Alert on line '264': inserted device 'asset_num(1533)' into table
+Alert on line '265': inserted device 'asset_num(1607)' into table
+Alert on line '266': inserted device 'asset_num(1801)' into table
+Alert on line '267': inserted device 'asset_num(1600)' into table
+Alert on line '268': inserted device 'asset_num(1585)' into table
+Alert on line '269': inserted device 'asset_num(1532)' into table
+Alert on line '270': inserted device 'asset_num(1513)' into table
+Alert on line '271': inserted device 'asset_num(1567)' into table
+Alert on line '272': inserted device 'asset_num(1582)' into table
+Alert on line '273': inserted device 'asset_num(1568)' into table
+Alert on line '274': inserted device 'asset_num(1610)' into table
+Alert on line '275': inserted device 'asset_num(1517)' into table
+Alert on line '276': inserted device 'asset_num(1597)' into table
+Alert on line '277': inserted device 'asset_num(1525)' into table
+Alert on line '278': inserted device 'asset_num(1569)' into table
+Alert on line '279': inserted device 'asset_num(1539)' into table
+Alert on line '280': inserted device 'asset_num(1721)' into table
+Alert on line '281': inserted device 'asset_num(1589)' into table
+Alert on line '282': inserted device 'asset_num(1541)' into table
+Alert on line '283': inserted assignee 'Nadia Sanchez' into table
+Alert on line '283': inserted device 'asset_num(1579)' into table
+Alert on line '284': inserted device 'asset_num(1537)' into table
+Alert on line '285': inserted device 'asset_num(1540)' into table
+Alert on line '286': inserted device 'asset_num(1535)' into table
+Alert on line '287': inserted device 'asset_num(1557)' into table
+Alert on line '288': inserted device 'asset_num(1529)' into table
+Alert on line '289': inserted device 'asset_num(1804)' into table
+Alert on line '290': inserted device 'asset_num(1534)' into table
+Alert on line '291': inserted device 'asset_num(1601)' into table
+Alert on line '292': inserted device 'asset_num(1586)' into table
+Alert on line '293': inserted device 'asset_num(1613)' into table
+Alert on line '294': inserted device 'asset_num(1712)' into table
+Alert on line '295': inserted device 'asset_num(1705)' into table
+Alert on line '296': inserted device 'asset_num(1692)' into table
+Alert on line '297': inserted device 'asset_num(176)' into table
+Alert on line '298': inserted device 'asset_num(1141)' into table
+Alert on line '299': inserted device 'asset_num(1612)' into table
+Alert on line '300': inserted device 'asset_num(1549)' into table
+Alert on line '301': inserted device 'asset_num(1599)' into table
+Alert on line '302': inserted device 'asset_num(1523)' into table
+Alert on line '303': inserted device 'asset_num(1512)' into table
+Alert on line '304': inserted device 'asset_num(1806)' into table
+Alert on line '305': inserted device 'asset_num(1572)' into table
+Alert on line '306': inserted device 'asset_num(1603)' into table
+Alert on line '307': inserted device 'asset_num(1598)' into table
+Alert on line '308': inserted device 'asset_num(1720)' into table
+Alert on line '309': inserted device 'asset_num(1561)' into table
+Alert on line '310': inserted device 'asset_num(1609)' into table
+Alert on line '311': inserted device 'asset_num(1556)' into table
+Alert on line '312': inserted device 'asset_num(516)' into table
+Alert on line '313': inserted device 'asset_num(1552)' into table
+Alert on line '314': inserted device 'asset_num(1727)' into table
+Alert on line '315': inserted device 'asset_num(328)' into table
+Alert on line '316': inserted device 'asset_num(233)' into table
+Alert on line '317': inserted device 'asset_num(1602)' into table
+Alert on line '318': inserted device 'asset_num(303)' into table
+Alert on line '319': inserted device 'asset_num(1566)' into table
+Alert on line '320': inserted device 'asset_num(1571)' into table
+Alert on line '321': inserted device 'asset_num(1593)' into table
+Alert on line '322': inserted device 'asset_num(1596)' into table
+Alert on line '323': inserted device 'asset_num(1606)' into table
+Alert on line '324': inserted device 'asset_num(1595)' into table
+Alert on line '325': inserted device 'asset_num(1611)' into table
+Alert on line '326': inserted device 'asset_num(530)' into table
+Alert on line '327': inserted device 'asset_num(1707)' into table
+Alert on line '328': inserted device 'asset_num(312)' into table
+Alert on line '329': inserted device 'asset_num(1695)' into table
+Alert on line '330': inserted device 'asset_num(203)' into table
+Alert on line '331': inserted device 'asset_num(689)' into table
+Alert on line '332': inserted device 'asset_num(1622)' into table
+Alert on line '333': inserted device 'asset_num(183)' into table
+Alert on line '334': inserted device 'asset_num(1605)' into table
+Alert on line '335': inserted device 'asset_num(1616)' into table
+Alert on line '336': inserted device 'asset_num(1524)' into table
+Alert on line '337': inserted device 'asset_num(1570)' into table
+Alert on line '338': inserted device 'asset_num(1802)' into table
+Alert on line '339': inserted device 'asset_num(180)' into table
+Alert on line '340': inserted device 'asset_num(1614)' into table
+Alert on line '341': inserted device 'asset_num(1811)' into table
+Alert on line '342': inserted device 'asset_num(1725)' into table
+Alert on line '343': inserted device 'asset_num(1526)' into table
+Alert on line '344': inserted device 'asset_num(1619)' into table
+Alert on line '345': inserted device 'asset_num(1728)' into table
+Alert on line '346': inserted device 'asset_num(1617)' into table
+Alert on line '347': inserted device 'asset_num(1565)' into table
+Alert on line '348': inserted device 'asset_num(1515)' into table
+Alert on line '349': inserted device 'asset_num(1592)' into table
+Alert on line '350': inserted device 'asset_num(1723)' into table
+Alert on line '351': inserted device 'asset_num(1621)' into table
+Alert on line '352': inserted device 'asset_num(1608)' into table
+Alert on line '353': inserted device 'asset_num(1701)' into table
+Alert on line '354': inserted device 'asset_num(1594)' into table
+Alert on line '355': inserted device 'asset_num(1591)' into table
+Alert on line '356': inserted device 'asset_num(1590)' into table
+Alert on line '357': inserted device 'asset_num(1538)' into table
+Alert on line '358': inserted device 'asset_num(1544)' into table
+Alert on line '359': inserted device 'asset_num(1543)' into table
+Alert on line '360': inserted device 'asset_num(1558)' into table
+Alert on line '361': inserted device 'asset_num(1559)' into table
+Alert on line '362': inserted device 'asset_num(1803)' into table
+Alert on line '363': inserted device 'asset_num(1805)' into table
+Alert on line '364': inserted device 'asset_num(1530)' into table
+Alert on line '365': inserted device 'asset_num(327)' into table
+Alert on line '366': inserted device 'asset_num(1516)' into table
+Alert on line '367': inserted device 'asset_num(272)' into table
+Alert on line '368': inserted device 'asset_num(1575)' into table
+Alert on line '369': inserted device 'asset_num(1576)' into table
+Alert on line '370': inserted device 'asset_num(1623)' into table
+Alert on line '371': inserted device 'asset_num(1553)' into table
+Alert on line '372': inserted device 'asset_num(1583)' into table
+Alert on line '373': inserted device 'asset_num(1545)' into table
+Alert on line '374': inserted device 'asset_num(1528)' into table
+Alert on line '375': inserted device 'asset_num(551)' into table
+Alert on line '376': inserted device 'asset_num(543)' into table
+Alert on line '377': inserted device 'asset_num(570)' into table
+Alert on line '378': inserted device 'asset_num(417)' into table
+Alert on line '379': inserted device 'asset_num(185)' into table
+Alert on line '380': inserted device 'asset_num(309)' into table
+Alert on line '381': inserted device 'asset_num(542)' into table
+Alert on line '382': inserted device 'asset_num(201)' into table
+Alert on line '383': inserted device 'asset_num(350)' into table
+Alert on line '384': inserted device 'asset_num(693)' into table
+Alert on line '385': inserted device 'asset_num(500)' into table
+Alert on line '386': inserted device 'asset_num(1145)' into table
+Alert on line '387': inserted device 'asset_num(1148)' into table
+Alert on line '388': inserted device 'asset_num(302)' into table
+Alert on line '389': inserted device 'asset_num(1146)' into table
+Alert on line '390': inserted device 'asset_num(339)' into table
+Alert on line '391': inserted device 'asset_num(410)' into table
+Alert on line '392': inserted device 'asset_num(497)' into table
+Alert on line '393': inserted device 'asset_num(385)' into table
+Alert on line '394': inserted device 'asset_num(496)' into table
+Alert on line '395': inserted device 'asset_num(467)' into table
+Alert on line '396': inserted device 'asset_num(466)' into table
+Alert on line '397': inserted device 'asset_num(243)' into table
+Alert on line '398': inserted device 'asset_num(308)' into table
+Alert on line '399': inserted device 'asset_num(298)' into table
+Alert on line '400': inserted device 'asset_num(485)' into table
+Alert on line '401': inserted assignee 'Office' into table
+Alert on line '401': inserted device 'asset_num(696)' into table
+Alert on line '402': inserted device 'asset_num(478)' into table
+Alert on line '403': inserted device 'asset_num(492)' into table
+Alert on line '404': inserted assignee 'Office by Mail Room' into table
+Alert on line '404': inserted device 'asset_num(480)' into table
+Alert on line '405': inserted device 'asset_num(544)' into table
+Alert on line '406': inserted device 'asset_num(383)' into table
+Alert on line '407': inserted device 'asset_num(1151)' into table
+Alert on line '408': inserted device 'asset_num(501)' into table
+Alert on line '409': inserted device 'asset_num(1142)' into table
+Alert on line '410': inserted device 'asset_num(1153)' into table
+Alert on line '411': inserted device 'asset_num(394)' into table
+Alert on line '412': inserted device 'asset_num(667)' into table
+Alert on line '413': inserted device 'asset_num(415)' into table
+Alert on line '414': inserted device 'asset_num(389)' into table
+Alert on line '415': inserted device 'asset_num(644)' into table
+Alert on line '416': inserted assignee 'Policy Office ' into table
+Alert on line '416': inserted device 'asset_num(487)' into table
+Alert on line '417': inserted device 'asset_num(447)' into table
+Alert on line '418': inserted device 'asset_num(670)' into table
+Alert on line '419': inserted device 'asset_num(293)' into table
+Alert on line '420': inserted device 'asset_num(1731)' into table
+Alert on line '421': inserted device 'asset_num(1729)' into table
+Alert on line '422': inserted device 'asset_num(409)' into table
+Alert on line '423': inserted device 'asset_num(503)' into table
+Alert on line '424': inserted device 'asset_num(184)' into table
+Alert on line '425': inserted device 'asset_num(204)' into table
+Alert on line '426': inserted device 'asset_num(451)' into table
+Alert on line '427': inserted device 'asset_num(403)' into table
+Alert on line '428': inserted device 'asset_num(401)' into table
+Alert on line '429': inserted device 'asset_num(359)' into table
+Alert on line '430': inserted assignee 'Jason Marmolejo' into table
+Alert on line '430': inserted device 'asset_num(362)' into table
+Alert on line '431': inserted device 'asset_num(366)' into table
+Alert on line '432': inserted device 'asset_num(368)' into table
+Alert on line '433': inserted device 'asset_num(668)' into table
+Alert on line '434': inserted device 'asset_num(472)' into table
+Alert on line '435': inserted device 'asset_num(371)' into table
+Alert on line '436': inserted device 'asset_num(461)' into table
+Alert on line '437': inserted device 'asset_num(463)' into table
+Alert on line '438': inserted device 'asset_num(459)' into table
+Alert on line '439': inserted device 'asset_num(196)' into table
+Alert on line '440': inserted device 'asset_num(499)' into table
+Alert on line '441': inserted device 'asset_num(441)' into table
+Alert on line '442': inserted device 'asset_num(479)' into table
+Alert on line '443': inserted device 'asset_num(174)' into table
+Alert on line '444': inserted device 'asset_num(400)' into table
+Alert on line '445': inserted device 'asset_num(379)' into table
+Alert on line '446': inserted device 'asset_num(553)' into table
+Alert on line '447': inserted device 'asset_num(1693)' into table
+Alert on line '448': inserted device 'asset_num(313)' into table
+Alert on line '449': inserted device 'asset_num(555)' into table
+Alert on line '450': inserted device 'asset_num(1713)' into table
+Alert on line '451': inserted device 'asset_num(1522)' into table
+Alert on line '452': inserted device 'asset_num(473)' into table
+Alert on line '453': inserted device 'asset_num(1746)' into table
+Alert on line '454': inserted device 'asset_num(579)' into table
+Alert on line '455': inserted device 'asset_num(195)' into table
+Alert on line '456': inserted device 'asset_num(192)' into table
+Alert on line '457': inserted device 'asset_num(248)' into table
+Alert on line '458': inserted device 'asset_num(363)' into table
+Alert on line '459': inserted device 'asset_num(557)' into table
+Alert on line '460': inserted device 'asset_num(1527)' into table
+Alert on line '461': inserted device 'asset_num(223)' into table
+Alert on line '462': inserted device 'asset_num(396)' into table
+Alert on line '463': inserted device 'asset_num(287)' into table
+Alert on line '464': inserted device 'asset_num(310)' into table
+Alert on line '465': inserted device 'asset_num(354)' into table
+Alert on line '466': inserted device 'asset_num(348)' into table
+Alert on line '467': inserted device 'asset_num(218)' into table
+Alert on line '468': inserted device 'asset_num(274)' into table
+Alert on line '469': inserted device 'asset_num(212)' into table
+Alert on line '470': inserted device 'asset_num(229)' into table
+Alert on line '471': inserted device 'asset_num(264)' into table
+Alert on line '472': inserted device 'asset_num(422)' into table
+Alert on line '473': inserted device 'asset_num(333)' into table
+Alert on line '474': inserted device 'asset_num(285)' into table
+Alert on line '475': inserted device 'asset_num(465)' into table
+Alert on line '476': inserted device 'asset_num(438)' into table
+Alert on line '477': inserted device 'asset_num(330)' into table
+Alert on line '478': inserted device 'asset_num(355)' into table
+Alert on line '479': inserted device 'asset_num(323)' into table
+Alert on line '480': inserted device 'asset_num(251)' into table
+Alert on line '481': inserted device 'asset_num(346)' into table
+Alert on line '482': inserted device 'asset_num(506)' into table
+Alert on line '483': inserted device 'asset_num(279)' into table
+Alert on line '484': inserted device 'asset_num(325)' into table
+Alert on line '485': inserted device 'asset_num(1152)' into table
+Alert on line '486': inserted device 'asset_num(276)' into table
+Alert on line '487': inserted device 'asset_num(428)' into table
+Alert on line '488': inserted device 'asset_num(249)' into table
+Alert on line '489': inserted device 'asset_num(351)' into table
+Alert on line '490': inserted device 'asset_num(1555)' into table
+Alert on line '491': inserted device 'asset_num(352)' into table
+Alert on line '492': inserted device 'asset_num(520)' into table
+Alert on line '493': inserted device 'asset_num(469)' into table
+Alert on line '494': inserted device 'asset_num(515)' into table
+Alert on line '495': inserted device 'asset_num(221)' into table
+Alert on line '496': inserted device 'asset_num(517)' into table
+Alert on line '497': inserted device 'asset_num(283)' into table
+Alert on line '498': inserted device 'asset_num(255)' into table
+Alert on line '499': inserted device 'asset_num(236)' into table
+Alert on line '500': inserted device 'asset_num(242)' into table
+Alert on line '501': inserted device 'asset_num(269)' into table
+Alert on line '502': inserted device 'asset_num(253)' into table
+Alert on line '503': inserted device 'asset_num(259)' into table
+Alert on line '504': inserted device 'asset_num(281)' into table
+Error on line '505': could not insert device 'asset_num(1712)' into table
+  reason(Duplicate entry '7G6BTR2' for key 'serial_num')
+Alert on line '506': inserted device 'asset_num(1726)' into table
+Alert on line '507': inserted device 'asset_num(1531)' into table
+Alert on line '508': inserted device 'asset_num(486)' into table
+Alert on line '509': inserted device 'asset_num(1154)' into table
+Alert on line '510': inserted device 'asset_num(342)' into table
+Alert on line '511': inserted device 'asset_num(341)' into table
+Alert on line '512': inserted device 'asset_num(262)' into table
+Alert on line '513': inserted device 'asset_num(510)' into table
+Alert on line '514': inserted device 'asset_num(435)' into table
+Alert on line '515': inserted device 'asset_num(322)' into table
+Alert on line '516': inserted device 'asset_num(436)' into table
+Alert on line '517': inserted device 'asset_num(508)' into table
+Alert on line '518': inserted device 'asset_num(273)' into table
+Alert on line '519': inserted device 'asset_num(239)' into table
+Alert on line '520': inserted device 'asset_num(216)' into table
+Alert on line '521': inserted device 'asset_num(265)' into table
+Alert on line '522': inserted device 'asset_num(1550)' into table
+Alert on line '523': inserted device 'asset_num(1573)' into table
+Alert on line '524': inserted device 'asset_num(1547)' into table
+Alert on line '525': inserted device 'asset_num(297)' into table
+Alert on line '526': inserted device 'asset_num(357)' into table
+Alert on line '527': inserted device 'asset_num(278)' into table
+Alert on line '528': inserted device 'asset_num(306)' into table
+Alert on line '529': inserted device 'asset_num(305)' into table
+Alert on line '530': inserted device 'asset_num(304)' into table
+Alert on line '531': inserted device 'asset_num(232)' into table
+Alert on line '532': inserted device 'asset_num(214)' into table
+Alert on line '533': inserted device 'asset_num(343)' into table
+Alert on line '534': inserted device 'asset_num(220)' into table
+Alert on line '535': inserted device 'asset_num(521)' into table
+Alert on line '536': inserted device 'asset_num(247)' into table
+Alert on line '537': inserted device 'asset_num(690)' into table
+Alert on line '538': inserted device 'asset_num(406)' into table
+Alert on line '539': inserted device 'asset_num(244)' into table
+Alert on line '540': inserted device 'asset_num(349)' into table
+Alert on line '541': inserted device 'asset_num(267)' into table
+Alert on line '542': inserted device 'asset_num(315)' into table
+Alert on line '543': inserted device 'asset_num(268)' into table
+Alert on line '544': inserted device 'asset_num(282)' into table
+Alert on line '545': inserted device 'asset_num(296)' into table
+Alert on line '546': inserted device 'asset_num(256)' into table
+Alert on line '547': inserted device 'asset_num(241)' into table
+Alert on line '548': inserted device 'asset_num(413)' into table
+Alert on line '549': inserted device 'asset_num(321)' into table
+Alert on line '550': inserted device 'asset_num(234)' into table
+Alert on line '551': inserted device 'asset_num(280)' into table
+Alert on line '552': inserted device 'asset_num(344)' into table
+Alert on line '553': inserted device 'asset_num(509)' into table
+Alert on line '554': inserted device 'asset_num(261)' into table
+Alert on line '555': inserted device 'asset_num(289)' into table
+Alert on line '556': inserted device 'asset_num(319)' into table
+Alert on line '557': inserted device 'asset_num(284)' into table
+Alert on line '558': inserted device 'asset_num(377)' into table
+Alert on line '559': inserted device 'asset_num(258)' into table
+Alert on line '560': inserted device 'asset_num(1618)' into table
+Alert on line '561': inserted device 'asset_num(245)' into table
+Alert on line '562': inserted device 'asset_num(518)' into table
+Alert on line '563': inserted device 'asset_num(507)' into table
+Alert on line '564': inserted device 'asset_num(231)' into table
+Alert on line '565': inserted device 'asset_num(316)' into table
+Alert on line '566': inserted device 'asset_num(300)' into table
+Alert on line '567': inserted device 'asset_num(370)' into table
+Alert on line '568': inserted device 'asset_num(1554)' into table
+Alert on line '569': inserted device 'asset_num(211)' into table
+Alert on line '570': inserted device 'asset_num(424)' into table
+Alert on line '571': inserted device 'asset_num(431)' into table
+Alert on line '572': inserted device 'asset_num(213)' into table
+Alert on line '573': inserted device 'asset_num(430)' into table
+Alert on line '574': inserted device 'asset_num(329)' into table
+Alert on line '575': inserted device 'asset_num(331)' into table
+Alert on line '576': inserted device 'asset_num(219)' into table
+Alert on line '577': inserted device 'asset_num(554)' into table
+Alert on line '578': inserted device 'asset_num(552)' into table
+Alert on line '579': inserted device 'asset_num(541)' into table
+Alert on line '580': inserted device 'asset_num(1150)' into table
+Alert on line '581': inserted device 'asset_num(498)' into table
+Alert on line '582': inserted device 'asset_num(399)' into table
+Alert on line '583': inserted device 'asset_num(578)' into table
+Alert on line '584': inserted device 'asset_num(1520)' into table
+Alert on line '585': inserted device 'asset_num(257)' into table
+Alert on line '586': inserted device 'asset_num()' into table
+Alert on line '587': inserted device 'asset_num(347)' into table
+Alert on line '588': inserted device 'asset_num()' into table
+Alert on line '589': inserted device 'asset_num(1219)' into table
+Alert on line '590': inserted device 'asset_num(337)' into table
+Alert on line '591': inserted device 'asset_num(488)' into table
+Alert on line '592': inserted device 'asset_num(448)' into table
+Alert on line '593': inserted device 'asset_num(545)' into table
+Alert on line '594': inserted device 'asset_num(294)' into table
+Alert on line '595': inserted device 'asset_num(1732)' into table
+Alert on line '596': inserted device 'asset_num(1730)' into table
+Alert on line '597': inserted device 'asset_num(411)' into table
+Alert on line '598': inserted device 'asset_num(504)' into table
+Alert on line '599': inserted device 'asset_num(202)' into table
+Alert on line '600': inserted device 'asset_num(450)' into table
+Alert on line '601': inserted device 'asset_num(1144)' into table
+Alert on line '602': inserted device 'asset_num(577)' into table
+Alert on line '603': inserted device 'asset_num(1514)' into table
+Alert on line '604': inserted device 'asset_num(490)' into table
+Alert on line '605': inserted device 'asset_num(688)' into table
+Alert on line '606': inserted device 'asset_num(190)' into table
+Alert on line '607': inserted assignee 'CMU spare' into table
+Alert on line '607': inserted device 'asset_num(198)' into table
+Alert on line '608': inserted device 'asset_num(197)' into table
+Alert on line '609': inserted device 'asset_num(574)' into table
+Alert on line '610': inserted device 'asset_num(222)' into table
+Alert on line '611': inserted device 'asset_num(224)' into table
+Alert on line '612': inserted device 'asset_num(188)' into table
+Alert on line '613': inserted device 'asset_num(227)' into table
+Alert on line '614': inserted device 'asset_num(199)' into table
+Alert on line '615': inserted assignee 'CMU Printer' into table
+Alert on line '615': inserted device 'asset_num(189)' into table
+Alert on line '616': inserted device 'asset_num()' into table
+Alert on line '617': inserted device 'asset_num(536)' into table
+Alert on line '618': inserted device 'asset_num(514)' into table
+Alert on line '619': inserted device 'asset_num(288)' into table
+Alert on line '620': inserted device 'asset_num(599)' into table
+Alert on line '621': inserted device 'asset_num(445)' into table
+Alert on line '622': inserted device 'asset_num(388)' into table
+Alert on line '623': inserted device 'asset_num(390)' into table
+Alert on line '624': inserted device 'asset_num(665)' into table
+Alert on line '625': inserted device 'asset_num(484)' into table
+Alert on line '626': inserted device 'asset_num(558)' into table
+Alert on line '627': inserted device 'asset_num(559)' into table
+Alert on line '628': inserted device 'asset_num(364)' into table
+Alert on line '629': inserted device 'asset_num(2)' into table
+Alert on line '630': inserted device 'asset_num(476)' into table
+Alert on line '631': inserted device 'asset_num(538)' into table
+Alert on line '632': inserted device 'asset_num(700)' into table
+Alert on line '633': inserted device 'asset_num(397)' into table
+Alert on line '634': inserted device 'asset_num(291)' into table
+Alert on line '635': inserted assignee 'Comm Printer' into table
+Alert on line '635': inserted device 'asset_num(699)' into table
+Alert on line '636': inserted device 'asset_num(186)' into table
+Alert on line '637': inserted device 'asset_num(560)' into table
+Alert on line '638': inserted device 'asset_num(452)' into table
+Alert on line '639': inserted device 'asset_num(698)' into table
+Alert on line '640': inserted assignee 'HR Printer' into table
+Alert on line '640': inserted device 'asset_num(657)' into table
+Alert on line '641': inserted assignee 'HR Color Printer ' into table
+Alert on line '641': inserted device 'asset_num(367)' into table
+Alert on line '642': inserted device 'asset_num(525)' into table
+Alert on line '643': inserted device 'asset_num(697)' into table
+Alert on line '644': inserted device 'asset_num(528)' into table
+Alert on line '645': inserted device 'asset_num(443)' into table
+Alert on line '646': inserted assignee 'INV 1 ' into table
+Alert on line '646': inserted device 'asset_num(246)' into table
+Alert on line '647': inserted assignee 'INV 2' into table
+Alert on line '647': inserted device 'asset_num(1155)' into table
+Alert on line '648': inserted assignee 'INV 4' into table
+Alert on line '648': inserted device 'asset_num(493)' into table
+Alert on line '649': inserted assignee 'INV 5' into table
+Alert on line '649': inserted device 'asset_num(537)' into table
+Alert on line '650': inserted assignee 'Training ' into table
+Alert on line '650': inserted device 'asset_num(522)' into table
+Alert on line '651': inserted assignee 'Policy Printer' into table
+Alert on line '651': inserted device 'asset_num(694)' into table
+Alert on line '652': inserted assignee 'Mediation Printer ' into table
+Alert on line '652': inserted device 'asset_num(695)' into table
+Alert on line '653': inserted assignee 'APU 1' into table
+Alert on line '653': inserted device 'asset_num(391)' into table
+Alert on line '654': inserted assignee 'APU 2' into table
+Alert on line '654': inserted device 'asset_num(532)' into table
+Alert on line '655': inserted assignee 'APU Color' into table
+Alert on line '655': inserted device 'asset_num(392)' into table
+Alert on line '656': inserted device 'asset_num(482)' into table
+Alert on line '657': inserted device 'asset_num(539)' into table
+
+Total successes out of 658 is: 656
+Total failures out of 658 is : 1
