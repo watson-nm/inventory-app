@@ -40,7 +40,7 @@
             }
         ?>
 
-        <title>PHP CRUD System</title>
+        <title>Inventory Management Application</title>
     </head>
 
     <body class="d-flex flex-column min-vh-100">
