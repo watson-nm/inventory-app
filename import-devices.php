@@ -31,8 +31,8 @@ if (isset($_POST["submit"])) {
             if ($fileExists == 1) {
                 $file = fopen($target_file, "r") or die("Unable to open file!");
                 $log_dir = "logs/";
-                $timestamp = date("Y-m-d_H:i:s", time());
-                $logname = $log_dir . "log_" . $timestamp . ".txt";
+                $timestamp = date("Y-m-d_H-i-s", time());
+                $logname = $log_dir . $timestamp . ".log";
                 $log = fopen($logname, "w");
 
                 $i = 1;
