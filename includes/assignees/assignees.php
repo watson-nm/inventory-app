@@ -17,30 +17,30 @@
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
+                    <button class="btn btn-sm btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
         </div>
     </form>
 
-    <a href="create-assignee.php" class='btn btn-primary mb-1'></i>Create Entry</a>
-    <a href="../devices/home.php" class='btn btn-secondary mb-1'></i>Device Inventory</a>
-    <a href="see-all.php" class='btn btn-info mb-1'></i>See All Assignees</a>
+    <a href="create-assignee.php" class='btn btn-sm btn-primary mb-1'></i>Create Entry</a>
+    <a href="../devices/home.php" class='btn btn-sm btn-secondary mb-1'></i>Device Inventory</a>
+    <a href="see-all.php" class='btn btn-sm btn-info mb-1'></i>See All Assignees</a>
 
     <!-- Import and export buttons -->
     <div class="row">
         <!-- Export button that is connected to the export form -->
         <div class="col-md-auto pr-1">
-            <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+            <button class="btn btn-sm btn-warning mb-1" type="submit" form="export">Export</button>
         </div>
 
         <!-- Import form containing import button -->
         <div class="col-md-auto pl-0">
             <form name="import" action="../../import-assignees.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group mb-1">
-                    <div class="input-group">
+                    <div class="input-group input-group-sm">
                         <div class="input-group-prepend">
-                            <button class="btn btn-warning" type="submit" name="submit">Import</button>
+                            <button class="btn btn-sm btn-warning" type="submit" name="submit">Import</button>
                         </div>
 
                         <div class="custom-file">
@@ -60,13 +60,13 @@
     </div>
 
     <form name="export" id="export" action="../../export.php" method="POST">
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover" style="font-size:12px">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">Assigned To</th>
                 <th scope="col">Section</th>
-                <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
+                <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
             <tbody>
@@ -92,11 +92,11 @@
                         echo " <td >{$name}</td>";
                         echo " <td >{$section}</td>";
 
-                        echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
+                        echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-sm btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
-                        echo " <td class='text-center' > <a href='update-assignee.php?edit&aID={$aID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+                        echo " <td class='text-center' > <a href='update-assignee.php?edit&aID={$aID}' class='btn btn-sm btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                        echo " <td  class='text-center'>  <a href='delete-assignee.php?aID={$aID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                        echo " <td  class='text-center'>  <a href='delete-assignee.php?aID={$aID}' class='btn btn-sm btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                         echo " </tr> ";
                     }
@@ -167,7 +167,7 @@
 
 <!-- BACK button to go to the index page -->
 <div class="container text-center">
-    <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
+    <a href="../../index.php" class="btn btn-sm btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

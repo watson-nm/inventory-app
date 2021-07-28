@@ -41,7 +41,7 @@
     </div>
 
     <div class="form-group">
-        <input type="submit"  name="update" class="btn btn-primary mt-2" value="update">
+        <input type="submit"  name="update" class="btn btn-sm btn-primary mt-2" value="Update">
     </div>
     </form>
 </div>
@@ -65,7 +65,7 @@
 
 <!-- a BACK button to go to the home page -->
 <div class="container text-center mt-5">
-<a href="assignees.php" class="btn btn-warning mt-5"> Back </a>
+<a href="assignees.php" class="btn btn-sm btn-warning mt-5"> Back </a>
 <div>
 
 <!-- Footer -->

@@ -25,7 +25,7 @@
 
 <!-- BACK button to go to the devices page -->
 <div class="container text-center">
-    <a href="assignees.php" class="btn btn-primary m-3"> Return to table </a>
+    <a href="assignees.php" class="btn btn-sm btn-primary m-3"> Return to table </a>
 <div>
 
 <?php include "../../footer.php" ?>

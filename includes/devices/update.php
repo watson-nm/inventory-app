@@ -41,7 +41,13 @@
         $dev_type = $_POST['dev_type'];
         $make = $_POST['make'];
         $model = $_POST['model'];
-        $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
+
+        # 1970-01-01 is automatically set for some reason if you don't include an actual date
+        if ($_POST['assign_date'] == '1970-01-01' || $_POST['assign_date'] == NULL) {
+            $assign_date = NULL;
+        } else {
+            $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
+        }
         $update_date = date("Y-m-d", time());
 
         #get the aID using name and section
@@ -68,54 +74,54 @@
 <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
 
     <form action="" method="post">
-    <div class="form-group">
-        <label for="name">Assigned To: Name</label>
-        <input type="text" name="name" id="name" class="form-control" value="<?php echo $assignee ?>">
-    </div>
+        <div class="form-group">
+            <label for="name">Assigned To: Name</label>
+            <input type="text" name="name" id="name" class="form-control" value="<?php echo $assignee ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="section">Assigned To: Section</label>
-        <input type="text" name="section" id="section" class="form-control" value="<?php echo $section ?>">
-    </div>
+        <div class="form-group">
+            <label for="section">Assigned To: Section</label>
+            <input type="text" name="section" id="section" class="form-control" value="<?php echo $section ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="location">Location</label>
-        <input type="text" name="location" id="location" class="form-control" value="<?php echo $location ?>">
-    </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location" class="form-control" value="<?php echo $location ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="asset_num">Asset #</label>
-        <input type="text" name="asset_num" id="asset_num" class="form-control" value="<?php echo $asset_num ?>">
-    </div>
+        <div class="form-group">
+            <label for="asset_num">Asset #</label>
+            <input type="text" name="asset_num" id="asset_num" class="form-control" value="<?php echo $asset_num ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="serial_num">Serial #</label>
-        <input type="text" name="serial_num" id="serial_num" class="form-control" value="<?php echo $serial_num ?>">
-    </div>
+        <div class="form-group">
+            <label for="serial_num">Serial #</label>
+            <input type="text" name="serial_num" id="serial_num" class="form-control" value="<?php echo $serial_num ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="dev_type">Device Type</label>
-        <input type="text" name="dev_type" id="dev_type" class="form-control" value="<?php echo $dev_type ?>">
-    </div>
+        <div class="form-group">
+            <label for="dev_type">Device Type</label>
+            <input type="text" name="dev_type" id="dev_type" class="form-control" value="<?php echo $dev_type ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="">Make</label>
-        <input type="text" name="make" id="make" class="form-control" value="<?php echo $make ?>">
-    </div>
+        <div class="form-group">
+            <label for="">Make</label>
+            <input type="text" name="make" id="make" class="form-control" value="<?php echo $make ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="model">Model</label>
-        <input type="text" name="model" id="model" class="form-control" value="<?php echo $model ?>">
-    </div>
+        <div class="form-group">
+            <label for="model">Model</label>
+            <input type="text" name="model" id="model" class="form-control" value="<?php echo $model ?>">
+        </div>
 
-    <div class="form-group">
-        <label for="assign_date">Assign Date</label>
-        <input type="text" name="assign_date" id="assign_date" class="date form-control" value="<?php echo $assign_date ?>">
-    </div>
+        <div class="form-group">
+            <label for="assign_date">Assign Date</label>
+            <input type="text" name="assign_date" id="assign_date" class="date form-control" value="<?php echo $assign_date ?>">
+        </div>
 
-    <div class="form-group">
-        <input type="submit"  name="update" class="btn btn-primary mt-2" value="update">
-    </div>
+        <div class="form-group">
+            <input type="submit" name="update" class="btn btn-sm btn-primary mt-2" value="Update">
+        </div>
     </form>
 </div>
 
@@ -168,7 +174,7 @@
 
 <!-- a BACK button to go to the home page -->
 <div class="container text-center">
-<a href="home.php" class="btn btn-warning m-3"> Back </a>
+<a href="home.php" class="btn btn-sm btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

@@ -5,10 +5,10 @@
 
     <a href="home.php" class='btn btn-primary mb-1'></i>Return to Devices</a>
 
-    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <button class="btn btn-sm btn-warning mb-1" type="submit" form="export">Export</button>
     <form name="export" id="export" action="../../export.php" method="POST">
 
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover" style="font-size:12px">
             <thead class="table-dark">
             <tr>
                 <th scope="col">Item ID</th>
@@ -62,11 +62,11 @@
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 
-                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
+                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-sm btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
 
-                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-sm btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-sm btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                             echo " </tr> ";
                         }
@@ -86,7 +86,7 @@
 </div>
 <!-- BACK button to go to the index page -->
 <div class="container text-center mb-5">
-    <a href="../../index.php" class="btn btn-warning mb-5"> Back </a>
+    <a href="../../index.php" class="btn btn-sm btn-warning mb-5"> Back </a>
 <div>
 
 <!-- Footer -->

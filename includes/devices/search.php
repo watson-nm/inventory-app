@@ -29,16 +29,16 @@
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
+                    <button class="btn btn-sm btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
         </div>
     </form>
 
-    <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+    <button class="btn btn-sm btn-warning mb-1" type="submit" form="export">Export</button>
     <form name="export" action="../../export.php" method="POST">
 
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover" style="font-size:12px">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">Device ID</th>
@@ -103,11 +103,11 @@
                                 echo " <td >{$assign_date}</td>";
                                 echo " <td >{$update_date}</td>";
 
-                                echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
+                                echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-sm btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
-                                echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+                                echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-sm btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                                echo " <td  class='text-center'> <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                                echo " <td  class='text-center'> <a href='delete.php?delete_device={$dID}' class='btn btn-sm btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                                 echo " </tr> ";
                             }
@@ -148,11 +148,11 @@
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 
-                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
+                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-sm btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
-                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-sm btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-sm btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                             echo " </tr> ";
                         }
@@ -174,7 +174,7 @@
 
 <!-- U BACK button to go to the home page -->
 <div class="container text-center">
-    <a href="home.php" class="btn btn-warning m-3"> Back </a>
+    <a href="home.php" class="btn btn-sm btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

@@ -24,21 +24,21 @@
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
 
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit" value="Search">Search</button>
+                    <button class="btn btn-sm btn-primary" type="submit" value="Search">Search</button>
                 </div>
             </div>
         </div>
     </form>
 
-    <a href="create.php" class='btn btn-primary mb-1'></i>Create Entry</a>
-    <a href="../assignees/assignees.php" class='btn btn-secondary mb-1'></i>Assignees Page</a>
-    <a href="see-all.php" class='btn btn-info mb-1'></i>See All Devices</a>
+    <a href="create.php" class='btn btn-sm btn-primary mb-1'></i>Create Entry</a>
+    <a href="../assignees/assignees.php" class='btn btn-sm btn-secondary mb-1'></i>Assignees Page</a>
+    <a href="see-all.php" class='btn btn-sm btn-info mb-1'></i>See All Devices</a>
 
     <!-- Import and export buttons -->
     <div class="row">
         <!-- Export button that is connected to the export form -->
         <div class="col-md-auto pr-1">
-            <button class="btn btn-warning mb-1" type="submit" form="export">Export</button>
+            <button class="btn btn-sm btn-warning mb-1" type="submit" form="export">Export</button>
         </div>
 
         <!-- Import form containing import button -->
@@ -47,7 +47,7 @@
                 <div class="form-group mb-1">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <button class="btn btn-warning" type="submit" name="submit">Import</button>
+                            <button class="btn btn-sm btn-warning" type="submit" name="submit">Import</button>
                         </div>
 
                         <div class="custom-file">
@@ -68,7 +68,7 @@
 
    <!-- Create table and export button -->
     <form name="export" id="export" action="../../export.php" method="POST">
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover" style="font-size:12px">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
@@ -141,11 +141,11 @@
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 
-                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
+                            echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-sm btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
-                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
+                            echo " <td class='text-center' > <a href='update.php?edit&device_id={$dID}' class='btn btn-sm btn-secondary'><i class='bi bi-pencil'></i>Edit</a> </td>";
 
-                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
+                            echo " <td  class='text-center'>  <a href='delete.php?delete_device={$dID}' class='btn btn-sm btn-danger'> <i class='bi bi-trash'></i>Delete</a> </td>";
 
                             echo " </tr> ";
                         }
@@ -163,7 +163,7 @@
     </form>
 
     <nav aria-label="Page navigation">
-        <ul class="pagination justify-content-center">
+        <ul class="pagination pagination-sm justify-content-center">
             <?php
             $prev = $page - 1;
             $next = $page + 1;
@@ -214,7 +214,7 @@
 </div>
 <!-- BACK button to go to the index page -->
 <div class="container text-center">
-    <a href="../../index.php" class="btn btn-warning m-3"> Back </a>
+    <a href="../../index.php" class="btn btn-sm btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->
