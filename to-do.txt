@@ -1,2 +1,5 @@
 - make sure that footer stuff is present
 - explain in import help section the constrains on input
+- location field
+- combine serial number serivce tag
+- update help page

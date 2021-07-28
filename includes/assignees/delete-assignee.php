@@ -18,8 +18,14 @@
             alert("error", $warn);
         } else {
             $msg = "Successfully deleted item from table!";
+            alert("good", $msg);
         }
-
-        header("Location: assignees.php");
     }
 ?>
+
+<!-- BACK button to go to the devices page -->
+<div class="container text-center">
+    <a href="assignees.php" class="btn btn-primary m-3"> Return to table </a>
+<div>
+
+<?php include "../../footer.php" ?>

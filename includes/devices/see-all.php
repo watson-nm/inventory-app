@@ -13,12 +13,12 @@
             <tr>
                 <th scope="col">Item ID</th>
                 <th scope="col">Assigned To</th>
+                <th scope="col">Location</th>
                 <th scope="col">Asset #</th>
                 <th scope="col">Serial #</th>
                 <th scope="col">Device</th>
                 <th scope="col">Make</th>
                 <th scope="col">Model</th>
-                <th scope="col">Service Tag</th>
                 <th scope="col">Assign Date</th>
                 <th scope="col">Update Date</th>
                 <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
@@ -39,26 +39,26 @@
                             $aVal = mysqli_fetch_assoc($get_assignee);
                             $assignee = $aVal['name'];
 
+                            $location = $row['location'];
                             $asset_num = $row['asset_num'];
                             $serial_num = $row['serial_num'];
                             $dev_type = $row['dev_type'];
                             $make = $row['make'];
                             $model = $row['model'];
-                            $service_tag = $row['service_tag'];
                             $assign_date = $row['assign_date'];
                             $update_date = $row['update_date'];
 
-                            $data_arr[] = array($dID,$assignee,$asset_num,$serial_num,$dev_type,$make,$model,$service_tag,$assign_date,$update_date);
+                            $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
 
                             echo "<tr >";
                             echo " <td scope='row' >{$dID}</td>";
                             echo " <td >{$assignee}</td>";
+                            echo " <td >{$location}</td>";
                             echo " <td >{$asset_num}</td>";
                             echo " <td >{$serial_num}</td>";
                             echo " <td >{$dev_type}</td>";
                             echo " <td >{$make}</td>";
                             echo " <td >{$model}</td>";
-                            echo " <td >{$service_tag}</td>";
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
 

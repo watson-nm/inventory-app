@@ -6,12 +6,12 @@
     if(isset($_POST['create'])) {
         $name = $_POST['name'];
         $section = $_POST['section'];
+        $location = $_POST['location'];
         $asset_num = $_POST['asset_num'];
         $serial_num = $_POST['serial_num'];
         $dev_type = $_POST['dev_type'];
         $make = $_POST['make'];
         $model = $_POST['model'];
-        $service_tag = $_POST['service_tag'];
         $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
         $update_date = date("Y-m-d", strtotime($_POST['update_date']));
 
@@ -38,7 +38,7 @@
         }
 
         # This portion should: # - insert a new device using the previously obtained assignee value and user input values
-        $intoD = "INSERT INTO devices(assignee, asset_num, serial_num, dev_type, make, model, service_tag, assign_date, update_date) VALUES('{$assignee}', '{$asset_num}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$service_tag}', '{$assign_date}', '{$update_date}')";
+        $intoD = "INSERT INTO devices(assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('{$assignee}', '{$asset_num}', '{$location}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$assign_date}', '{$update_date}')";
         $add_entry = mysqli_query($conn, $intoD);
 
         # displaying proper message for the user to see whether the query executed perfectly or not
@@ -69,6 +69,11 @@
         </div>
 
         <div class="form-group">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" name="location" id="location" class="form-control" />
+        </div>
+
+        <div class="form-group">
             <label for="asset_num" class="form-label">Asset #</label>
             <input type="text" name="asset_num" id="asset_num" class="form-control" />
         </div>
@@ -91,11 +96,6 @@
         <div class="form-group">
             <label for="model" class="form-label">Model</label>
             <input type="text" name="model" id="model" class="form-control" />
-        </div>
-
-        <div class="form-group">
-            <label for="service_tag" class="form-label">Service Tag</label>
-            <input type="text" name="service_tag" id="service_tag" class="form-control" />
         </div>
 
         <div class="form-group">

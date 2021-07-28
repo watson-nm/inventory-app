@@ -22,12 +22,12 @@
                     <ul>
                         <li><b>dID</b>: The unique table ID of an item.</li>
                         <li><b>assignee</b>: The person, section, or location that the device is assigned to. This number corresponds to an <b>aID</b> in the <b>Assignees</b> table.</li>
+                        <li><b>location</b>: The physical location of the device.</li>
                         <li><b>asset_num</b>: The asset number of the device.</li>
                         <li><b>serial_num</b>: The unique serial number of the device.</li>
                         <li><b>dev_type</b>: The type of device.</li>
                         <li><b>make</b>: The make of the device.</li>
                         <li><b>model</b>: The model of the device.</li>
-                        <li><b>service_tag</b>: The unique service tag of a device.</li>
                         <li><b>assign date</b>: The date when the device is assigned.</li>
                         <li><b>update date</b>: The date when the device is updated.</li>
                     </ul>
@@ -110,12 +110,12 @@
                     <ul>
                         <li><b>Item ID</b>: The automatically assigned table ID of an item.</li>
                         <li><b>Assigned To</b>: The name of the device's assignee.</li>
+                        <li><b>Location</b>: The device's physical location.</li>
                         <li><b>Asset #</b>: The device's asset number.</li>
                         <li><b>Serial #</b>: The device's unique serial number.</li>
                         <li><b>Device</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
-                        <li><b>Service Tag</b>: The device's unique service tag.</li>
                         <li><b>Assign Date</b>: The date when a device was assigned.</li>
                         <li><b>Update Date</b>: The date when a device was updated.</li>
                     </ul>
@@ -145,12 +145,12 @@
                     <ul>
                         <li><b>Assignee Name</b>: The name of the person, section, or location the device should be assigned to.</li>
                         <li><b>Assignee Section</b>: If applicable, the section which the assignee belongs to.</li>
+                        <li><b>Service Tag</b>: The physical location of the device.</li>
                         <li><b>Asset #</b>: The asset number of the device.</li>
                         <li><b>Serial #</b>: The unique serial number of the device.</li>
                         <li><b>Device Type</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
-                        <li><b>Service Tag</b>: The device's unique service tag.</li>
                         <li><b>Assign Date</b>: The date when the device was assigned.</li>
                         <li><b>Update Date</b>: The date when the device was updated</li>
                     </ul>
@@ -203,12 +203,12 @@
                     <ul>
                         <li><b>Assignee Name</b>: The name of the person, section, or location the device should be assigned to.</li>
                         <li><b>Assignee Section</b>: If applicable, the section which the assignee belongs to.</li>
+                        <li><b>Location</b>: The physical location of a device.</li>
                         <li><b>Asset #</b>: The asset number of the device.</li>
                         <li><b>Serial #</b>: The unique serial number of the device.</li>
                         <li><b>Device Type</b>: The type of device.</li>
                         <li><b>Make</b>: The make of the device.</li>
                         <li><b>Model</b>: The model of the device.</li>
-                        <li><b>Service Tag</b>: The unique service tag of a device.</li>
                         <li><b>Assign Date</b>: The date the device was assigned.</li>
                         <li><b>Update Date</b>: The date the device was updated.</li>
                     </ul>
@@ -286,12 +286,12 @@
                 To import data into the Devices table the csv file must contain the following columns, in this <b>exact order</b>:
                 <ul>
                     <li><b>Assignee Name</b></li>
+                    <li><b>Location</b></li>
                     <li><b>Asset Number</b></li>
                     <li><b>Serial Number</b></li>
                     <li><b>Device Type</b></li>
                     <li><b>Device Make</b></li>
                     <li><b>Device Model</b></li>
-                    <li><b>Service Tag</b></li>
                     <li><b>Assign Date</b></li>
                     <li><b>Update Date</b></li>
                 </ul>
@@ -304,7 +304,7 @@
                     <li>All dates must be in the format <b>mm/dd/yyyy</b>.</li>
                     <li>Input data shold not include:
                         <ul>
-                            <li>unknown symbols �</li>
+                            <li>unknown characters (�)</li>
                             <li>double quotes (")</li>
                             <li>back slashes (\)</li>
                             <li>percentages (%)</li>

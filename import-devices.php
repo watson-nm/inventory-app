@@ -36,19 +36,30 @@ if (isset($_POST["submit"])) {
                 $log = fopen($logname, "w");
 
                 $i = 1;
-                $s = 0;
-                $f = 0;
+                $s_d = 0;
+                $f_d = 0;
+                $s_a = 0;
+                $f_a = 0;
 
-                while (($row = fgetcsv($file, 1000, ",")) !== false) {
+                while (($row = fgetcsv($file, 10000, ",")) !== false) {
                     $name = mysqli_real_escape_string($conn, $row[0]);
-                    $asset_num = $row[1];
-                    $serial_num = $row[2];
-                    $dev_type = $row[3];
-                    $make = $row[4];
-                    $model = $row[5];
-                    $service_tag = $row[6];
-                    $assign_date = date("Y-m-d", strtotime($row[7]));
-                    $update_date = date("Y-m-d", strtotime($row[8]));
+                    $location = $row[1];
+                    $asset_num = $row[2];
+                    $serial_num = $row[3];
+                    $dev_type = $row[4];
+                    $make = $row[5];
+                    $model = $row[6];
+
+                    if (isset($row[7])) {
+                        $assign_date = date("Y-m-d", strtotime($row[7]));
+                    } else {
+                        $assign_date = NULL;
+                    }
+                    if (isset($row[8])) {
+                        $update_date = date("Y-m-d", strtotime($row[8]));
+                    } else {
+                        $update_date = NULL;
+                    }
 
                     $query = "SELECT aID FROM assignees WHERE name LIKE '%$name%' ORDER BY aID ASC LIMIT 1";
                     $table_result = mysqli_query($conn, $query);
@@ -64,12 +75,14 @@ if (isset($_POST["submit"])) {
                         if ($a_insert <= 0) {
                             $log_data = "Error on line '" . $i . "': could not insert assignee '$name' into table".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
                             fwrite($log, $log_data);
-                            $f = $f + 1;
+                            $f_a = $f_a + 1;
                             $i = $i + 1;
                             continue;
                         } else {
                             $log_data = "Alert on line '" . $i . "': inserted assignee '$name' into table".PHP_EOL;
                             fwrite($log, $log_data);
+
+                            $s_a = $s_a + 1;
 
                             $get_new_aID = mysqli_query($conn, $query);
                             $a_array = mysqli_fetch_assoc($get_new_aID);
@@ -77,38 +90,33 @@ if (isset($_POST["submit"])) {
                         }
                     }
 
-                    # Insert device into table
-                    if ($serial_num == '' && $service_tag != '') {
-                        $intoD = "INSERT INTO devices (assignee, asset_num, dev_type, make, model, service_tag, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$dev_type', '$make', '$model', '$service_tag', '$assign_date', '$update_date');";
-                    } else if ($serial_num != '' && $service_tag == '') {
-                        $intoD = "INSERT INTO devices (assignee, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
-                    } else if ($service_tag == '' && $serial_num == '') {
-                        $intoD = "INSERT INTO devices (assignee, asset_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
-                    } else {
-                        $intoD = "INSERT INTO devices (assignee, asset_num, serial_num, dev_type, make, model, service_tag, assign_date, update_date) VALUES ('$assignee', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$service_tag', '$assign_date', '$update_date');";
-                    }
+                    $intoD = "INSERT INTO devices (assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$location', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+
                     $add_entry = mysqli_query($conn, $intoD);
 
                     if ($add_entry <= 0) {
                         $log_data = "Error on line '" . $i . "': could not insert device 'asset_num($asset_num)' into table".PHP_EOL."  reason(".mysqli_error($conn).")".PHP_EOL;
                         fwrite($log, $log_data);
-                        $f = $f + 1;
+                        $f_d = $f_d + 1;
                         $i = $i + 1;
                         continue;
                     } else {
                         $log_data = "Alert on line '" . $i . "': inserted device 'asset_num($asset_num)' into table".PHP_EOL;
                         fwrite($log, $log_data);
-                        $s = $s + 1;
+                        $s_d = $s_d + 1;
                         $i = $i + 1;
                     }
                 }
             }
             unlink($target_file);
 
-            $log_data = PHP_EOL . "Total successes out of " . $i . " is: " . $s . PHP_EOL . "Total failures out of " . $i . " is : " . $f . PHP_EOL;
+            $log_data = PHP_EOL . "Succeeded importing assignees: " . $s_a . PHP_EOL . "Failed to import assignees: " . $f_a . PHP_EOL;
             fwrite($log, $log_data);
 
-            $msg = "Successfully imported data!<br>Please return to the devices page and ensure your data is correct.";
+            $log_data = PHP_EOL . "Succeeded importing devices: " . $s_d . PHP_EOL . "Failed to import devices:" . $f_d . PHP_EOL;
+            fwrite($log, $log_data);
+
+            $msg = "Successfully imported " . $s_d . " items!<br>Skipped " . $f_d . " items.<br>See log files to see any errors.";
             alert("good", $msg);
         } else {
             $warn = "Sorry, there was an error uploading your file.";
