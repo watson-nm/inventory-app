@@ -13,7 +13,7 @@
         $make = $_POST['make'];
         $model = $_POST['model'];
         $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
-        $update_date = date("Y-m-d", strtotime($_POST['update_date']));
+        $update_date = date("Y-m-d", time());
 
         # This portion should:
         # - look for any assignees that match the user input
@@ -38,7 +38,7 @@
         }
 
         # This portion should: # - insert a new device using the previously obtained assignee value and user input values
-        $intoD = "INSERT INTO devices(assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('{$assignee}', '{$asset_num}', '{$location}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$assign_date}', '{$update_date}')";
+        $intoD = "INSERT INTO devices(assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('{$assignee}', '{$location}', '{$asset_num}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$assign_date}', '{$update_date}')";
         $add_entry = mysqli_query($conn, $intoD);
 
         # displaying proper message for the user to see whether the query executed perfectly or not
@@ -104,12 +104,7 @@
         </div>
 
         <div class="form-group">
-            <label for="update_date" class="form-label">Update Date</label>
-            <input type="text" name="update_date" id="update_date" class="date form-control" />
-        </div>
-
-        <div class="form-group">
-            <input type="submit" name="create" class="btn btn-sm btn-primary mt-2" value="Submit" />
+            <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit" />
         </div>
     </form>
 </div>
@@ -127,6 +122,14 @@
   $(function() {
      $( "#section" ).autocomplete({
        source: '../search-suggestions/section-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#location" ).autocomplete({
+       source: '../search-suggestions/location-search.php',
      });
   });
 </script>
@@ -163,7 +166,7 @@
 
 <!-- a BACK button to go to the home page -->
 <div class="container text-center">
-  <a href="home.php" class="btn btn-sm btn-warning m-3"> Back </a>
+  <a href="home.php" class="btn btn-warning m-3"> Back </a>
   <div>
     <!-- Footer -->
     <?php include "../../footer.php" ?>

@@ -120,7 +120,7 @@
         </div>
 
         <div class="form-group">
-            <input type="submit" name="update" class="btn btn-sm btn-primary mt-2" value="Update">
+            <input type="submit" name="update" class="btn btn-primary mt-2" value="Update">
         </div>
     </form>
 </div>
@@ -138,6 +138,14 @@
   $(function() {
      $( "#section" ).autocomplete({
        source: '../search-suggestions/section-search.php',
+     });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#location" ).autocomplete({
+       source: '../search-suggestions/location-search.php',
      });
   });
 </script>
@@ -174,7 +182,7 @@
 
 <!-- a BACK button to go to the home page -->
 <div class="container text-center">
-<a href="home.php" class="btn btn-sm btn-warning m-3"> Back </a>
+<a href="home.php" class="btn btn-warning m-3"> Back </a>
 <div>
 
 <!-- Footer -->

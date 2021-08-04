@@ -25,14 +25,14 @@
     <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Confirm Delete</h1>
     <form action="" method="POST">
         <div class="form-group">
-            <input type="submit" name="confirm_delete" class="btn btn-sm btn-danger mt-2" value="Confirm Delete">
+            <input type="submit" name="confirm_delete" class="btn btn-danger mt-2" value="Confirm Delete">
         </div>
     </form>
 </div>
 
 <!-- BACK button to go to the devices page -->
 <div class="container text-center">
-    <a href="home.php" class="btn btn-sm btn-primary m-3"> Return to table </a>
+    <a href="home.php" class="btn btn-primary m-3"> Return to table </a>
 <div>
 
 <?php include "../../footer.php" ?>
