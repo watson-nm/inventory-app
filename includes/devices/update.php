@@ -11,6 +11,8 @@
     $view_device_data= mysqli_query($conn,$query);
 
     while ($row = mysqli_fetch_assoc($view_device_data)) {
+        # Get From Database
+        #####
         $aID = $row['assignee'];
         $query_assignees = "SELECT * FROM assignees WHERE aID = $aID";
         $get_assignee = mysqli_query($conn, $query_assignees);
@@ -29,10 +31,13 @@
         } else {
             $assign_date = $row['assign_date'];
         }
+        #####
     }
 
     # Processing form data when form is submitted
     if(isset($_POST['update'])) {
+        # From Form
+        #####
         $assignee = $_POST['name'];
         $section = $_POST['section'];
         $location = $_POST['location'];
@@ -49,6 +54,7 @@
             $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
         }
         $update_date = date("Y-m-d", time());
+        #####
 
         #get the aID using name and section
         $search_aID = "SELECT aID FROM assignees WHERE name = '$assignee' AND section = '$section'";
@@ -56,8 +62,13 @@
         if (mysqli_num_rows($search_res) > 0) {
             $data = mysqli_fetch_assoc($search_res);
             $aID = $data['aID'];
+
             # SQL query to update the data in devices table where the dID = $dID
+            # Update Command
+            #####
             $query = "UPDATE devices SET assignee = '{$aID}', location = '{$location}', asset_num = '{$asset_num}', serial_num = '{$serial_num}', dev_type = '{$dev_type}', make = '{$make}', model = '{$model}', assign_date = '{$assign_date}', update_date = '{$update_date}' WHERE dID = $dID";
+            #####
+
             $update_device = mysqli_query($conn, $query);
             $msg = "Table data updated successfully!";
             alert("good", $msg);
@@ -73,6 +84,8 @@
 <div class="container p-0">
 <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
 
+    <!-- Input Form -->
+    <!-- ##### -->
     <form action="" method="post">
         <div class="form-group">
             <label for="name">Assigned To: Name</label>
@@ -123,6 +136,7 @@
             <input type="submit" name="update" class="btn btn-primary mt-2" value="Update">
         </div>
     </form>
+    <!-- ##### -->
 </div>
 
 <!-- The code that autosuggests for input -->
@@ -153,7 +167,7 @@
 <script type="text/javascript">
   $(function() {
      $( "#dev_type" ).autocomplete({
-       source: '../search-suggestions/dev_type-search.php',
+       source: '../search-suggestions/dev-type-search.php',
      });
   });
 </script>

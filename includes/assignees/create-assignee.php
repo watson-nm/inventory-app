@@ -4,6 +4,7 @@
 <!-- The php code that adds items to tables -->
 <?php
     if(isset($_POST['create'])) {
+
         $name = $_POST['name'];
         $section = $_POST['section'];
 

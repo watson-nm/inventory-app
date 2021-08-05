@@ -3,10 +3,13 @@
 <div class="container p-0">
     <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Device Inventory</h1>
 
+    <!-- Search Bar -->
     <form name="search" action="search.php" method="POST">
         <div class="form-group w-50 mb-1">
             <div class="input-group">
                 <div class="input-group-prepend">
+                    <!-- Search Categories -->
+                    <!-- ##### -->
                     <select class="custom-select" name="category">
                         <option value="dID">ID</option>
                         <option value="assignee">Assigned To</option>
@@ -19,6 +22,7 @@
                         <option value="assign_date">Assign Date</option>
                         <option value="update_date">Update Date</option>
                     </select>
+                    <!-- ##### -->
                 </div>
 
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
@@ -68,7 +72,10 @@
 
    <!-- Create table and export button -->
     <form name="export" id="export" action="../../export.php" method="POST">
+        <!-- Table -->
         <table class="table table-striped table-bordered table-hover" style="font-size:12px">
+            <!-- Table Head -->
+            <!-- ##### -->
             <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
@@ -84,6 +91,7 @@
                 <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
+            <!-- ##### -->
                 <tbody>
                     <tr>
                         <?php
@@ -99,7 +107,10 @@
                         $view_devices_data = mysqli_query($conn, $query_devices);
                         $data_arr = array();
 
+                        # Get Table Contents
                         while ($row = mysqli_fetch_assoc($view_devices_data)) {
+                            # Get From Database
+                            #####
                             $dID = $row['dID'];
 
                             $aID = $row['assignee'];
@@ -126,9 +137,15 @@
                             } else {
                                 $update_date = date("m/d/Y", strtotime($row['update_date']));
                             }
+                            #####
 
+                            # Data Array
+                            #####
                             $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                            #####
 
+                            # Echo Table Contents
+                            #####
                             echo "<tr >";
                             echo " <td scope='row' >{$dID}</td>";
                             echo " <td >{$assignee}</td>";
@@ -140,6 +157,7 @@
                             echo " <td >{$model}</td>";
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
+                            #####
 
                             echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 

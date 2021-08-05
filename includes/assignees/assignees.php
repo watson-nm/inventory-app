@@ -7,11 +7,14 @@
         <div class="form-group w-50 mb-1">
             <div class="input-group">
                 <div class="input-group-prepend">
+                    <!-- Search Categories -->
+                    <!-- ##### -->
                     <select class="custom-select" name="category">
                         <option value="aID">ID</option>
                         <option value="name">Name</option>
                         <option value="section">Section</option>
                     </select>
+                    <!-- ##### -->
                 </div>
 
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
@@ -61,6 +64,8 @@
 
     <form name="export" id="export" action="../../export.php" method="POST">
         <table class="table table-striped table-bordered table-hover" style="font-size:12px">
+            <!-- Table Head -->
+            <!-- ##### -->
             <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
@@ -69,6 +74,7 @@
                 <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
+            <!-- ##### -->
             <tbody>
                 <tr>
                     <?php
@@ -80,17 +86,26 @@
                     $data_arr = array();
 
                     while($row = mysqli_fetch_assoc($view_assignees_data)){
+                        # Get From Database
+                        #####
                         $aID = $row['aID'];
 
                         $name = $row['name'];
                         $section = $row['section'];
+                        #####
 
+                        # Data Array
+                        #####
                         $data_arr[] = array($name,$section);
+                        #####
 
+                        # Echo Table Contents
+                        #####
                         echo "<tr >";
                         echo " <td scope='row' >{$aID}</td>";
                         echo " <td >{$name}</td>";
                         echo " <td >{$section}</td>";
+                        #####
 
                         echo " <td class='text-center'> <a href='read-assignee.php?aID={$aID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 

@@ -9,6 +9,8 @@
     <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover" style="font-size:12px">
+            <!-- Table Head -->
+            <!-- ##### -->
             <thead class="table-dark">
             <tr>
                 <th scope="col">ID</th>
@@ -24,6 +26,7 @@
                 <th scope="col" colspan="3" class="text-center">CRUD Operations</th>
             </tr>
             </thead>
+            <!-- ##### -->
                 <tbody>
                     <tr>
                         <?php
@@ -31,6 +34,8 @@
                         $view_devices_data = mysqli_query($conn, $query_devices);
 
                         while ($row = mysqli_fetch_assoc($view_devices_data)) {
+                            # Get From Database
+                            #####
                             $dID = $row['dID'];
 
                             $aID = $row['assignee'];
@@ -45,11 +50,27 @@
                             $dev_type = $row['dev_type'];
                             $make = $row['make'];
                             $model = $row['model'];
-                            $assign_date = $row['assign_date'];
-                            $update_date = $row['update_date'];
 
-                            $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                            if ($row['assign_date'] == '0000-00-00') {
+                                $assign_date = NULL;
+                            } else {
+                                $assign_date = date("m/d/Y", strtotime($row['assign_date']));
+                            }
 
+                            if ($row['update_date'] == '0000-00-00') {
+                                $update_date = NULL;
+                            } else {
+                                $update_date = date("m/d/Y", strtotime($row['update_date']));
+                            }
+                            #####
+
+                            # Data Array
+                            #####
+                            $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$updte_date);
+                            #####
+
+                            # Echo Table Contents
+                            #####
                             echo "<tr >";
                             echo " <td scope='row' >{$dID}</td>";
                             echo " <td >{$assignee}</td>";
@@ -61,6 +82,7 @@
                             echo " <td >{$model}</td>";
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
+                            #####
 
                             echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-primary'> <i class='bi bi-eye'></i>View</a> </td>";
 

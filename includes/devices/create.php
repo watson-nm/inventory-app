@@ -4,6 +4,8 @@
 <!-- The php code that adds items to tables -->
 <?php
     if(isset($_POST['create'])) {
+        # Input From Form
+        #####
         $name = $_POST['name'];
         $section = $_POST['section'];
         $location = $_POST['location'];
@@ -14,6 +16,7 @@
         $model = $_POST['model'];
         $assign_date = date("Y-m-d", strtotime($_POST['assign_date']));
         $update_date = date("Y-m-d", time());
+        #####
 
         # This portion should:
         # - look for any assignees that match the user input
@@ -37,8 +40,10 @@
             alert($type, $message);
         }
 
-        # This portion should: # - insert a new device using the previously obtained assignee value and user input values
+        # Insert Command
+        #####
         $intoD = "INSERT INTO devices(assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('{$assignee}', '{$location}', '{$asset_num}', '{$serial_num}', '{$dev_type}', '{$make}', '{$model}', '{$assign_date}', '{$update_date}')";
+        #####
         $add_entry = mysqli_query($conn, $intoD);
 
         # displaying proper message for the user to see whether the query executed perfectly or not
@@ -57,6 +62,8 @@
 <div class="container p-0">
 <h1 class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
 
+    <!-- Input Form -->
+    <!-- ##### -->
     <form action="" method="post">
         <div class="form-group">
             <label for="name" class="form-label">Assigned To: Name</label>
@@ -107,6 +114,7 @@
             <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit" />
         </div>
     </form>
+    <!-- ##### -->
 </div>
 
 <!-- The code that autosuggests for input -->
@@ -137,7 +145,7 @@
 <script type="text/javascript">
   $(function() {
      $( "#dev_type" ).autocomplete({
-       source: '../search-suggestions/dev_type-search.php',
+       source: '../search-suggestions/dev-type-search.php',
      });
   });
 </script>

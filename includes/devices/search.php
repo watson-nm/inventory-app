@@ -12,6 +12,8 @@
         <div class="form-group w-50 mb-1">
             <div class="input-group">
                 <div class="input-group-prepend">
+                    <!-- Search Categories -->
+                    <!-- ##### -->
                     <select class="custom-select" name="category">
                         <option value="dID">ID</option>
                         <option value="assignee">Assigned To</option>
@@ -24,6 +26,7 @@
                         <option value="assign_date">Assign Date</option>
                         <option value="update_date">Update Date</option>
                     </select>
+                    <!-- ##### -->
                 </div>
 
                 <input type="text" class="form-control" name="term" placeholder="Search term"/>
@@ -39,6 +42,8 @@
     <form name="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover" style="font-size:12px">
+            <!-- Table Head -->
+            <!-- ##### -->
             <thead class="thead-dark">
             <tr>
                 <th scope="col">Device ID</th>
@@ -54,6 +59,7 @@
                 <th scope="col" colspan="3" class="text-center">Item Operations</th>
             </tr>
             </thead>
+            <!-- ##### -->
 
             <tbody>
                 <tr>
@@ -68,6 +74,8 @@
                             $dev_query = "SELECT * FROM devices WHERE assignee = $aID";
                             $view = mysqli_query($conn, $dev_query);
                             while ($result = mysqli_fetch_assoc($view)) {
+                                # Name Search: Get From Database
+                                #####
                                 $assignee = $row['name'];
                                 $location = $result['location'];
                                 $dID = $result['dID'];
@@ -88,9 +96,15 @@
                                 } else {
                                     $update_date = date("m/d/Y", strtotime($result['update_date']));
                                 }
+                                #####
 
+                                # Name Search: Data Array
+                                #####
                                 $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                                #####
 
+                                # Name Search: Echo Table Contents
+                                #####
                                 echo "<tr >";
                                 echo " <td scope='row' >{$dID}</td>";
                                 echo " <td >{$assignee}</td>";
@@ -102,6 +116,7 @@
                                 echo " <td >{$model}</td>";
                                 echo " <td >{$assign_date}</td>";
                                 echo " <td >{$update_date}</td>";
+                                #####
 
                                 echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 
@@ -117,6 +132,8 @@
                         $view_data=mysqli_query($conn, $query);
 
                         while ($row = mysqli_fetch_assoc($view_data)) {
+                            # Other: Get From Database
+                            #####
                             $dID = $row['dID'];
 
                             $aID = $row['assignee'];
@@ -133,9 +150,14 @@
                             $model = $row['model'];
                             $assign_date = $row['assign_date'];
                             $update_date = $row['update_date'];
+                            #####
 
+                            # Other: Data Array
                             $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                            #####
 
+                            # Other: Echo Table Contents
+                            #####
                             echo "<tr >";
                             echo " <td scope='row' >{$dID}</td>";
                             echo " <td >{$assignee}</td>";
@@ -147,6 +169,7 @@
                             echo " <td >{$model}</td>";
                             echo " <td >{$assign_date}</td>";
                             echo " <td >{$update_date}</td>";
+                            #####
 
                             echo " <td class='text-center'> <a href='read.php?device_id={$dID}' class='btn btn-info'> <i class='bi bi-eye'></i>View</a> </td>";
 

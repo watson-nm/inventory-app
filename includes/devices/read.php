@@ -9,6 +9,8 @@
     <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover">
+        <!-- Table Head -->
+        <!-- ##### -->
         <thead class="table-dark">
             <tr>
             <th scope="col">Item ID</th>
@@ -23,6 +25,7 @@
             <th scope="col">Update Date</th>
             </tr>
         </thead>
+        <!-- ##### -->
             <tbody>
             <tr>
                 <?php
@@ -33,6 +36,8 @@
                     $view_device = mysqli_query($conn,$query);
 
                     if ($row = mysqli_fetch_assoc($view_device)) {
+                        # Get From Database
+                        #####
                         $dID = $row['dID'];
 
                         $aID = $row['assignee'];
@@ -59,9 +64,15 @@
                         } else {
                             $update_date = date("m/d/Y", strtotime($row['update_date']));
                         }
+                        #####
 
+                        # Data Array
+                        #####
                         $data_arr[] = array($dID,$assignee,$location,$asset_num,$serial_num,$dev_type,$make,$model,$assign_date,$update_date);
+                        #####
 
+                        # Echo Table Contents
+                        #####
                         echo "<tr >";
                         echo " <td scope='row' >{$dID}</td>";
                         echo " <td >{$assignee}</td>";
@@ -74,6 +85,7 @@
                         echo " <td >{$assign_date}</td>";
                         echo " <td >{$update_date}</td>";
                         echo " </tr> ";
+                        #####
                     }
                 }
                 ?>
