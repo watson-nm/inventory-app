@@ -8,6 +8,8 @@
     <form name="export" id="export" action="../../export.php" method="POST">
 
         <table class="table table-striped table-bordered table-hover" style="font-size:12px">
+        <!-- Table Head -->
+        <!-- ##### -->
         <thead class="thead-dark">
             <tr>
             <th scope="col">ID</th>
@@ -15,6 +17,7 @@
             <th scope="col">Section</th>
             </tr>
         </thead>
+        <!-- ##### -->
             <tbody>
             <tr>
                 <?php
@@ -26,16 +29,25 @@
                     $view_assignee = mysqli_query($conn,$query);
 
                     if ($row = mysqli_fetch_assoc($view_assignee)) {
+                        # Get From Database
+                        #####
                         $name = $row['name'];
                         $section = $row['section'];
+                        #####
 
+                        # Data Array
+                        #####
                         $data_arr[] = array($name,$section);
+                        #####
 
+                        # Echo Table Contents
+                        #####
                         echo "<tr >";
                         echo " <td scope='row' >{$aID}</td>";
                         echo " <td >{$name}</td>";
                         echo " <td >{$section}</td>";
                         echo " </tr> ";
+                        #####
                     }
                 }
                 ?>

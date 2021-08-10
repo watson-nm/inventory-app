@@ -11,17 +11,28 @@
     $view_assignee_data = mysqli_query($conn,$query);
 
     while ($row = mysqli_fetch_assoc($view_assignee_data)) {
+        # Get From Database
+        #####
         $name = $row['name'];
         $section = $row['section'];
+        #####
     }
 
     # Processing form data when form is submitted
     if(isset($_POST['update'])) {
+        # Input From Form
+        #####
         $name = $_POST['name'];
         $section = $_POST['section'];
+        #####
 
         # SQL query to update the data in devices table where the dID = $dID
+
+        # Update Command
+        #####
         $query = "UPDATE assignees SET name = '{$name}' , section = '{$section}' WHERE aID = $aID";
+        #####
+
         $update_assignee = mysqli_query($conn, $query);
         echo "<script type='text/javascript'>alert('Table data updated successfully!')</script>";
     }
@@ -29,6 +40,9 @@
 
 <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Update Details</h1>
 <div class="container ">
+
+    <!-- Input Form -->
+    <!-- ##### -->
     <form action="" method="post">
     <div class="form-group">
         <label for="name">Name</label>
@@ -44,6 +58,7 @@
         <input type="submit"  name="update" class="btn btn-primary mt-2" value="Update">
     </div>
     </form>
+    <!-- ##### -->
 </div>
 
 <!-- The code that autosuggests for input -->

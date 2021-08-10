@@ -4,9 +4,11 @@
 <!-- The php code that adds items to tables -->
 <?php
     if(isset($_POST['create'])) {
-
+        # Input From Form
+        #####
         $name = $_POST['name'];
         $section = $_POST['section'];
+        #####
 
         # This portion should:
         # - look for any assignees that match the user input
@@ -19,7 +21,10 @@
             $warn = "That assignee already exists in the table!";
             alert("error", $warn);
         } else {
+            # Insert Command
+            #####
             $intoA = "INSERT INTO assignees(name, section) VALUES('{$name}', '{$section}')";
+            #####
             $addA = mysqli_query($conn, $intoA);
 
             if ($addA <= 0) {
@@ -35,6 +40,9 @@
 
 <div class="container p-0">
     <h1 class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.10);">Add Entry details</h1>
+
+    <!-- Input Form -->
+    <!-- ##### -->
     <form action="" method="post">
         <div class="form-group">
             <label for="name" class="form-label">Name</label>
@@ -50,6 +58,7 @@
             <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit" />
         </div>
     </form>
+    <!-- ##### -->
 </div>
 
 <!-- The code that autosuggests for input -->

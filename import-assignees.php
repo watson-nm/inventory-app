@@ -43,11 +43,17 @@ if (isset($_POST["submit"])) {
                 $count = 0;
 
                 while (($row = fgetcsv($file, 10000, ",")) !== false) {
+                    # Read From File
+                    #####
                     $name = mysqli_real_escape_string($conn, $row[0]);
                     $section =  mysqli_real_escape_string($conn, $row[1]);
+                    #####
 
-                    # Insert assignee into table
+                    # Insert Command
+                    #####
                     $intoA = "INSERT INTO assignees (name, section) VALUES ('$name', '$section');";
+                    #####
+
                     $add_entry = mysqli_query($conn, $intoA);
 
                     if ($add_entry <= 0) {

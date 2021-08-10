@@ -36,7 +36,7 @@
 
     # Processing form data when form is submitted
     if(isset($_POST['update'])) {
-        # From Form
+        # Input From Form
         #####
         $assignee = $_POST['name'];
         $section = $_POST['section'];

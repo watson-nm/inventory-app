@@ -42,6 +42,8 @@ if (isset($_POST["submit"])) {
                 $f_a = 0;
 
                 while (($row = fgetcsv($file, 10000, ",")) !== false) {
+                    # Reading From File
+                    #####
                     $name = mysqli_real_escape_string($conn, $row[0]);
                     $location = $row[1];
                     $asset_num = $row[2];
@@ -49,7 +51,7 @@ if (isset($_POST["submit"])) {
                     $dev_type = $row[4];
                     $make = $row[5];
                     $model = $row[6];
-
+                    
                     if (isset($row[7])) {
                         $assign_date = date("Y-m-d", strtotime($row[7]));
                     } else {
@@ -60,6 +62,7 @@ if (isset($_POST["submit"])) {
                     } else {
                         $update_date = NULL;
                     }
+                    #####
 
                     $query = "SELECT aID FROM assignees WHERE name LIKE '%$name%' ORDER BY aID ASC LIMIT 1";
                     $table_result = mysqli_query($conn, $query);
@@ -90,7 +93,10 @@ if (isset($_POST["submit"])) {
                         }
                     }
 
-                    $intoD = "INSERT INTO devices (assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES ('$assignee', '$location', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+                    # Insert Command
+                    #####
+                    $intoD = "INSERT INTO devices(assignee, location, asset_num, serial_num, dev_type, make, model, assign_date, update_date) VALUES('$assignee', '$location', '$asset_num', '$serial_num', '$dev_type', '$make', '$model', '$assign_date', '$update_date');";
+                    #####
 
                     $add_entry = mysqli_query($conn, $intoD);
 
