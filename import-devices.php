@@ -106,7 +106,7 @@ if (isset($_POST["submit"])) {
         }
     }
 
-    header("Location: home.php");
+    header("Location: /inventory-app/includes/devices/home.php");
 }
 ?>
 

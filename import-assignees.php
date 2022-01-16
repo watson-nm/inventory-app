@@ -62,6 +62,9 @@ if (isset($_POST["submit"])) {
                         $i = $i + 1;
                     }
                 }
+            } else {
+                $temp = "file not found";
+                alert("error", $temp);
             }
             unlink($target_file);
 
@@ -77,7 +80,7 @@ if (isset($_POST["submit"])) {
 
 <!-- BACK button to go to the assignees page -->
 <div class="container text-center">
-    <a href="includes/assignees/assignees.php" class="btn btn-primary m-3"> Assignees Page </a>
+    <a href="/inventory-app/includes/assignees/assignees.php" class="btn btn-primary m-3"> Assignees Page </a>
 <div>
 
 <!-- Footer -->

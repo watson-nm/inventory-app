@@ -42,7 +42,7 @@
 
         <!-- Import form containing import button -->
         <div class="col-md-auto pl-0">
-            <form name="import" action="../../import-devices.php" method="POST" enctype="multipart/form-data">
+            <form name="import" action="/inventory-app/import-devices.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group mb-1">
                     <div class="input-group">
                         <div class="input-group-prepend">
@@ -66,7 +66,7 @@
     </div>
 
    <!-- Create table and export button -->
-    <form name="export" id="export" action="../../export.php" method="POST">
+    <form name="export" id="export" action="/inventory-app/export.php" method="POST">
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
             <tr>
